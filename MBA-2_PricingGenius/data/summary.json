@@ -1,0 +1,21 @@
+{
+  "generated_date": "2026-03-13T10:50:44.898195",
+  "date_range": {
+    "start": "2024-07-01T00:00:00",
+    "end": "2024-12-31T00:00:00"
+  },
+  "cities": [
+    "New York",
+    "Los Angeles",
+    "Chicago",
+    "Houston",
+    "Phoenix"
+  ],
+  "total_rides": 500000,
+  "rides_per_city": 100000,
+  "avg_fare": 15.07,
+  "avg_distance": 4.53,
+  "avg_duration": 13.01,
+  "avg_surge": 1.19,
+  "surge_frequency": 0.725
+}
