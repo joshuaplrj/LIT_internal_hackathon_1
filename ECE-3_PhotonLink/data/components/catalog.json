@@ -1,0 +1,170 @@
+{
+  "laser_sources": [
+    {
+      "model": "LS-1550-100",
+      "wavelength_nm": 1550,
+      "power_mw": 100,
+      "type": "DFB laser",
+      "linewidth_mhz": 1,
+      "power_consumption_w": 0.5,
+      "price_usd": 500,
+      "eye_safe": true
+    },
+    {
+      "model": "LS-1550-500",
+      "wavelength_nm": 1550,
+      "power_mw": 500,
+      "type": "EDFA amplified",
+      "linewidth_mhz": 0.1,
+      "power_consumption_w": 3,
+      "price_usd": 2500,
+      "eye_safe": true
+    },
+    {
+      "model": "LS-1550-2W",
+      "wavelength_nm": 1550,
+      "power_mw": 2000,
+      "type": "High power EDFA",
+      "linewidth_mhz": 0.1,
+      "power_consumption_w": 10,
+      "price_usd": 8000,
+      "eye_safe": false
+    },
+    {
+      "model": "LS-850-200",
+      "wavelength_nm": 850,
+      "power_mw": 200,
+      "type": "VCSEL array",
+      "linewidth_mhz": 100,
+      "power_consumption_w": 1,
+      "price_usd": 300,
+      "eye_safe": false
+    }
+  ],
+  "detectors": [
+    {
+      "model": "DET-InGaAs-APD",
+      "type": "InGaAs APD",
+      "wavelength_range_nm": [
+        900,
+        1700
+      ],
+      "responsivity_a_w": 0.9,
+      "gain": 10,
+      "bandwidth_ghz": 2.5,
+      "nep_pw_sqrt_hz": 0.5,
+      "dark_current_na": 10,
+      "price_usd": 1500
+    },
+    {
+      "model": "DET-InGaAs-PIN",
+      "type": "InGaAs PIN",
+      "wavelength_range_nm": [
+        900,
+        1700
+      ],
+      "responsivity_a_w": 1.0,
+      "gain": 1,
+      "bandwidth_ghz": 10,
+      "nep_pw_sqrt_hz": 5,
+      "dark_current_na": 1,
+      "price_usd": 800
+    },
+    {
+      "model": "DET-Si-APD",
+      "type": "Silicon APD",
+      "wavelength_range_nm": [
+        400,
+        1000
+      ],
+      "responsivity_a_w": 0.5,
+      "gain": 100,
+      "bandwidth_ghz": 1,
+      "nep_pw_sqrt_hz": 0.1,
+      "dark_current_na": 5,
+      "price_usd": 500
+    }
+  ],
+  "telescopes": [
+    {
+      "model": "TEL-100",
+      "aperture_mm": 100,
+      "focal_length_mm": 500,
+      "fov_mrad": 2,
+      "weight_kg": 2,
+      "price_usd": 3000
+    },
+    {
+      "model": "TEL-200",
+      "aperture_mm": 200,
+      "focal_length_mm": 1000,
+      "fov_mrad": 1,
+      "weight_kg": 8,
+      "price_usd": 8000
+    },
+    {
+      "model": "TEL-300",
+      "aperture_mm": 300,
+      "focal_length_mm": 1500,
+      "fov_mrad": 0.5,
+      "weight_kg": 20,
+      "price_usd": 15000
+    }
+  ],
+  "tracking_systems": [
+    {
+      "model": "TRK-COARSE",
+      "type": "CCD camera + gimbal",
+      "accuracy_mrad": 0.5,
+      "bandwidth_hz": 10,
+      "range_deg": 5,
+      "price_usd": 5000
+    },
+    {
+      "model": "TRK-FINE",
+      "type": "QPD + FSM",
+      "accuracy_mrad": 0.01,
+      "bandwidth_hz": 1000,
+      "range_deg": 0.5,
+      "price_usd": 15000
+    },
+    {
+      "model": "TRK-AO",
+      "type": "Adaptive optics (DM + WFS)",
+      "accuracy_mrad": 0.001,
+      "bandwidth_hz": 500,
+      "range_deg": 0.1,
+      "num_actuators": 97,
+      "price_usd": 50000
+    }
+  ],
+  "modulators": [
+    {
+      "model": "MOD-MZM-10G",
+      "type": "Mach-Zehnder",
+      "bandwidth_ghz": 10,
+      "insertion_loss_db": 4,
+      "extinction_ratio_db": 25,
+      "vpi_v": 3.5,
+      "price_usd": 2000
+    },
+    {
+      "model": "MOD-MZM-25G",
+      "type": "Mach-Zehnder",
+      "bandwidth_ghz": 25,
+      "insertion_loss_db": 5,
+      "extinction_ratio_db": 20,
+      "vpi_v": 4.0,
+      "price_usd": 4000
+    },
+    {
+      "model": "MOD-EAM-40G",
+      "type": "Electro-absorption",
+      "bandwidth_ghz": 40,
+      "insertion_loss_db": 6,
+      "extinction_ratio_db": 12,
+      "vpi_v": 2.0,
+      "price_usd": 3500
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "problem": "ECE-3 PhotonLink",
+  "description": "Free-Space Optical Communication System",
+  "system_params": {
+    "distance_m": 5000,
+    "wavelength_nm": 1550,
+    "data_rate_gbps": 10,
+    "target_availability": 0.999,
+    "target_ber": 1e-09
+  },
+  "data_contents": {
+    "atmosphere": "Visibility statistics for 5 cities + Cn2 profiles",
+    "weather": "1-year hourly data for 3 cities",
+    "components": "Optical component catalog (16 items)",
+    "turbulence": "3 scintillation time series"
+  },
+  "seed": 42
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "cn2": 1e-16,
+    "label": "weak",
+    "rytov_var": 0.1,
+    "sigma_R2": 0.03806328948549974,
+    "greenwood_freq_hz": 2.590802590803886,
+    "scintillation_index": 0.03879252369946479
+  },
+  {
+    "cn2": 1e-15,
+    "label": "moderate",
+    "rytov_var": 1.0,
+    "sigma_R2": 0.3806328948549974,
+    "greenwood_freq_hz": 2.590802590803886,
+    "scintillation_index": 0.39499052937382817
+  },
+  {
+    "cn2": 1e-14,
+    "label": "strong",
+    "rytov_var": 10.0,
+    "sigma_R2": 3.806328948549974,
+    "greenwood_freq_hz": 2.590802590803886,
+    "scintillation_index": 1669.0322229756218
+  }
+]
