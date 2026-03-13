@@ -1,0 +1,58 @@
+{
+  "bearings": [
+    {
+      "designation": "6203-2RS",
+      "type": "Deep Groove Ball",
+      "bore_mm": 17,
+      "OD_mm": 40,
+      "width_mm": 12,
+      "dynamic_load_kN": 9.56,
+      "static_load_kN": 4.75,
+      "max_speed_rpm": 17000,
+      "mass_g": 56,
+      "friction_coefficient": 0.0015,
+      "cost_usd": 3.0
+    },
+    {
+      "designation": "6204-2RS",
+      "type": "Deep Groove Ball",
+      "bore_mm": 20,
+      "OD_mm": 47,
+      "width_mm": 14,
+      "dynamic_load_kN": 12.7,
+      "static_load_kN": 6.55,
+      "max_speed_rpm": 15000,
+      "mass_g": 86,
+      "friction_coefficient": 0.0015,
+      "cost_usd": 3.5
+    },
+    {
+      "designation": "6205-2RS",
+      "type": "Deep Groove Ball",
+      "bore_mm": 25,
+      "OD_mm": 52,
+      "width_mm": 15,
+      "dynamic_load_kN": 14.0,
+      "static_load_kN": 7.8,
+      "max_speed_rpm": 12000,
+      "mass_g": 110,
+      "friction_coefficient": 0.0015,
+      "cost_usd": 4.0
+    },
+    {
+      "designation": "6206-2RS",
+      "type": "Deep Groove Ball",
+      "bore_mm": 30,
+      "OD_mm": 62,
+      "width_mm": 16,
+      "dynamic_load_kN": 19.5,
+      "static_load_kN": 11.2,
+      "max_speed_rpm": 10000,
+      "mass_g": 178,
+      "friction_coefficient": 0.0015,
+      "cost_usd": 5.0
+    }
+  ],
+  "life_equation": "L10 = (C / P)^3 * 10^6 revolutions",
+  "notes": "2RS = double rubber sealed, suitable for grease lubrication"
+}

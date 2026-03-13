@@ -1,0 +1,44 @@
+{
+  "laminations": [
+    {
+      "name": "M19_29Ga",
+      "thickness_mm": 0.35,
+      "density_kg_m3": 7650,
+      "saturation_B_T": 1.95,
+      "initial_permeability": 5000,
+      "cost_usd_per_kg": 2.0,
+      "bh_file": "laminations/M19_29Ga_BH.csv",
+      "loss_file": "laminations/M19_29Ga_losses.csv"
+    },
+    {
+      "name": "M36_29Ga",
+      "thickness_mm": 0.35,
+      "density_kg_m3": 7650,
+      "saturation_B_T": 1.9,
+      "initial_permeability": 4000,
+      "cost_usd_per_kg": 1.5,
+      "bh_file": "laminations/M36_29Ga_BH.csv",
+      "loss_file": "laminations/M36_29Ga_losses.csv"
+    },
+    {
+      "name": "M47_29Ga",
+      "thickness_mm": 0.35,
+      "density_kg_m3": 7700,
+      "saturation_B_T": 1.85,
+      "initial_permeability": 3500,
+      "cost_usd_per_kg": 1.2,
+      "bh_file": "laminations/M47_29Ga_BH.csv",
+      "loss_file": "laminations/M47_29Ga_losses.csv"
+    },
+    {
+      "name": "NO20_Thin",
+      "thickness_mm": 0.2,
+      "density_kg_m3": 7650,
+      "saturation_B_T": 1.8,
+      "initial_permeability": 6000,
+      "cost_usd_per_kg": 4.0,
+      "bh_file": "laminations/NO20_Thin_BH.csv",
+      "loss_file": "laminations/NO20_Thin_losses.csv"
+    }
+  ]
+}

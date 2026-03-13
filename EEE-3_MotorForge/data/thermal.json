@@ -1,0 +1,87 @@
+{
+  "convection_coefficients": {
+    "natural_air_horizontal": {
+      "h_W_m2K": 10,
+      "range": [
+        5,
+        15
+      ]
+    },
+    "forced_air_low_speed": {
+      "h_W_m2K": 25,
+      "range": [
+        15,
+        40
+      ]
+    },
+    "forced_air_high_speed": {
+      "h_W_m2K": 80,
+      "range": [
+        50,
+        120
+      ]
+    },
+    "natural_air_vertical": {
+      "h_W_m2K": 12,
+      "range": [
+        8,
+        18
+      ]
+    }
+  },
+  "thermal_conductivities_W_mK": {
+    "copper": 401,
+    "aluminum": 237,
+    "steel_1010": 51.9,
+    "silicon_steel_M19": 25,
+    "NdFeB_magnet": 9,
+    "epoxy_potting": 0.8,
+    "slot_liner_nomex": 0.14,
+    "air": 0.026,
+    "thermal_grease": 3.0,
+    "winding_impregnation": 1.2
+  },
+  "specific_heat_J_kgK": {
+    "copper": 385,
+    "aluminum": 897,
+    "steel": 502,
+    "silicon_steel": 480,
+    "NdFeB": 450,
+    "epoxy": 1100
+  },
+  "emissivity": {
+    "black_anodized_aluminum": 0.85,
+    "polished_aluminum": 0.05,
+    "painted_steel": 0.9,
+    "bare_copper": 0.07,
+    "winding_varnish": 0.93
+  },
+  "insulation_classes": {
+    "Class_A": {
+      "max_temp_C": 105,
+      "hot_spot_margin_C": 10
+    },
+    "Class_B": {
+      "max_temp_C": 130,
+      "hot_spot_margin_C": 10
+    },
+    "Class_F": {
+      "max_temp_C": 155,
+      "hot_spot_margin_C": 10
+    },
+    "Class_H": {
+      "max_temp_C": 180,
+      "hot_spot_margin_C": 15
+    }
+  },
+  "scooter_vehicle_params": {
+    "total_mass_kg": 150,
+    "rider_mass_kg": 75,
+    "wheel_radius_m": 0.2,
+    "frontal_area_m2": 0.6,
+    "Cd": 0.9,
+    "Crr": 0.015,
+    "gear_ratio": 8.5,
+    "transmission_efficiency": 0.95
+  }
+}

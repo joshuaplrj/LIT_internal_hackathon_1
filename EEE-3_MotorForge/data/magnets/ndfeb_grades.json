@@ -1,0 +1,77 @@
+{
+  "magnets": [
+    {
+      "grade": "N35",
+      "Br_T": 1.17,
+      "Hc_kA_m": 868,
+      "BHmax_kJ_m3": 263,
+      "Tc_C": 310,
+      "alpha_Br_pct_C": -0.12,
+      "beta_Hc_pct_C": -0.6,
+      "density_kg_m3": 7500,
+      "resistivity_uOhm_cm": 144,
+      "max_operating_temp_C": 80,
+      "cost_usd_per_kg": 60
+    },
+    {
+      "grade": "N42",
+      "Br_T": 1.28,
+      "Hc_kA_m": 955,
+      "BHmax_kJ_m3": 318,
+      "Tc_C": 310,
+      "alpha_Br_pct_C": -0.12,
+      "beta_Hc_pct_C": -0.6,
+      "density_kg_m3": 7500,
+      "resistivity_uOhm_cm": 144,
+      "max_operating_temp_C": 80,
+      "cost_usd_per_kg": 75
+    },
+    {
+      "grade": "N42SH",
+      "Br_T": 1.28,
+      "Hc_kA_m": 955,
+      "BHmax_kJ_m3": 318,
+      "Tc_C": 340,
+      "alpha_Br_pct_C": -0.1,
+      "beta_Hc_pct_C": -0.5,
+      "density_kg_m3": 7500,
+      "resistivity_uOhm_cm": 150,
+      "max_operating_temp_C": 150,
+      "cost_usd_per_kg": 95
+    },
+    {
+      "grade": "N48",
+      "Br_T": 1.38,
+      "Hc_kA_m": 1035,
+      "BHmax_kJ_m3": 366,
+      "Tc_C": 310,
+      "alpha_Br_pct_C": -0.12,
+      "beta_Hc_pct_C": -0.6,
+      "density_kg_m3": 7500,
+      "resistivity_uOhm_cm": 144,
+      "max_operating_temp_C": 80,
+      "cost_usd_per_kg": 100
+    },
+    {
+      "grade": "N52",
+      "Br_T": 1.44,
+      "Hc_kA_m": 1070,
+      "BHmax_kJ_m3": 398,
+      "Tc_C": 310,
+      "alpha_Br_pct_C": -0.12,
+      "beta_Hc_pct_C": -0.6,
+      "density_kg_m3": 7600,
+      "resistivity_uOhm_cm": 144,
+      "max_operating_temp_C": 80,
+      "cost_usd_per_kg": 130
+    }
+  ],
+  "notes": {
+    "Br_T": "Remanence in Tesla",
+    "Hc_kA_m": "Coercivity in kA/m",
+    "BHmax_kJ_m3": "Maximum energy product in kJ/m^3",
+    "Tc_C": "Curie temperature in Celsius",
+    "alpha_Br_pct_C": "Temperature coefficient of Br (%/C)",
+    "beta_Hc_pct_C": "Temperature coefficient of Hc (%/C)"
+  }
+}
