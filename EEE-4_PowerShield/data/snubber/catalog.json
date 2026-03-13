@@ -1,0 +1,57 @@
+{
+  "MOVs": [
+    {
+      "part": "V510LA40A",
+      "Vclamp_V": 510,
+      "Vpk_V": 650,
+      "energy_J": 210,
+      "capacitance_pF": 3500,
+      "peak_current_A": 6500,
+      "response_ns": 25
+    },
+    {
+      "part": "V575LA80A",
+      "Vclamp_V": 575,
+      "Vpk_V": 745,
+      "energy_J": 400,
+      "capacitance_pF": 4000,
+      "peak_current_A": 10000,
+      "response_ns": 25
+    },
+    {
+      "part": "V625LA80A",
+      "Vclamp_V": 625,
+      "Vpk_V": 810,
+      "energy_J": 500,
+      "capacitance_pF": 4200,
+      "peak_current_A": 10000,
+      "response_ns": 25
+    }
+  ],
+  "TVS_diodes": [
+    {
+      "part": "SMDJ440A",
+      "Vbr_V": 440,
+      "Vclamp_V": 550,
+      "peak_power_kW": 3,
+      "peak_current_A": 5.5,
+      "capacitance_pF": 800
+    },
+    {
+      "part": "1.5KE440A",
+      "Vbr_V": 440,
+      "Vclamp_V": 600,
+      "peak_power_kW": 1.5,
+      "peak_current_A": 2.5,
+      "capacitance_pF": 400
+    },
+    {
+      "part": "5KP440A",
+      "Vbr_V": 440,
+      "Vclamp_V": 560,
+      "peak_power_kW": 5,
+      "peak_current_A": 8.9,
+      "capacitance_pF": 1500
+    }
+  ]
+}

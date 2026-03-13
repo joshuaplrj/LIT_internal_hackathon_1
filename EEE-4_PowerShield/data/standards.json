@@ -1,0 +1,59 @@
+{
+  "applicable_standards": [
+    {
+      "standard": "IEC 60947-2",
+      "title": "Low-voltage switchgear and controlgear - Circuit-breakers",
+      "key_requirements": [
+        "Making and breaking capacity tests",
+        "Short-time withstand current",
+        "Overload trip characteristics"
+      ]
+    },
+    {
+      "standard": "IEC 62271-100",
+      "title": "High-voltage switchgear - AC circuit-breakers",
+      "relevance": "Reference for breaking capacity test methodology"
+    },
+    {
+      "standard": "UL 489B",
+      "title": "Molded-Case Circuit Breakers, Molded-Case Switches and Circuit-Breaker Enclosures",
+      "relevance": "North American safety standard"
+    },
+    {
+      "standard": "IEC 61000-4-5",
+      "title": "Surge immunity test",
+      "relevance": "Voltage transient limits"
+    }
+  ],
+  "dc_microgrid_standards": [
+    {
+      "standard": "IEEE 2030.10",
+      "title": "Standard for DC Microgrids for Rural and Remote Electricity Access",
+      "voltage_levels_V": [
+        48,
+        380,
+        750,
+        1500
+      ]
+    }
+  ],
+  "test_requirements": {
+    "breaking_capacity_test": {
+      "voltage_V": 400,
+      "prospective_fault_A": 10000,
+      "power_factor": "N/A (DC)",
+      "num_operations": 3,
+      "time_constant_ms": 15
+    },
+    "endurance_test": {
+      "rated_current_A": 200,
+      "num_cycles": 10000,
+      "duty_cycle": "1s on / 9s off"
+    },
+    "temperature_rise_test": {
+      "rated_current_A": 200,
+      "max_terminal_rise_C": 65,
+      "ambient_C": 40
+    }
+  }
+}

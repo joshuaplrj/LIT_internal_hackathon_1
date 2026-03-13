@@ -1,0 +1,79 @@
+{
+  "heatsinks": [
+    {
+      "model": "HS-AL-200x100-NatConv",
+      "type": "natural_convection",
+      "material": "Aluminum 6063-T5",
+      "dimensions_mm": {
+        "L": 200,
+        "W": 100,
+        "H": 50
+      },
+      "fin_count": 15,
+      "fin_height_mm": 40,
+      "Rth_sa_C_W": 0.8,
+      "mass_g": 450,
+      "cost_usd": 12
+    },
+    {
+      "model": "HS-AL-200x100-ForcedAir",
+      "type": "forced_air",
+      "material": "Aluminum 6063-T5",
+      "dimensions_mm": {
+        "L": 200,
+        "W": 100,
+        "H": 50
+      },
+      "fin_count": 25,
+      "fin_height_mm": 40,
+      "Rth_sa_C_W": 0.25,
+      "fan_required": "80mm, 3000 RPM",
+      "mass_g": 550,
+      "cost_usd": 25
+    },
+    {
+      "model": "HS-CU-120x60-Liquid",
+      "type": "liquid_cooled",
+      "material": "Copper",
+      "dimensions_mm": {
+        "L": 120,
+        "W": 60,
+        "H": 20
+      },
+      "Rth_sa_C_W": 0.05,
+      "flow_rate_lpm": 2.0,
+      "mass_g": 800,
+      "cost_usd": 85
+    }
+  ],
+  "thermal_interface_materials": [
+    {
+      "name": "Thermal Pad (soft)",
+      "Rth_C_W_cm2": 0.5,
+      "thickness_mm": 1.0,
+      "k_W_mK": 2.0,
+      "cost_per_pad_usd": 0.5
+    },
+    {
+      "name": "Thermal Grease (standard)",
+      "Rth_C_W_cm2": 0.2,
+      "thickness_mm": 0.05,
+      "k_W_mK": 3.0,
+      "cost_per_tube_usd": 5.0
+    },
+    {
+      "name": "Thermal Grease (high performance)",
+      "Rth_C_W_cm2": 0.08,
+      "thickness_mm": 0.03,
+      "k_W_mK": 8.0,
+      "cost_per_tube_usd": 15.0
+    },
+    {
+      "name": "Solder (direct die attach)",
+      "Rth_C_W_cm2": 0.02,
+      "thickness_mm": 0.1,
+      "k_W_mK": 50.0,
+      "cost_usd": "assembly dependent"
+    }
+  ]
+}

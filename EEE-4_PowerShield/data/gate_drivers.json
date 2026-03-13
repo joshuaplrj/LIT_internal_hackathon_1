@@ -1,0 +1,93 @@
+{
+  "gate_drivers": [
+    {
+      "part": "UCC21710",
+      "manufacturer": "TI",
+      "isolation_kV": 5.7,
+      "peak_source_A": 10,
+      "peak_sink_A": 10,
+      "propagation_delay_ns": 50,
+      "delay_matching_ns": 5,
+      "CMTI_kV_us": 200,
+      "Vcc_range_V": [
+        15,
+        30
+      ],
+      "features": [
+        "DESAT protection",
+        "Active Miller clamp",
+        "Fault reporting",
+        "Soft turn-off"
+      ],
+      "cost_usd": 6.5,
+      "package": "SOIC-16"
+    },
+    {
+      "part": "ACPL-W346",
+      "manufacturer": "Broadcom",
+      "isolation_kV": 5.0,
+      "peak_source_A": 4,
+      "peak_sink_A": 4,
+      "propagation_delay_ns": 120,
+      "delay_matching_ns": 25,
+      "CMTI_kV_us": 50,
+      "Vcc_range_V": [
+        15,
+        30
+      ],
+      "features": [
+        "Optocoupler isolation",
+        "DESAT input"
+      ],
+      "cost_usd": 3.5,
+      "package": "SO-8"
+    },
+    {
+      "part": "SI8271GB",
+      "manufacturer": "Skyworks",
+      "isolation_kV": 5.0,
+      "peak_source_A": 4,
+      "peak_sink_A": 4,
+      "propagation_delay_ns": 35,
+      "delay_matching_ns": 3,
+      "CMTI_kV_us": 300,
+      "Vcc_range_V": [
+        6.5,
+        30
+      ],
+      "features": [
+        "Capacitive isolation",
+        "Integrated bootstrap"
+      ],
+      "cost_usd": 2.5,
+      "package": "SOIC-8"
+    },
+    {
+      "part": "CGD15HB62LP",
+      "manufacturer": "Wolfspeed",
+      "isolation_kV": 5.7,
+      "peak_source_A": 10,
+      "peak_sink_A": 10,
+      "propagation_delay_ns": 55,
+      "delay_matching_ns": 8,
+      "CMTI_kV_us": 200,
+      "Vcc_range_V": [
+        15,
+        25
+      ],
+      "features": [
+        "Designed for SiC",
+        "DESAT with soft turn-off",
+        "Active Miller clamp",
+        "UVLO"
+      ],
+      "cost_usd": 12.0,
+      "package": "PCB module"
+    }
+  ],
+  "design_notes": {
+    "Vgs_recommended_SiC": "+20V / -5V",
+    "gate_resistor_guideline": "Rg_on = Vgs / I_peak_source, Rg_off = Vgs / I_peak_sink",
+    "bootstrap_capacitor": "C_boot > 10 * Qg for reliable turn-on"
+  }
+}

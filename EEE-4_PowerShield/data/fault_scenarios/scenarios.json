@@ -1,0 +1,52 @@
+{
+  "bus_voltage_V": 400,
+  "rated_current_A": 200,
+  "bus_capacitance_uF": 2000.0,
+  "scenarios": [
+    {
+      "name": "bolted_short_circuit",
+      "R_fault_Ohm": 0.001,
+      "L_line_uH": 50,
+      "description": "Bolted short circuit at bus terminals",
+      "peak_current_A": 17145.655853730314,
+      "di_dt_max_A_us": 169445.106881676,
+      "file": "fault_scenarios/bolted_short_circuit.csv"
+    },
+    {
+      "name": "cable_fault_5m",
+      "R_fault_Ohm": 0.01,
+      "L_line_uH": 200,
+      "description": "Short circuit through 5m cable",
+      "peak_current_A": 7497.6436406253315,
+      "di_dt_max_A_us": 72982.13231738628,
+      "file": "fault_scenarios/cable_fault_5m.csv"
+    },
+    {
+      "name": "cable_fault_20m",
+      "R_fault_Ohm": 0.05,
+      "L_line_uH": 800,
+      "description": "Short circuit through 20m cable",
+      "peak_current_A": 2147.879407952523,
+      "di_dt_max_A_us": 19523.526982589643,
+      "file": "fault_scenarios/cable_fault_20m.csv"
+    },
+    {
+      "name": "high_impedance_fault",
+      "R_fault_Ohm": 1.0,
+      "L_line_uH": 200,
+      "description": "High impedance ground fault",
+      "peak_current_A": 477.1436023126091,
+      "di_dt_max_A_us": 101.00792648439553,
+      "file": "fault_scenarios/high_impedance_fault.csv"
+    },
+    {
+      "name": "arc_fault",
+      "R_fault_Ohm": 0.1,
+      "L_line_uH": 300,
+      "description": "Arc fault with variable resistance",
+      "peak_current_A": 1132.2073425352803,
+      "di_dt_max_A_us": 9322.214874067493,
+      "file": "fault_scenarios/arc_fault.csv"
+    }
+  ]
+}
