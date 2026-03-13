@@ -1,0 +1,609 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "name": "binary_search",
+      "python": "def binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+      "cpp": "#include <vector>\nusing namespace std;\n\nint binary_search(vector<int>& arr, int target) {\n    int left = 0, right = arr.size() - 1;\n    while (left <= right) {\n        int mid = left + (right - left) / 2;\n        if (arr[mid] == target) {\n            return mid;\n        } else if (arr[mid] < target) {\n            left = mid + 1;\n        } else {\n            right = mid - 1;\n        }\n    }\n    return -1;\n}\n",
+      "tests": "# Test cases\nassert binary_search([1, 2, 3, 4, 5], 3) == 2\nassert binary_search([1, 2, 3, 4, 5], 1) == 0\nassert binary_search([1, 2, 3, 4, 5], 5) == 4\nassert binary_search([1, 2, 3, 4, 5], 6) == -1\nassert binary_search([], 1) == -1\n"
+    },
+    {
+      "id": 2,
+      "name": "bubble_sort",
+      "python": "def bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        swapped = False\n        for j in range(0, n - i - 1):\n            if arr[j] > arr[j + 1]:\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n                swapped = True\n        if not swapped:\n            break\n    return arr\n",
+      "cpp": "#include <vector>\n#include <algorithm>\nusing namespace std;\n\nvector<int> bubble_sort(vector<int> arr) {\n    int n = arr.size();\n    for (int i = 0; i < n; i++) {\n        bool swapped = false;\n        for (int j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                swap(arr[j], arr[j + 1]);\n                swapped = true;\n            }\n        }\n        if (!swapped) break;\n    }\n    return arr;\n}\n",
+      "tests": "assert bubble_sort([64, 34, 25, 12, 22, 11, 90]) == [11, 12, 22, 25, 34, 64, 90]\nassert bubble_sort([1]) == [1]\nassert bubble_sort([]) == []\nassert bubble_sort([3, 3, 3]) == [3, 3, 3]\n"
+    },
+    {
+      "id": 3,
+      "name": "fibonacci",
+      "python": "def fibonacci(n):\n    if n <= 1:\n        return n\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b\n",
+      "cpp": "int fibonacci(int n) {\n    if (n <= 1) return n;\n    int a = 0, b = 1;\n    for (int i = 2; i <= n; i++) {\n        int temp = b;\n        b = a + b;\n        a = temp;\n    }\n    return b;\n}\n",
+      "tests": "assert fibonacci(0) == 0\nassert fibonacci(1) == 1\nassert fibonacci(10) == 55\nassert fibonacci(20) == 6765\n"
+    },
+    {
+      "id": 4,
+      "name": "matrix_multiply",
+      "python": "def matrix_multiply(A, B):\n    rows_A, cols_A = len(A), len(A[0])\n    rows_B, cols_B = len(B), len(B[0])\n    \n    if cols_A != rows_B:\n        raise ValueError(\"Incompatible dimensions\")\n    \n    result = [[0] * cols_B for _ in range(rows_A)]\n    \n    for i in range(rows_A):\n        for j in range(cols_B):\n            for k in range(cols_A):\n                result[i][j] += A[i][k] * B[k][j]\n    \n    return result\n",
+      "cpp": "#include <vector>\nusing namespace std;\n\nvector<vector<int>> matrix_multiply(vector<vector<int>>& A, vector<vector<int>>& B) {\n    int rows_A = A.size(), cols_A = A[0].size();\n    int rows_B = B.size(), cols_B = B[0].size();\n    \n    vector<vector<int>> result(rows_A, vector<int>(cols_B, 0));\n    \n    for (int i = 0; i < rows_A; i++) {\n        for (int j = 0; j < cols_B; j++) {\n            for (int k = 0; k < cols_A; k++) {\n                result[i][j] += A[i][k] * B[k][j];\n            }\n        }\n    }\n    \n    return result;\n}\n",
+      "tests": "A = [[1, 2], [3, 4]]\nB = [[5, 6], [7, 8]]\nassert matrix_multiply(A, B) == [[19, 22], [43, 50]]\n"
+    },
+    {
+      "id": 5,
+      "name": "linked_list",
+      "python": "class Node:\n    def __init__(self, data):\n        self.data = data\n        self.next = None\n\nclass LinkedList:\n    def __init__(self):\n        self.head = None\n    \n    def append(self, data):\n        new_node = Node(data)\n        if not self.head:\n            self.head = new_node\n            return\n        current = self.head\n        while current.next:\n            current = current.next\n        current.next = new_node\n    \n    def prepend(self, data):\n        new_node = Node(data)\n        new_node.next = self.head\n        self.head = new_node\n    \n    def delete(self, data):\n        if not self.head:\n            return\n        if self.head.data == data:\n            self.head = self.head.next\n            return\n        current = self.head\n        while current.next:\n            if current.next.data == data:\n                current.next = current.next.next\n                return\n            current = current.next\n    \n    def to_list(self):\n        result = []\n        current = self.head\n        while current:\n            result.append(current.data)\n            current = current.next\n        return result\n",
+      "cpp": "#include <vector>\nusing namespace std;\n\nstruct Node {\n    int data;\n    Node* next;\n    Node(int d) : data(d), next(nullptr) {}\n};\n\nclass LinkedList {\npublic:\n    Node* head;\n    \n    LinkedList() : head(nullptr) {}\n    \n    void append(int data) {\n        Node* new_node = new Node(data);\n        if (!head) {\n            head = new_node;\n            return;\n        }\n        Node* current = head;\n        while (current->next) {\n            current = current->next;\n        }\n        current->next = new_node;\n    }\n    \n    void prepend(int data) {\n        Node* new_node = new Node(data);\n        new_node->next = head;\n        head = new_node;\n    }\n    \n    void remove(int data) {\n        if (!head) return;\n        if (head->data == data) {\n            Node* temp = head;\n            head = head->next;\n            delete temp;\n            return;\n        }\n        Node* current = head;\n        while (current->next) {\n            if (current->next->data == data) {\n                Node* temp = current->next;\n                current->next = current->next->next;\n                delete temp;\n                return;\n            }\n            current = current->next;\n        }\n    }\n    \n    vector<int> to_vector() {\n        vector<int> result;\n        Node* current = head;\n        while (current) {\n            result.push_back(current->data);\n            current = current->next;\n        }\n        return result;\n    }\n};\n",
+      "tests": "ll = LinkedList()\nll.append(1)\nll.append(2)\nll.append(3)\nassert ll.to_list() == [1, 2, 3]\nll.prepend(0)\nassert ll.to_list() == [0, 1, 2, 3]\nll.delete(2)\nassert ll.to_list() == [0, 1, 3]\n"
+    },
+    {
+      "id": 6,
+      "name": "quick_sort",
+      "category": "sorting",
+      "description": "Quick Sort"
+    },
+    {
+      "id": 7,
+      "name": "merge_sort",
+      "category": "sorting",
+      "description": "Merge Sort"
+    },
+    {
+      "id": 8,
+      "name": "heap_sort",
+      "category": "sorting",
+      "description": "Heap Sort"
+    },
+    {
+      "id": 9,
+      "name": "insertion_sort",
+      "category": "sorting",
+      "description": "Insertion Sort"
+    },
+    {
+      "id": 10,
+      "name": "selection_sort",
+      "category": "sorting",
+      "description": "Selection Sort"
+    },
+    {
+      "id": 11,
+      "name": "stack",
+      "category": "data_structures",
+      "description": "Stack implementation"
+    },
+    {
+      "id": 12,
+      "name": "queue",
+      "category": "data_structures",
+      "description": "Queue implementation"
+    },
+    {
+      "id": 13,
+      "name": "hash_map",
+      "category": "data_structures",
+      "description": "Hash map implementation"
+    },
+    {
+      "id": 14,
+      "name": "binary_tree",
+      "category": "data_structures",
+      "description": "Binary tree implementation"
+    },
+    {
+      "id": 15,
+      "name": "graph",
+      "category": "data_structures",
+      "description": "Graph with adjacency list"
+    },
+    {
+      "id": 16,
+      "name": "kmp_search",
+      "category": "string_algorithms",
+      "description": "KMP string matching"
+    },
+    {
+      "id": 17,
+      "name": "rabin_karp",
+      "category": "string_algorithms",
+      "description": "Rabin-Karp algorithm"
+    },
+    {
+      "id": 18,
+      "name": "edit_distance",
+      "category": "string_algorithms",
+      "description": "Edit distance (Levenshtein)"
+    },
+    {
+      "id": 19,
+      "name": "longest_common_subsequence",
+      "category": "string_algorithms",
+      "description": "LCS"
+    },
+    {
+      "id": 20,
+      "name": "string_compression",
+      "category": "string_algorithms",
+      "description": "String compression"
+    },
+    {
+      "id": 21,
+      "name": "gcd",
+      "category": "math",
+      "description": "Greatest common divisor"
+    },
+    {
+      "id": 22,
+      "name": "lcm",
+      "category": "math",
+      "description": "Least common multiple"
+    },
+    {
+      "id": 23,
+      "name": "prime_sieve",
+      "category": "math",
+      "description": "Sieve of Eratosthenes"
+    },
+    {
+      "id": 24,
+      "name": "fast_power",
+      "category": "math",
+      "description": "Fast exponentiation"
+    },
+    {
+      "id": 25,
+      "name": "matrix_determinant",
+      "category": "math",
+      "description": "Matrix determinant"
+    },
+    {
+      "id": 26,
+      "name": "algorithm_26",
+      "category": "generated",
+      "description": "Generated algorithm 26"
+    },
+    {
+      "id": 27,
+      "name": "algorithm_27",
+      "category": "generated",
+      "description": "Generated algorithm 27"
+    },
+    {
+      "id": 28,
+      "name": "algorithm_28",
+      "category": "generated",
+      "description": "Generated algorithm 28"
+    },
+    {
+      "id": 29,
+      "name": "algorithm_29",
+      "category": "generated",
+      "description": "Generated algorithm 29"
+    },
+    {
+      "id": 30,
+      "name": "algorithm_30",
+      "category": "generated",
+      "description": "Generated algorithm 30"
+    },
+    {
+      "id": 31,
+      "name": "algorithm_31",
+      "category": "generated",
+      "description": "Generated algorithm 31"
+    },
+    {
+      "id": 32,
+      "name": "algorithm_32",
+      "category": "generated",
+      "description": "Generated algorithm 32"
+    },
+    {
+      "id": 33,
+      "name": "algorithm_33",
+      "category": "generated",
+      "description": "Generated algorithm 33"
+    },
+    {
+      "id": 34,
+      "name": "algorithm_34",
+      "category": "generated",
+      "description": "Generated algorithm 34"
+    },
+    {
+      "id": 35,
+      "name": "algorithm_35",
+      "category": "generated",
+      "description": "Generated algorithm 35"
+    },
+    {
+      "id": 36,
+      "name": "algorithm_36",
+      "category": "generated",
+      "description": "Generated algorithm 36"
+    },
+    {
+      "id": 37,
+      "name": "algorithm_37",
+      "category": "generated",
+      "description": "Generated algorithm 37"
+    },
+    {
+      "id": 38,
+      "name": "algorithm_38",
+      "category": "generated",
+      "description": "Generated algorithm 38"
+    },
+    {
+      "id": 39,
+      "name": "algorithm_39",
+      "category": "generated",
+      "description": "Generated algorithm 39"
+    },
+    {
+      "id": 40,
+      "name": "algorithm_40",
+      "category": "generated",
+      "description": "Generated algorithm 40"
+    },
+    {
+      "id": 41,
+      "name": "algorithm_41",
+      "category": "generated",
+      "description": "Generated algorithm 41"
+    },
+    {
+      "id": 42,
+      "name": "algorithm_42",
+      "category": "generated",
+      "description": "Generated algorithm 42"
+    },
+    {
+      "id": 43,
+      "name": "algorithm_43",
+      "category": "generated",
+      "description": "Generated algorithm 43"
+    },
+    {
+      "id": 44,
+      "name": "algorithm_44",
+      "category": "generated",
+      "description": "Generated algorithm 44"
+    },
+    {
+      "id": 45,
+      "name": "algorithm_45",
+      "category": "generated",
+      "description": "Generated algorithm 45"
+    },
+    {
+      "id": 46,
+      "name": "algorithm_46",
+      "category": "generated",
+      "description": "Generated algorithm 46"
+    },
+    {
+      "id": 47,
+      "name": "algorithm_47",
+      "category": "generated",
+      "description": "Generated algorithm 47"
+    },
+    {
+      "id": 48,
+      "name": "algorithm_48",
+      "category": "generated",
+      "description": "Generated algorithm 48"
+    },
+    {
+      "id": 49,
+      "name": "algorithm_49",
+      "category": "generated",
+      "description": "Generated algorithm 49"
+    },
+    {
+      "id": 50,
+      "name": "algorithm_50",
+      "category": "generated",
+      "description": "Generated algorithm 50"
+    },
+    {
+      "id": 51,
+      "name": "algorithm_51",
+      "category": "generated",
+      "description": "Generated algorithm 51"
+    },
+    {
+      "id": 52,
+      "name": "algorithm_52",
+      "category": "generated",
+      "description": "Generated algorithm 52"
+    },
+    {
+      "id": 53,
+      "name": "algorithm_53",
+      "category": "generated",
+      "description": "Generated algorithm 53"
+    },
+    {
+      "id": 54,
+      "name": "algorithm_54",
+      "category": "generated",
+      "description": "Generated algorithm 54"
+    },
+    {
+      "id": 55,
+      "name": "algorithm_55",
+      "category": "generated",
+      "description": "Generated algorithm 55"
+    },
+    {
+      "id": 56,
+      "name": "algorithm_56",
+      "category": "generated",
+      "description": "Generated algorithm 56"
+    },
+    {
+      "id": 57,
+      "name": "algorithm_57",
+      "category": "generated",
+      "description": "Generated algorithm 57"
+    },
+    {
+      "id": 58,
+      "name": "algorithm_58",
+      "category": "generated",
+      "description": "Generated algorithm 58"
+    },
+    {
+      "id": 59,
+      "name": "algorithm_59",
+      "category": "generated",
+      "description": "Generated algorithm 59"
+    },
+    {
+      "id": 60,
+      "name": "algorithm_60",
+      "category": "generated",
+      "description": "Generated algorithm 60"
+    },
+    {
+      "id": 61,
+      "name": "algorithm_61",
+      "category": "generated",
+      "description": "Generated algorithm 61"
+    },
+    {
+      "id": 62,
+      "name": "algorithm_62",
+      "category": "generated",
+      "description": "Generated algorithm 62"
+    },
+    {
+      "id": 63,
+      "name": "algorithm_63",
+      "category": "generated",
+      "description": "Generated algorithm 63"
+    },
+    {
+      "id": 64,
+      "name": "algorithm_64",
+      "category": "generated",
+      "description": "Generated algorithm 64"
+    },
+    {
+      "id": 65,
+      "name": "algorithm_65",
+      "category": "generated",
+      "description": "Generated algorithm 65"
+    },
+    {
+      "id": 66,
+      "name": "algorithm_66",
+      "category": "generated",
+      "description": "Generated algorithm 66"
+    },
+    {
+      "id": 67,
+      "name": "algorithm_67",
+      "category": "generated",
+      "description": "Generated algorithm 67"
+    },
+    {
+      "id": 68,
+      "name": "algorithm_68",
+      "category": "generated",
+      "description": "Generated algorithm 68"
+    },
+    {
+      "id": 69,
+      "name": "algorithm_69",
+      "category": "generated",
+      "description": "Generated algorithm 69"
+    },
+    {
+      "id": 70,
+      "name": "algorithm_70",
+      "category": "generated",
+      "description": "Generated algorithm 70"
+    },
+    {
+      "id": 71,
+      "name": "algorithm_71",
+      "category": "generated",
+      "description": "Generated algorithm 71"
+    },
+    {
+      "id": 72,
+      "name": "algorithm_72",
+      "category": "generated",
+      "description": "Generated algorithm 72"
+    },
+    {
+      "id": 73,
+      "name": "algorithm_73",
+      "category": "generated",
+      "description": "Generated algorithm 73"
+    },
+    {
+      "id": 74,
+      "name": "algorithm_74",
+      "category": "generated",
+      "description": "Generated algorithm 74"
+    },
+    {
+      "id": 75,
+      "name": "algorithm_75",
+      "category": "generated",
+      "description": "Generated algorithm 75"
+    },
+    {
+      "id": 76,
+      "name": "algorithm_76",
+      "category": "generated",
+      "description": "Generated algorithm 76"
+    },
+    {
+      "id": 77,
+      "name": "algorithm_77",
+      "category": "generated",
+      "description": "Generated algorithm 77"
+    },
+    {
+      "id": 78,
+      "name": "algorithm_78",
+      "category": "generated",
+      "description": "Generated algorithm 78"
+    },
+    {
+      "id": 79,
+      "name": "algorithm_79",
+      "category": "generated",
+      "description": "Generated algorithm 79"
+    },
+    {
+      "id": 80,
+      "name": "algorithm_80",
+      "category": "generated",
+      "description": "Generated algorithm 80"
+    },
+    {
+      "id": 81,
+      "name": "algorithm_81",
+      "category": "generated",
+      "description": "Generated algorithm 81"
+    },
+    {
+      "id": 82,
+      "name": "algorithm_82",
+      "category": "generated",
+      "description": "Generated algorithm 82"
+    },
+    {
+      "id": 83,
+      "name": "algorithm_83",
+      "category": "generated",
+      "description": "Generated algorithm 83"
+    },
+    {
+      "id": 84,
+      "name": "algorithm_84",
+      "category": "generated",
+      "description": "Generated algorithm 84"
+    },
+    {
+      "id": 85,
+      "name": "algorithm_85",
+      "category": "generated",
+      "description": "Generated algorithm 85"
+    },
+    {
+      "id": 86,
+      "name": "algorithm_86",
+      "category": "generated",
+      "description": "Generated algorithm 86"
+    },
+    {
+      "id": 87,
+      "name": "algorithm_87",
+      "category": "generated",
+      "description": "Generated algorithm 87"
+    },
+    {
+      "id": 88,
+      "name": "algorithm_88",
+      "category": "generated",
+      "description": "Generated algorithm 88"
+    },
+    {
+      "id": 89,
+      "name": "algorithm_89",
+      "category": "generated",
+      "description": "Generated algorithm 89"
+    },
+    {
+      "id": 90,
+      "name": "algorithm_90",
+      "category": "generated",
+      "description": "Generated algorithm 90"
+    },
+    {
+      "id": 91,
+      "name": "algorithm_91",
+      "category": "generated",
+      "description": "Generated algorithm 91"
+    },
+    {
+      "id": 92,
+      "name": "algorithm_92",
+      "category": "generated",
+      "description": "Generated algorithm 92"
+    },
+    {
+      "id": 93,
+      "name": "algorithm_93",
+      "category": "generated",
+      "description": "Generated algorithm 93"
+    },
+    {
+      "id": 94,
+      "name": "algorithm_94",
+      "category": "generated",
+      "description": "Generated algorithm 94"
+    },
+    {
+      "id": 95,
+      "name": "algorithm_95",
+      "category": "generated",
+      "description": "Generated algorithm 95"
+    },
+    {
+      "id": 96,
+      "name": "algorithm_96",
+      "category": "generated",
+      "description": "Generated algorithm 96"
+    },
+    {
+      "id": 97,
+      "name": "algorithm_97",
+      "category": "generated",
+      "description": "Generated algorithm 97"
+    },
+    {
+      "id": 98,
+      "name": "algorithm_98",
+      "category": "generated",
+      "description": "Generated algorithm 98"
+    },
+    {
+      "id": 99,
+      "name": "algorithm_99",
+      "category": "generated",
+      "description": "Generated algorithm 99"
+    },
+    {
+      "id": 100,
+      "name": "algorithm_100",
+      "category": "generated",
+      "description": "Generated algorithm 100"
+    }
+  ]
+}

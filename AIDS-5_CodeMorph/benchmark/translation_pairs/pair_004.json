@@ -1,0 +1,7 @@
+{
+  "id": 4,
+  "name": "matrix_multiply",
+  "python": "def matrix_multiply(A, B):\n    rows_A, cols_A = len(A), len(A[0])\n    rows_B, cols_B = len(B), len(B[0])\n    \n    if cols_A != rows_B:\n        raise ValueError(\"Incompatible dimensions\")\n    \n    result = [[0] * cols_B for _ in range(rows_A)]\n    \n    for i in range(rows_A):\n        for j in range(cols_B):\n            for k in range(cols_A):\n                result[i][j] += A[i][k] * B[k][j]\n    \n    return result\n",
+  "cpp": "#include <vector>\nusing namespace std;\n\nvector<vector<int>> matrix_multiply(vector<vector<int>>& A, vector<vector<int>>& B) {\n    int rows_A = A.size(), cols_A = A[0].size();\n    int rows_B = B.size(), cols_B = B[0].size();\n    \n    vector<vector<int>> result(rows_A, vector<int>(cols_B, 0));\n    \n    for (int i = 0; i < rows_A; i++) {\n        for (int j = 0; j < cols_B; j++) {\n            for (int k = 0; k < cols_A; k++) {\n                result[i][j] += A[i][k] * B[k][j];\n            }\n        }\n    }\n    \n    return result;\n}\n",
+  "tests": "A = [[1, 2], [3, 4]]\nB = [[5, 6], [7, 8]]\nassert matrix_multiply(A, B) == [[19, 22], [43, 50]]\n"
+}

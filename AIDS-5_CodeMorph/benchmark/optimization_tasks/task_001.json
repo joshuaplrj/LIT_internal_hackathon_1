@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "name": "nested_loop_optimization",
+  "description": "Optimize O(n\u00b2) algorithm to O(n log n)",
+  "original_python": "def find_pairs(arr, target):\n    count = 0\n    for i in range(len(arr)):\n        for j in range(i + 1, len(arr)):\n            if arr[i] + arr[j] == target:\n                count += 1\n    return count\n",
+  "optimized_python": "def find_pairs(arr, target):\n    from collections import Counter\n    count = 0\n    seen = Counter()\n    for num in arr:\n        complement = target - num\n        if complement in seen:\n            count += seen[complement]\n        seen[num] += 1\n    return count\n",
+  "speedup_factor": 50,
+  "test_input": "arr = list(range(10000)); target = 5000",
+  "expected_output": "2499"
+}

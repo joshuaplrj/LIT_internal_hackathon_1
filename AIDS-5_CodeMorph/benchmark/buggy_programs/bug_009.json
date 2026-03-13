@@ -1,0 +1,9 @@
+{
+  "id": 9,
+  "name": "type_comparison",
+  "description": "Comparing incompatible types",
+  "buggy_code": "def find_max(items):\n    if not items:\n        return None\n    max_item = items[0]\n    for item in items:\n        if item > max_item:  # Bug: may fail with mixed types\n            max_item = item\n    return max_item\n",
+  "correct_code": "def find_max(items, key=None):\n    if not items:\n        return None\n    return max(items, key=key)\n",
+  "failing_test": "find_max([1, '2', 3])  # TypeError in Python 3",
+  "bug_type": "type_error"
+}

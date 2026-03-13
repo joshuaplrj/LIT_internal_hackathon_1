@@ -1,0 +1,9 @@
+{
+  "id": 5,
+  "name": "race_condition",
+  "description": "Race condition in counter",
+  "buggy_code": "import threading\n\nclass Counter:\n    def __init__(self):\n        self.count = 0\n    \n    def increment(self):\n        temp = self.count\n        # Simulate some processing\n        self.count = temp + 1  # Bug: not atomic\n",
+  "correct_code": "import threading\n\nclass Counter:\n    def __init__(self):\n        self.count = 0\n        self._lock = threading.Lock()\n    \n    def increment(self):\n        with self._lock:\n            self.count += 1\n",
+  "failing_test": "Multiple threads incrementing may lose updates",
+  "bug_type": "race_condition"
+}

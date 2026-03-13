@@ -1,0 +1,9 @@
+{
+  "id": 6,
+  "name": "index_error",
+  "description": "Index out of bounds error",
+  "buggy_code": "def get_last_n(lst, n):\n    result = []\n    for i in range(n):\n        result.append(lst[-(i+1)])  # Bug: doesn't check if n > len(lst)\n    return result\n",
+  "correct_code": "def get_last_n(lst, n):\n    n = min(n, len(lst))\n    return lst[-n:] if n > 0 else []\n",
+  "failing_test": "get_last_n([1, 2], 5)  # IndexError",
+  "bug_type": "index_error"
+}

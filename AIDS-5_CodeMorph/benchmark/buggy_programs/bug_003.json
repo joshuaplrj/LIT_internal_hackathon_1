@@ -1,0 +1,9 @@
+{
+  "id": 3,
+  "name": "integer_division",
+  "description": "Integer division instead of float division",
+  "buggy_code": "def calculate_average(numbers):\n    if not numbers:\n        return 0\n    return sum(numbers) / len(numbers)  # In Python 2 this would be integer division\n",
+  "correct_code": "def calculate_average(numbers):\n    if not numbers:\n        return 0.0\n    return float(sum(numbers)) / len(numbers)\n",
+  "failing_test": "assert calculate_average([1, 2]) == 1.5  # Might return 1 in some contexts",
+  "bug_type": "type_error"
+}

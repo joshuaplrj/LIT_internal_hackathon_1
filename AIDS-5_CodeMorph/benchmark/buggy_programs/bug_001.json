@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "off_by_one",
+  "description": "Off-by-one error in loop",
+  "buggy_code": "def sum_range(start, end):\n    total = 0\n    for i in range(start, end):  # Bug: should be end + 1\n        total += i\n    return total\n",
+  "correct_code": "def sum_range(start, end):\n    total = 0\n    for i in range(start, end + 1):\n        total += i\n    return total\n",
+  "failing_test": "assert sum_range(1, 5) == 15  # Returns 10 instead",
+  "bug_type": "off_by_one"
+}

@@ -1,0 +1,9 @@
+{
+  "id": 2,
+  "name": "mutable_default_arg",
+  "description": "Mutable default argument bug",
+  "buggy_code": "def add_item(item, items=[]):\n    items.append(item)\n    return items\n",
+  "correct_code": "def add_item(item, items=None):\n    if items is None:\n        items = []\n    items.append(item)\n    return items\n",
+  "failing_test": "assert add_item(1) == [1]; assert add_item(2) == [2]  # Returns [1, 2]",
+  "bug_type": "mutable_default"
+}

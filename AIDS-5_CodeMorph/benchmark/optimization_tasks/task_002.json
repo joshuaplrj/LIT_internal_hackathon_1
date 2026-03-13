@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "name": "string_concatenation",
+  "description": "Optimize string concatenation in loop",
+  "original_python": "def build_string(n):\n    result = \"\"\n    for i in range(n):\n        result += str(i) + \",\"\n    return result\n",
+  "optimized_python": "def build_string(n):\n    return \",\".join(str(i) for i in range(n))\n",
+  "speedup_factor": 10,
+  "test_input": "n = 100000",
+  "expected_output": "Length check"
+}

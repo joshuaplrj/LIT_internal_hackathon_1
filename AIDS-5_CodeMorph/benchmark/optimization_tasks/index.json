@@ -1,0 +1,324 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "nested_loop_optimization",
+      "description": "Optimize O(n\u00b2) algorithm to O(n log n)",
+      "original_python": "def find_pairs(arr, target):\n    count = 0\n    for i in range(len(arr)):\n        for j in range(i + 1, len(arr)):\n            if arr[i] + arr[j] == target:\n                count += 1\n    return count\n",
+      "optimized_python": "def find_pairs(arr, target):\n    from collections import Counter\n    count = 0\n    seen = Counter()\n    for num in arr:\n        complement = target - num\n        if complement in seen:\n            count += seen[complement]\n        seen[num] += 1\n    return count\n",
+      "speedup_factor": 50,
+      "test_input": "arr = list(range(10000)); target = 5000",
+      "expected_output": "2499"
+    },
+    {
+      "id": 2,
+      "name": "string_concatenation",
+      "description": "Optimize string concatenation in loop",
+      "original_python": "def build_string(n):\n    result = \"\"\n    for i in range(n):\n        result += str(i) + \",\"\n    return result\n",
+      "optimized_python": "def build_string(n):\n    return \",\".join(str(i) for i in range(n))\n",
+      "speedup_factor": 10,
+      "test_input": "n = 100000",
+      "expected_output": "Length check"
+    },
+    {
+      "id": 3,
+      "name": "list_comprehension",
+      "description": "Replace explicit loops with list comprehension",
+      "original_python": "def process_data(data):\n    result = []\n    for x in data:\n        if x > 0:\n            result.append(x * 2)\n    return result\n",
+      "optimized_python": "def process_data(data):\n    return [x * 2 for x in data if x > 0]\n",
+      "speedup_factor": 2,
+      "test_input": "data = list(range(-1000, 1000))",
+      "expected_output": "List of doubled positive numbers"
+    },
+    {
+      "id": 4,
+      "name": "memoization",
+      "description": "Add memoization to recursive function",
+      "original_python": "def fib(n):\n    if n <= 1:\n        return n\n    return fib(n-1) + fib(n-2)\n",
+      "optimized_python": "from functools import lru_cache\n\n@lru_cache(maxsize=None)\ndef fib(n):\n    if n <= 1:\n        return n\n    return fib(n-1) + fib(n-2)\n",
+      "speedup_factor": 1000,
+      "test_input": "n = 35",
+      "expected_output": "9227465"
+    },
+    {
+      "id": 5,
+      "name": "numpy_vectorization",
+      "description": "Replace Python loops with NumPy operations",
+      "original_python": "def compute_distances(points, center):\n    distances = []\n    for p in points:\n        d = ((p[0] - center[0])**2 + (p[1] - center[1])**2)**0.5\n        distances.append(d)\n    return distances\n",
+      "optimized_python": "import numpy as np\n\ndef compute_distances(points, center):\n    points = np.array(points)\n    center = np.array(center)\n    return np.sqrt(np.sum((points - center)**2, axis=1))\n",
+      "speedup_factor": 100,
+      "test_input": "points = [(i, i*2) for i in range(100000)]; center = (50, 100)",
+      "expected_output": "Array of distances"
+    },
+    {
+      "id": 6,
+      "name": "set_lookup",
+      "description": "Replace list membership test with set",
+      "category": "optimization"
+    },
+    {
+      "id": 7,
+      "name": "generator_expression",
+      "description": "Use generator instead of list for large data",
+      "category": "optimization"
+    },
+    {
+      "id": 8,
+      "name": "caching",
+      "description": "Add caching to expensive computation",
+      "category": "optimization"
+    },
+    {
+      "id": 9,
+      "name": "batch_processing",
+      "description": "Batch database/file operations",
+      "category": "optimization"
+    },
+    {
+      "id": 10,
+      "name": "lazy_evaluation",
+      "description": "Implement lazy evaluation pattern",
+      "category": "optimization"
+    },
+    {
+      "id": 11,
+      "name": "optimization_11",
+      "description": "Generated optimization task 11",
+      "category": "generated"
+    },
+    {
+      "id": 12,
+      "name": "optimization_12",
+      "description": "Generated optimization task 12",
+      "category": "generated"
+    },
+    {
+      "id": 13,
+      "name": "optimization_13",
+      "description": "Generated optimization task 13",
+      "category": "generated"
+    },
+    {
+      "id": 14,
+      "name": "optimization_14",
+      "description": "Generated optimization task 14",
+      "category": "generated"
+    },
+    {
+      "id": 15,
+      "name": "optimization_15",
+      "description": "Generated optimization task 15",
+      "category": "generated"
+    },
+    {
+      "id": 16,
+      "name": "optimization_16",
+      "description": "Generated optimization task 16",
+      "category": "generated"
+    },
+    {
+      "id": 17,
+      "name": "optimization_17",
+      "description": "Generated optimization task 17",
+      "category": "generated"
+    },
+    {
+      "id": 18,
+      "name": "optimization_18",
+      "description": "Generated optimization task 18",
+      "category": "generated"
+    },
+    {
+      "id": 19,
+      "name": "optimization_19",
+      "description": "Generated optimization task 19",
+      "category": "generated"
+    },
+    {
+      "id": 20,
+      "name": "optimization_20",
+      "description": "Generated optimization task 20",
+      "category": "generated"
+    },
+    {
+      "id": 21,
+      "name": "optimization_21",
+      "description": "Generated optimization task 21",
+      "category": "generated"
+    },
+    {
+      "id": 22,
+      "name": "optimization_22",
+      "description": "Generated optimization task 22",
+      "category": "generated"
+    },
+    {
+      "id": 23,
+      "name": "optimization_23",
+      "description": "Generated optimization task 23",
+      "category": "generated"
+    },
+    {
+      "id": 24,
+      "name": "optimization_24",
+      "description": "Generated optimization task 24",
+      "category": "generated"
+    },
+    {
+      "id": 25,
+      "name": "optimization_25",
+      "description": "Generated optimization task 25",
+      "category": "generated"
+    },
+    {
+      "id": 26,
+      "name": "optimization_26",
+      "description": "Generated optimization task 26",
+      "category": "generated"
+    },
+    {
+      "id": 27,
+      "name": "optimization_27",
+      "description": "Generated optimization task 27",
+      "category": "generated"
+    },
+    {
+      "id": 28,
+      "name": "optimization_28",
+      "description": "Generated optimization task 28",
+      "category": "generated"
+    },
+    {
+      "id": 29,
+      "name": "optimization_29",
+      "description": "Generated optimization task 29",
+      "category": "generated"
+    },
+    {
+      "id": 30,
+      "name": "optimization_30",
+      "description": "Generated optimization task 30",
+      "category": "generated"
+    },
+    {
+      "id": 31,
+      "name": "optimization_31",
+      "description": "Generated optimization task 31",
+      "category": "generated"
+    },
+    {
+      "id": 32,
+      "name": "optimization_32",
+      "description": "Generated optimization task 32",
+      "category": "generated"
+    },
+    {
+      "id": 33,
+      "name": "optimization_33",
+      "description": "Generated optimization task 33",
+      "category": "generated"
+    },
+    {
+      "id": 34,
+      "name": "optimization_34",
+      "description": "Generated optimization task 34",
+      "category": "generated"
+    },
+    {
+      "id": 35,
+      "name": "optimization_35",
+      "description": "Generated optimization task 35",
+      "category": "generated"
+    },
+    {
+      "id": 36,
+      "name": "optimization_36",
+      "description": "Generated optimization task 36",
+      "category": "generated"
+    },
+    {
+      "id": 37,
+      "name": "optimization_37",
+      "description": "Generated optimization task 37",
+      "category": "generated"
+    },
+    {
+      "id": 38,
+      "name": "optimization_38",
+      "description": "Generated optimization task 38",
+      "category": "generated"
+    },
+    {
+      "id": 39,
+      "name": "optimization_39",
+      "description": "Generated optimization task 39",
+      "category": "generated"
+    },
+    {
+      "id": 40,
+      "name": "optimization_40",
+      "description": "Generated optimization task 40",
+      "category": "generated"
+    },
+    {
+      "id": 41,
+      "name": "optimization_41",
+      "description": "Generated optimization task 41",
+      "category": "generated"
+    },
+    {
+      "id": 42,
+      "name": "optimization_42",
+      "description": "Generated optimization task 42",
+      "category": "generated"
+    },
+    {
+      "id": 43,
+      "name": "optimization_43",
+      "description": "Generated optimization task 43",
+      "category": "generated"
+    },
+    {
+      "id": 44,
+      "name": "optimization_44",
+      "description": "Generated optimization task 44",
+      "category": "generated"
+    },
+    {
+      "id": 45,
+      "name": "optimization_45",
+      "description": "Generated optimization task 45",
+      "category": "generated"
+    },
+    {
+      "id": 46,
+      "name": "optimization_46",
+      "description": "Generated optimization task 46",
+      "category": "generated"
+    },
+    {
+      "id": 47,
+      "name": "optimization_47",
+      "description": "Generated optimization task 47",
+      "category": "generated"
+    },
+    {
+      "id": 48,
+      "name": "optimization_48",
+      "description": "Generated optimization task 48",
+      "category": "generated"
+    },
+    {
+      "id": 49,
+      "name": "optimization_49",
+      "description": "Generated optimization task 49",
+      "category": "generated"
+    },
+    {
+      "id": 50,
+      "name": "optimization_50",
+      "description": "Generated optimization task 50",
+      "category": "generated"
+    }
+  ]
+}

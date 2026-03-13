@@ -1,0 +1,9 @@
+{
+  "id": 7,
+  "name": "key_error",
+  "description": "Key error in dictionary access",
+  "buggy_code": "def get_config(config, key):\n    return config[key]  # Bug: doesn't handle missing keys\n",
+  "correct_code": "def get_config(config, key, default=None):\n    return config.get(key, default)\n",
+  "failing_test": "get_config({}, 'missing_key')  # KeyError",
+  "bug_type": "key_error"
+}

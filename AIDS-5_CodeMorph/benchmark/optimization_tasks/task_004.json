@@ -1,0 +1,10 @@
+{
+  "id": 4,
+  "name": "memoization",
+  "description": "Add memoization to recursive function",
+  "original_python": "def fib(n):\n    if n <= 1:\n        return n\n    return fib(n-1) + fib(n-2)\n",
+  "optimized_python": "from functools import lru_cache\n\n@lru_cache(maxsize=None)\ndef fib(n):\n    if n <= 1:\n        return n\n    return fib(n-1) + fib(n-2)\n",
+  "speedup_factor": 1000,
+  "test_input": "n = 35",
+  "expected_output": "9227465"
+}

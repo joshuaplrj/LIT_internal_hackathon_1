@@ -1,0 +1,6 @@
+{
+  "translation_pairs": 100,
+  "optimization_tasks": 50,
+  "buggy_programs": 50,
+  "total": 200
+}

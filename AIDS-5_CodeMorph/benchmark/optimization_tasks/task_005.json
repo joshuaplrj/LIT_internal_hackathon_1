@@ -1,0 +1,10 @@
+{
+  "id": 5,
+  "name": "numpy_vectorization",
+  "description": "Replace Python loops with NumPy operations",
+  "original_python": "def compute_distances(points, center):\n    distances = []\n    for p in points:\n        d = ((p[0] - center[0])**2 + (p[1] - center[1])**2)**0.5\n        distances.append(d)\n    return distances\n",
+  "optimized_python": "import numpy as np\n\ndef compute_distances(points, center):\n    points = np.array(points)\n    center = np.array(center)\n    return np.sqrt(np.sum((points - center)**2, axis=1))\n",
+  "speedup_factor": 100,
+  "test_input": "points = [(i, i*2) for i in range(100000)]; center = (50, 100)",
+  "expected_output": "Array of distances"
+}

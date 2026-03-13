@@ -1,0 +1,9 @@
+{
+  "id": 4,
+  "name": "shallow_copy",
+  "description": "Shallow copy bug with nested lists",
+  "buggy_code": "def copy_matrix(matrix):\n    return matrix[:]  # Bug: shallow copy doesn't copy nested lists\n",
+  "correct_code": "import copy\n\ndef copy_matrix(matrix):\n    return copy.deepcopy(matrix)\n",
+  "failing_test": "m = [[1, 2], [3, 4]]; c = copy_matrix(m); c[0][0] = 99; assert m[0][0] == 1",
+  "bug_type": "shallow_copy"
+}

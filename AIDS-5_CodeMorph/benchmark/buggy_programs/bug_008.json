@@ -1,0 +1,9 @@
+{
+  "id": 8,
+  "name": "infinite_recursion",
+  "description": "Missing base case in recursion",
+  "buggy_code": "def factorial(n):\n    return n * factorial(n - 1)  # Bug: missing base case\n",
+  "correct_code": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n",
+  "failing_test": "factorial(5)  # RecursionError",
+  "bug_type": "infinite_recursion"
+}

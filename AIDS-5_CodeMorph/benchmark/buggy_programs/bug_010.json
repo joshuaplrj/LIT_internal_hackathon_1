@@ -1,0 +1,9 @@
+{
+  "id": 10,
+  "name": "resource_leak",
+  "description": "File handle not closed",
+  "buggy_code": "def read_file(filename):\n    f = open(filename, 'r')\n    data = f.read()\n    # Bug: file not closed if exception occurs\n    f.close()\n    return data\n",
+  "correct_code": "def read_file(filename):\n    with open(filename, 'r') as f:\n        return f.read()\n",
+  "failing_test": "ResourceWarning if exception occurs before close()",
+  "bug_type": "resource_leak"
+}
