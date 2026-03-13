@@ -1,0 +1,89 @@
+[
+  {
+    "name": "no_interference",
+    "num_interferers": 0,
+    "interferers": []
+  },
+  {
+    "name": "single_radar",
+    "num_interferers": 1,
+    "interferers": [
+      {
+        "freq_ghz": 24.05,
+        "bandwidth_mhz": 100,
+        "power_dbm": 10,
+        "azimuth_deg": 45,
+        "range_m": 200,
+        "type": "automotive_radar"
+      }
+    ]
+  },
+  {
+    "name": "dense_automotive",
+    "num_interferers": 5,
+    "interferers": [
+      {
+        "freq_ghz": 24.0,
+        "bandwidth_mhz": 150,
+        "power_dbm": 5,
+        "azimuth_deg": -26.0,
+        "range_m": 57.0,
+        "type": "automotive_radar"
+      },
+      {
+        "freq_ghz": 24.05,
+        "bandwidth_mhz": 150,
+        "power_dbm": 7,
+        "azimuth_deg": 34.0,
+        "range_m": 236.0,
+        "type": "automotive_radar"
+      },
+      {
+        "freq_ghz": 24.1,
+        "bandwidth_mhz": 150,
+        "power_dbm": 5,
+        "azimuth_deg": 47.0,
+        "range_m": 135.0,
+        "type": "automotive_radar"
+      },
+      {
+        "freq_ghz": 24.15,
+        "bandwidth_mhz": 150,
+        "power_dbm": 10,
+        "azimuth_deg": -33.0,
+        "range_m": 374.0,
+        "type": "automotive_radar"
+      },
+      {
+        "freq_ghz": 24.2,
+        "bandwidth_mhz": 150,
+        "power_dbm": 11,
+        "azimuth_deg": -19.0,
+        "range_m": 311.0,
+        "type": "automotive_radar"
+      }
+    ]
+  },
+  {
+    "name": "wifi_interference",
+    "num_interferers": 2,
+    "interferers": [
+      {
+        "freq_ghz": 24.0,
+        "bandwidth_mhz": 20,
+        "power_dbm": 20,
+        "azimuth_deg": -30,
+        "range_m": 100,
+        "type": "wifi_24ghz"
+      },
+      {
+        "freq_ghz": 24.125,
+        "bandwidth_mhz": 20,
+        "power_dbm": 15,
+        "azimuth_deg": 60,
+        "range_m": 300,
+        "type": "wifi_24ghz"
+      }
+    ]
+  }
+]

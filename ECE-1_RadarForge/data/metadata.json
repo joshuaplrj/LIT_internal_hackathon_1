@@ -1,0 +1,703 @@
+{
+  "problem": "ECE-1 RadarForge",
+  "description": "FMCW Radar System for Drone Detection",
+  "radar_params": {
+    "center_freq_ghz": 24.0,
+    "bandwidth_mhz": 150,
+    "chirp_duration_ms": 1.0,
+    "chirps_per_frame": 128,
+    "sampling_rate_mhz": 2.0,
+    "tx_antennas": 2,
+    "rx_antennas": 8,
+    "transmit_power_mw": 10
+  },
+  "target_params": {
+    "rcs_m2": 0.01,
+    "max_range_m": 500,
+    "max_velocity_mps": 30
+  },
+  "data_contents": {
+    "trajectories": {
+      "count": 20,
+      "format": "CSV (time, x, y, z, range, v_radial, azimuth, elevation, rcs)",
+      "scenarios": [
+        {
+          "id": "scenario_001",
+          "profile": "straight_approach",
+          "description": "Drone flying straight toward radar",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_002",
+          "profile": "crossing",
+          "description": "Drone crossing at constant range",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_003",
+          "profile": "loitering",
+          "description": "Drone circling at fixed position",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_004",
+          "profile": "ascending",
+          "description": "Drone ascending vertically",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_005",
+          "profile": "evasive",
+          "description": "Drone performing evasive maneuvers",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_006",
+          "profile": "straight_approach",
+          "description": "Drone flying straight toward radar",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_007",
+          "profile": "crossing",
+          "description": "Drone crossing at constant range",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_008",
+          "profile": "loitering",
+          "description": "Drone circling at fixed position",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_009",
+          "profile": "ascending",
+          "description": "Drone ascending vertically",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_010",
+          "profile": "evasive",
+          "description": "Drone performing evasive maneuvers",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_011",
+          "profile": "straight_approach",
+          "description": "Drone flying straight toward radar",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_012",
+          "profile": "crossing",
+          "description": "Drone crossing at constant range",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_013",
+          "profile": "loitering",
+          "description": "Drone circling at fixed position",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_014",
+          "profile": "ascending",
+          "description": "Drone ascending vertically",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_015",
+          "profile": "evasive",
+          "description": "Drone performing evasive maneuvers",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_016",
+          "profile": "straight_approach",
+          "description": "Drone flying straight toward radar",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_017",
+          "profile": "crossing",
+          "description": "Drone crossing at constant range",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_018",
+          "profile": "loitering",
+          "description": "Drone circling at fixed position",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_019",
+          "profile": "ascending",
+          "description": "Drone ascending vertically",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        },
+        {
+          "id": "scenario_020",
+          "profile": "evasive",
+          "description": "Drone performing evasive maneuvers",
+          "duration_s": 30.0,
+          "dt_s": 0.01,
+          "num_samples": 3000,
+          "rcs_mean_m2": 0.01
+        }
+      ]
+    },
+    "clutter": {
+      "count": 5,
+      "format": "CSV (range x angle clutter map)",
+      "scenarios": [
+        {
+          "id": "clutter_001",
+          "type": "urban",
+          "description": "Urban environment with buildings, vehicles",
+          "sigma0_db": -15,
+          "doppler_spread_hz": 50,
+          "num_discrete_sources": 11,
+          "discrete_sources": [
+            {
+              "range_m": 239.0,
+              "azimuth_deg": 54.0,
+              "rcs_db": 35.72500803121373
+            },
+            {
+              "range_m": 458.0,
+              "azimuth_deg": 41.0,
+              "rcs_db": 30.76943065865162
+            },
+            {
+              "range_m": 173.0,
+              "azimuth_deg": 12.0,
+              "rcs_db": 10.849097989414805
+            },
+            {
+              "range_m": 383.0,
+              "azimuth_deg": -10.0,
+              "rcs_db": 19.02840992512398
+            },
+            {
+              "range_m": 132.0,
+              "azimuth_deg": -49.0,
+              "rcs_db": 28.123083741099066
+            },
+            {
+              "range_m": 45.0,
+              "azimuth_deg": -55.0,
+              "rcs_db": 11.630010169195765
+            },
+            {
+              "range_m": 270.0,
+              "azimuth_deg": 27.0,
+              "rcs_db": 13.917627604271773
+            },
+            {
+              "range_m": 375.0,
+              "azimuth_deg": 36.0,
+              "rcs_db": 23.415843203054138
+            },
+            {
+              "range_m": 376.0,
+              "azimuth_deg": -57.0,
+              "rcs_db": 30.804941212544698
+            },
+            {
+              "range_m": 311.0,
+              "azimuth_deg": 8.0,
+              "rcs_db": 31.61408936200863
+            },
+            {
+              "range_m": 311.0,
+              "azimuth_deg": 54.0,
+              "rcs_db": 34.567156515397116
+            }
+          ],
+          "range_bins": 500,
+          "angle_bins": 121
+        },
+        {
+          "id": "clutter_002",
+          "type": "rural",
+          "description": "Open farmland with vegetation clutter",
+          "sigma0_db": -25,
+          "doppler_spread_hz": 10,
+          "num_discrete_sources": 15,
+          "discrete_sources": [
+            {
+              "range_m": 405.0,
+              "azimuth_deg": -16.0,
+              "rcs_db": 39.219932284039345
+            },
+            {
+              "range_m": 473.0,
+              "azimuth_deg": 4.0,
+              "rcs_db": 29.18856047135419
+            },
+            {
+              "range_m": 254.0,
+              "azimuth_deg": 21.0,
+              "rcs_db": 37.35422121961844
+            },
+            {
+              "range_m": 141.0,
+              "azimuth_deg": 17.0,
+              "rcs_db": 16.931253382060863
+            },
+            {
+              "range_m": 143.0,
+              "azimuth_deg": -48.0,
+              "rcs_db": 36.55026329627504
+            },
+            {
+              "range_m": 426.0,
+              "azimuth_deg": -28.0,
+              "rcs_db": 17.94761788554508
+            },
+            {
+              "range_m": 104.0,
+              "azimuth_deg": -49.0,
+              "rcs_db": 35.93549606708507
+            },
+            {
+              "range_m": 34.0,
+              "azimuth_deg": -25.0,
+              "rcs_db": 22.21917442526113
+            },
+            {
+              "range_m": 393.0,
+              "azimuth_deg": -16.0,
+              "rcs_db": 29.457171040010383
+            },
+            {
+              "range_m": 136.0,
+              "azimuth_deg": -60.0,
+              "rcs_db": 18.79740377456007
+            },
+            {
+              "range_m": 324.0,
+              "azimuth_deg": -10.0,
+              "rcs_db": 16.536843828764518
+            },
+            {
+              "range_m": 487.0,
+              "azimuth_deg": -53.0,
+              "rcs_db": 37.88925892153132
+            },
+            {
+              "range_m": 383.0,
+              "azimuth_deg": 52.0,
+              "rcs_db": 16.381944819819246
+            },
+            {
+              "range_m": 176.0,
+              "azimuth_deg": 60.0,
+              "rcs_db": 13.02677366272293
+            },
+            {
+              "range_m": 122.0,
+              "azimuth_deg": -35.0,
+              "rcs_db": 37.49190773745791
+            }
+          ],
+          "range_bins": 500,
+          "angle_bins": 121
+        },
+        {
+          "id": "clutter_003",
+          "type": "suburban",
+          "description": "Suburban area with trees and houses",
+          "sigma0_db": -20,
+          "doppler_spread_hz": 30,
+          "num_discrete_sources": 14,
+          "discrete_sources": [
+            {
+              "range_m": 175.0,
+              "azimuth_deg": 9.0,
+              "rcs_db": 18.118586902417967
+            },
+            {
+              "range_m": 424.0,
+              "azimuth_deg": -39.0,
+              "rcs_db": 33.74236857433618
+            },
+            {
+              "range_m": 201.0,
+              "azimuth_deg": -48.0,
+              "rcs_db": 16.335244690283965
+            },
+            {
+              "range_m": 189.0,
+              "azimuth_deg": -37.0,
+              "rcs_db": 21.490724642552802
+            },
+            {
+              "range_m": 470.0,
+              "azimuth_deg": -16.0,
+              "rcs_db": 32.802968422270034
+            },
+            {
+              "range_m": 370.0,
+              "azimuth_deg": 27.0,
+              "rcs_db": 22.51546586488041
+            },
+            {
+              "range_m": 312.0,
+              "azimuth_deg": -43.0,
+              "rcs_db": 30.359848452050084
+            },
+            {
+              "range_m": 106.0,
+              "azimuth_deg": 15.0,
+              "rcs_db": 13.87768089503591
+            },
+            {
+              "range_m": 53.0,
+              "azimuth_deg": 30.0,
+              "rcs_db": 13.87724359875465
+            },
+            {
+              "range_m": 413.0,
+              "azimuth_deg": 11.0,
+              "rcs_db": 36.46841842181665
+            },
+            {
+              "range_m": 199.0,
+              "azimuth_deg": -7.0,
+              "rcs_db": 20.54494243528019
+            },
+            {
+              "range_m": 151.0,
+              "azimuth_deg": 17.0,
+              "rcs_db": 32.173154488072896
+            },
+            {
+              "range_m": 495.0,
+              "azimuth_deg": -59.0,
+              "rcs_db": 15.154595141760641
+            },
+            {
+              "range_m": 63.0,
+              "azimuth_deg": -52.0,
+              "rcs_db": 22.780036826364984
+            }
+          ],
+          "range_bins": 500,
+          "angle_bins": 121
+        },
+        {
+          "id": "clutter_004",
+          "type": "industrial",
+          "description": "Industrial area with rotating machinery, cranes",
+          "sigma0_db": -10,
+          "doppler_spread_hz": 80,
+          "num_discrete_sources": 8,
+          "discrete_sources": [
+            {
+              "range_m": 370.0,
+              "azimuth_deg": 48.0,
+              "rcs_db": 22.401377089847117
+            },
+            {
+              "range_m": 465.0,
+              "azimuth_deg": -37.0,
+              "rcs_db": 35.43973374002738
+            },
+            {
+              "range_m": 205.0,
+              "azimuth_deg": 52.0,
+              "rcs_db": 10.289756947955723
+            },
+            {
+              "range_m": 265.0,
+              "azimuth_deg": 45.0,
+              "rcs_db": 26.250782686169558
+            },
+            {
+              "range_m": 250.0,
+              "azimuth_deg": -14.0,
+              "rcs_db": 14.025918012808948
+            },
+            {
+              "range_m": 367.0,
+              "azimuth_deg": 22.0,
+              "rcs_db": 11.495109816697177
+            },
+            {
+              "range_m": 10.0,
+              "azimuth_deg": 34.0,
+              "rcs_db": 16.710889848612776
+            },
+            {
+              "range_m": 220.0,
+              "azimuth_deg": 2.0,
+              "rcs_db": 33.15556488420059
+            }
+          ],
+          "range_bins": 500,
+          "angle_bins": 121
+        },
+        {
+          "id": "clutter_005",
+          "type": "coastal",
+          "description": "Coastal area with sea clutter",
+          "sigma0_db": -18,
+          "doppler_spread_hz": 40,
+          "num_discrete_sources": 15,
+          "discrete_sources": [
+            {
+              "range_m": 475.0,
+              "azimuth_deg": -1.0,
+              "rcs_db": 17.423177431754677
+            },
+            {
+              "range_m": 194.0,
+              "azimuth_deg": -18.0,
+              "rcs_db": 17.881299582582773
+            },
+            {
+              "range_m": 405.0,
+              "azimuth_deg": -21.0,
+              "rcs_db": 35.59840856992906
+            },
+            {
+              "range_m": 213.0,
+              "azimuth_deg": -59.0,
+              "rcs_db": 26.241233779966738
+            },
+            {
+              "range_m": 176.0,
+              "azimuth_deg": 23.0,
+              "rcs_db": 17.157542502771292
+            },
+            {
+              "range_m": 157.0,
+              "azimuth_deg": -57.0,
+              "rcs_db": 22.326445491448524
+            },
+            {
+              "range_m": 88.0,
+              "azimuth_deg": -44.0,
+              "rcs_db": 17.54646359589568
+            },
+            {
+              "range_m": 165.0,
+              "azimuth_deg": -8.0,
+              "rcs_db": 37.449989172359935
+            },
+            {
+              "range_m": 445.0,
+              "azimuth_deg": 36.0,
+              "rcs_db": 34.62882994118394
+            },
+            {
+              "range_m": 349.0,
+              "azimuth_deg": 0.0,
+              "rcs_db": 31.685996935808742
+            },
+            {
+              "range_m": 367.0,
+              "azimuth_deg": 6.0,
+              "rcs_db": 13.7393191987932
+            },
+            {
+              "range_m": 145.0,
+              "azimuth_deg": 15.0,
+              "rcs_db": 23.58338851920277
+            },
+            {
+              "range_m": 442.0,
+              "azimuth_deg": 37.0,
+              "rcs_db": 21.203327642023112
+            },
+            {
+              "range_m": 178.0,
+              "azimuth_deg": -15.0,
+              "rcs_db": 26.652028134460995
+            },
+            {
+              "range_m": 190.0,
+              "azimuth_deg": -52.0,
+              "rcs_db": 25.83554224324983
+            }
+          ],
+          "range_bins": 500,
+          "angle_bins": 121
+        }
+      ]
+    },
+    "targets": {
+      "count": 5,
+      "format": "CSV (aspect angle vs RCS)",
+      "models": [
+        {
+          "name": "small_quadcopter",
+          "mass_kg": 0.5,
+          "wingspan_m": 0.3,
+          "rcs_mean_m2": 0.005,
+          "rcs_std_m2": 0.003,
+          "swerling_type": 1,
+          "micro_doppler_hz": [
+            80,
+            160,
+            240
+          ]
+        },
+        {
+          "name": "medium_quadcopter",
+          "mass_kg": 2.0,
+          "wingspan_m": 0.5,
+          "rcs_mean_m2": 0.01,
+          "rcs_std_m2": 0.008,
+          "swerling_type": 1,
+          "micro_doppler_hz": [
+            60,
+            120,
+            180
+          ]
+        },
+        {
+          "name": "large_hexacopter",
+          "mass_kg": 10.0,
+          "wingspan_m": 1.0,
+          "rcs_mean_m2": 0.05,
+          "rcs_std_m2": 0.03,
+          "swerling_type": 1,
+          "micro_doppler_hz": [
+            40,
+            80,
+            120
+          ]
+        },
+        {
+          "name": "fixed_wing_small",
+          "mass_kg": 3.0,
+          "wingspan_m": 1.5,
+          "rcs_mean_m2": 0.02,
+          "rcs_std_m2": 0.01,
+          "swerling_type": 3,
+          "micro_doppler_hz": [
+            20
+          ]
+        },
+        {
+          "name": "racing_drone",
+          "mass_kg": 0.8,
+          "wingspan_m": 0.25,
+          "rcs_mean_m2": 0.003,
+          "rcs_std_m2": 0.002,
+          "swerling_type": 1,
+          "micro_doppler_hz": [
+            150,
+            300,
+            450
+          ]
+        }
+      ]
+    },
+    "propagation": {
+      "count": 5,
+      "format": "CSV (time-varying atmospheric conditions)",
+      "conditions": [
+        {
+          "name": "clear",
+          "rain_rate_mmhr": 0,
+          "atm_loss_db_km": 0.02,
+          "visibility_km": 20,
+          "turbulence_cn2": 1e-15
+        },
+        {
+          "name": "light_rain",
+          "rain_rate_mmhr": 5,
+          "atm_loss_db_km": 0.05,
+          "visibility_km": 5,
+          "turbulence_cn2": 5e-15
+        },
+        {
+          "name": "heavy_rain",
+          "rain_rate_mmhr": 25,
+          "atm_loss_db_km": 0.15,
+          "visibility_km": 2,
+          "turbulence_cn2": 1e-14
+        },
+        {
+          "name": "fog",
+          "rain_rate_mmhr": 0,
+          "atm_loss_db_km": 0.5,
+          "visibility_km": 0.2,
+          "turbulence_cn2": 1e-16
+        },
+        {
+          "name": "snow",
+          "rain_rate_mmhr": 0,
+          "atm_loss_db_km": 0.3,
+          "visibility_km": 1,
+          "turbulence_cn2": 5e-16
+        }
+      ]
+    },
+    "interference": {
+      "count": 4,
+      "format": "JSON (interferer parameters)"
+    }
+  },
+  "seed": 42
+}
