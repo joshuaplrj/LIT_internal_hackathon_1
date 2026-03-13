@@ -1,0 +1,106 @@
+version: '3.8'
+
+services:
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://smartcity:password@postgres:5432/smartcity
+      - REDIS_URL=redis://redis:6379
+      - NEO4J_URL=bolt://neo4j:7687
+    depends_on:
+      - postgres
+      - redis
+      - neo4j
+    volumes:
+      - ./backend:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend/src:/app/src
+
+  # PostgreSQL (Time-series data)
+  postgres:
+    image: timescale/timescaledb:latest-pg14
+    environment:
+      - POSTGRES_DB=smartcity
+      - POSTGRES_USER=smartcity
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  # Redis (Cache and message broker)
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # Neo4j (Graph database for road network)
+  neo4j:
+    image: neo4j:5-community
+    environment:
+      - NEO4J_AUTH=neo4j/password
+      - NEO4J_PLUGINS=["apoc"]
+    ports:
+      - "7474:7474"  # HTTP
+      - "7687:7687"  # Bolt
+    volumes:
+      - neo4j_data:/data
+
+  # Data Generator
+  data-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile.generator
+    environment:
+      - BACKEND_URL=http://backend:8000
+    depends_on:
+      - backend
+    command: python data_generator.py
+
+  # Monitoring (optional)
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+
+volumes:
+  postgres_data:
+  redis_data:
+  neo4j_data:
+  prometheus_data:
+  grafana_data:
