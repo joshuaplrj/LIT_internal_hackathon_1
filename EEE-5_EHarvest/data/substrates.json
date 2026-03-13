@@ -1,0 +1,67 @@
+{
+  "pcb_substrates": [
+    {
+      "name": "FR4",
+      "er": 4.4,
+      "tan_delta": 0.02,
+      "thickness_mm": [
+        0.8,
+        1.0,
+        1.6
+      ],
+      "copper_thickness_um": [
+        18,
+        35
+      ],
+      "cost_relative": 1.0,
+      "max_frequency_GHz": 3.0,
+      "note": "Standard, adequate for 900 MHz - 2.4 GHz"
+    },
+    {
+      "name": "Rogers RO4003C",
+      "er": 3.38,
+      "tan_delta": 0.0027,
+      "thickness_mm": [
+        0.508,
+        0.813,
+        1.524
+      ],
+      "copper_thickness_um": [
+        18,
+        35
+      ],
+      "cost_relative": 5.0,
+      "max_frequency_GHz": 18.0,
+      "note": "Low loss, excellent for RF circuits"
+    },
+    {
+      "name": "Rogers RT/duroid 5880",
+      "er": 2.2,
+      "tan_delta": 0.0009,
+      "thickness_mm": [
+        0.787,
+        1.575
+      ],
+      "copper_thickness_um": [
+        18,
+        35
+      ],
+      "cost_relative": 8.0,
+      "max_frequency_GHz": 40.0,
+      "note": "Very low loss, best RF performance"
+    }
+  ],
+  "microstrip_equations": {
+    "effective_er": "er_eff = (er+1)/2 + (er-1)/2 * (1+12*h/W)^(-0.5)",
+    "characteristic_impedance": "Z0 = (120*pi) / (sqrt(er_eff) * (W/h + 1.393 + 0.667*ln(W/h + 1.444)))",
+    "wavelength": "lambda = c / (f * sqrt(er_eff))"
+  },
+  "design_constraint": {
+    "pcb_size_mm": {
+      "W": 50,
+      "L": 50
+    },
+    "layers": 2,
+    "note": "Must fit entire rectenna on 50x50mm 2-layer PCB"
+  }
+}

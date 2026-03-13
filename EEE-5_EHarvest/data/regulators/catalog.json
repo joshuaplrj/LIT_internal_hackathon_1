@@ -1,0 +1,74 @@
+{
+  "regulators": [
+    {
+      "part": "TPS7A02",
+      "type": "Ultra-low Iq LDO",
+      "manufacturer": "TI",
+      "Vin_min_V": 1.1,
+      "Vin_max_V": 6.5,
+      "Vout_V": 1.8,
+      "Iq_nA": 25,
+      "Iout_max_mA": 200,
+      "dropout_mV": 100,
+      "noise_uV_rms": 6.6,
+      "PSRR_dB_1kHz": 62,
+      "package": "SOT-23-5",
+      "cost_usd": 0.8,
+      "note": "Best for ultra-low power, 25nA quiescent"
+    },
+    {
+      "part": "ADP151",
+      "type": "Ultra-low noise LDO",
+      "manufacturer": "Analog Devices",
+      "Vin_min_V": 2.2,
+      "Vin_max_V": 5.5,
+      "Vout_V": 1.8,
+      "Iq_nA": 9000,
+      "Iout_max_mA": 200,
+      "dropout_mV": 150,
+      "noise_uV_rms": 9,
+      "PSRR_dB_1kHz": 70,
+      "package": "TSOT-5",
+      "cost_usd": 1.2,
+      "note": "Very low noise, good for sensor applications"
+    },
+    {
+      "part": "BQ25570",
+      "type": "MPPT Energy Harvester",
+      "manufacturer": "TI",
+      "Vin_min_V": 0.1,
+      "Vin_max_V": 5.1,
+      "Vout_V": "Programmable 1.8-5.0",
+      "Iq_nA": 488,
+      "Iout_max_mA": 110,
+      "features": [
+        "Cold start from 330mV/15uW",
+        "MPPT",
+        "Programmable Vout",
+        "Battery management"
+      ],
+      "efficiency_pct": 90,
+      "package": "QFN-20",
+      "cost_usd": 3.5,
+      "note": "Complete energy harvesting solution with MPPT"
+    },
+    {
+      "part": "SPV1040",
+      "type": "Boost converter for energy harvesting",
+      "manufacturer": "STMicroelectronics",
+      "Vin_min_V": 0.3,
+      "Vin_max_V": 5.5,
+      "Vout_V": "Up to 5.2",
+      "Iq_uA": 4,
+      "Iout_max_mA": 70,
+      "features": [
+        "Built-in MPPT",
+        "93% peak efficiency"
+      ],
+      "efficiency_pct": 93,
+      "package": "TSSOP-8",
+      "cost_usd": 2.8,
+      "note": "Good for boosting low RF rectifier output"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "storage_capacitors": [
+    {
+      "type": "MLCC (Ceramic)",
+      "part": "GRM219R71E105KA12",
+      "capacitance_uF": 1,
+      "voltage_V": 25,
+      "ESR_mOhm": 50,
+      "leakage_nA": 10,
+      "size_mm": "0805",
+      "energy_uJ": 313,
+      "cost_usd": 0.05
+    },
+    {
+      "type": "MLCC (Ceramic)",
+      "part": "GRM32ER71A106KA12",
+      "capacitance_uF": 10,
+      "voltage_V": 10,
+      "ESR_mOhm": 20,
+      "leakage_nA": 50,
+      "size_mm": "1206",
+      "energy_uJ": 500,
+      "cost_usd": 0.1
+    },
+    {
+      "type": "Tantalum",
+      "part": "TAJA106K010RNJ",
+      "capacitance_uF": 10,
+      "voltage_V": 10,
+      "ESR_mOhm": 2000,
+      "leakage_uA": 1,
+      "size_mm": "1206",
+      "energy_uJ": 500,
+      "cost_usd": 0.2
+    },
+    {
+      "type": "Supercapacitor",
+      "part": "CPH3225A",
+      "capacitance_mF": 11,
+      "voltage_V": 3.3,
+      "ESR_Ohm": 70,
+      "leakage_uA": 1.5,
+      "size_mm": "3.2x2.5x0.9",
+      "energy_mJ": 59.9,
+      "cost_usd": 2.5,
+      "note": "Thin-film supercap, good for energy buffering"
+    },
+    {
+      "type": "Supercapacitor",
+      "part": "DMF3Z5R5H474M3DTA0",
+      "capacitance_mF": 470,
+      "voltage_V": 5.5,
+      "ESR_Ohm": 25,
+      "leakage_uA": 5,
+      "size_mm": "Coin 13.5x5.5",
+      "energy_mJ": 7108,
+      "cost_usd": 4.0,
+      "note": "Higher capacity for intermittent operation"
+    }
+  ],
+  "sizing_formula": {
+    "energy_storage": "E = 0.5 * C * (V_max^2 - V_min^2)",
+    "discharge_time": "t = C * (V_max - V_min) / I_load",
+    "example": {
+      "C_uF": 470000,
+      "V_max": 3.3,
+      "V_min": 1.8,
+      "I_load_uA": 100,
+      "discharge_time_s": 7050
+    }
+  }
+}

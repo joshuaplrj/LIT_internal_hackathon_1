@@ -1,0 +1,320 @@
+{
+  "bands": [
+    {
+      "name": "FM_Radio",
+      "center_MHz": 100,
+      "BW_MHz": 20,
+      "avg_dBm": -25,
+      "std_dB": 5
+    },
+    {
+      "name": "TV_VHF",
+      "center_MHz": 200,
+      "BW_MHz": 50,
+      "avg_dBm": -30,
+      "std_dB": 8
+    },
+    {
+      "name": "TV_UHF",
+      "center_MHz": 600,
+      "BW_MHz": 100,
+      "avg_dBm": -28,
+      "std_dB": 7
+    },
+    {
+      "name": "GSM_900",
+      "center_MHz": 940,
+      "BW_MHz": 35,
+      "avg_dBm": -18,
+      "std_dB": 6
+    },
+    {
+      "name": "GSM_1800",
+      "center_MHz": 1840,
+      "BW_MHz": 75,
+      "avg_dBm": -22,
+      "std_dB": 7
+    },
+    {
+      "name": "UMTS_2100",
+      "center_MHz": 2140,
+      "BW_MHz": 60,
+      "avg_dBm": -24,
+      "std_dB": 6
+    },
+    {
+      "name": "WiFi_2400",
+      "center_MHz": 2440,
+      "BW_MHz": 100,
+      "avg_dBm": -30,
+      "std_dB": 10
+    },
+    {
+      "name": "LTE_700",
+      "center_MHz": 740,
+      "BW_MHz": 30,
+      "avg_dBm": -20,
+      "std_dB": 5
+    },
+    {
+      "name": "LTE_1900",
+      "center_MHz": 1950,
+      "BW_MHz": 60,
+      "avg_dBm": -23,
+      "std_dB": 6
+    }
+  ],
+  "location_survey": [
+    {
+      "distance_m": 10,
+      "P_900MHz_dBm": -7.5,
+      "P_2400MHz_dBm": -40.0
+    },
+    {
+      "distance_m": 20,
+      "P_900MHz_dBm": -15.5,
+      "P_2400MHz_dBm": -54.6
+    },
+    {
+      "distance_m": 30,
+      "P_900MHz_dBm": -19.8,
+      "P_2400MHz_dBm": -51.7
+    },
+    {
+      "distance_m": 40,
+      "P_900MHz_dBm": -23.8,
+      "P_2400MHz_dBm": -53.1
+    },
+    {
+      "distance_m": 50,
+      "P_900MHz_dBm": -20.9,
+      "P_2400MHz_dBm": -42.7
+    },
+    {
+      "distance_m": 60,
+      "P_900MHz_dBm": -23.4,
+      "P_2400MHz_dBm": -54.1
+    },
+    {
+      "distance_m": 70,
+      "P_900MHz_dBm": -25.7,
+      "P_2400MHz_dBm": -68.5
+    },
+    {
+      "distance_m": 80,
+      "P_900MHz_dBm": -26.7,
+      "P_2400MHz_dBm": -57.8
+    },
+    {
+      "distance_m": 90,
+      "P_900MHz_dBm": -17.8,
+      "P_2400MHz_dBm": -60.3
+    },
+    {
+      "distance_m": 100,
+      "P_900MHz_dBm": -27.3,
+      "P_2400MHz_dBm": -60.3
+    },
+    {
+      "distance_m": 110,
+      "P_900MHz_dBm": -34.0,
+      "P_2400MHz_dBm": -54.0
+    },
+    {
+      "distance_m": 120,
+      "P_900MHz_dBm": -27.1,
+      "P_2400MHz_dBm": -56.9
+    },
+    {
+      "distance_m": 130,
+      "P_900MHz_dBm": -34.5,
+      "P_2400MHz_dBm": -53.9
+    },
+    {
+      "distance_m": 140,
+      "P_900MHz_dBm": -37.1,
+      "P_2400MHz_dBm": -59.5
+    },
+    {
+      "distance_m": 150,
+      "P_900MHz_dBm": -23.3,
+      "P_2400MHz_dBm": -69.5
+    },
+    {
+      "distance_m": 160,
+      "P_900MHz_dBm": -34.9,
+      "P_2400MHz_dBm": -63.5
+    },
+    {
+      "distance_m": 170,
+      "P_900MHz_dBm": -35.2,
+      "P_2400MHz_dBm": -74.0
+    },
+    {
+      "distance_m": 180,
+      "P_900MHz_dBm": -33.4,
+      "P_2400MHz_dBm": -71.5
+    },
+    {
+      "distance_m": 190,
+      "P_900MHz_dBm": -32.2,
+      "P_2400MHz_dBm": -71.1
+    },
+    {
+      "distance_m": 200,
+      "P_900MHz_dBm": -28.4,
+      "P_2400MHz_dBm": -70.8
+    },
+    {
+      "distance_m": 210,
+      "P_900MHz_dBm": -36.3,
+      "P_2400MHz_dBm": -61.6
+    },
+    {
+      "distance_m": 220,
+      "P_900MHz_dBm": -40.3,
+      "P_2400MHz_dBm": -65.5
+    },
+    {
+      "distance_m": 230,
+      "P_900MHz_dBm": -30.5,
+      "P_2400MHz_dBm": -76.9
+    },
+    {
+      "distance_m": 240,
+      "P_900MHz_dBm": -35.4,
+      "P_2400MHz_dBm": -66.1
+    },
+    {
+      "distance_m": 250,
+      "P_900MHz_dBm": -33.4,
+      "P_2400MHz_dBm": -75.4
+    },
+    {
+      "distance_m": 260,
+      "P_900MHz_dBm": -42.1,
+      "P_2400MHz_dBm": -65.2
+    },
+    {
+      "distance_m": 270,
+      "P_900MHz_dBm": -36.0,
+      "P_2400MHz_dBm": -67.2
+    },
+    {
+      "distance_m": 280,
+      "P_900MHz_dBm": -36.1,
+      "P_2400MHz_dBm": -73.1
+    },
+    {
+      "distance_m": 290,
+      "P_900MHz_dBm": -36.9,
+      "P_2400MHz_dBm": -67.5
+    },
+    {
+      "distance_m": 300,
+      "P_900MHz_dBm": -40.9,
+      "P_2400MHz_dBm": -58.4
+    },
+    {
+      "distance_m": 310,
+      "P_900MHz_dBm": -36.5,
+      "P_2400MHz_dBm": -77.0
+    },
+    {
+      "distance_m": 320,
+      "P_900MHz_dBm": -36.0,
+      "P_2400MHz_dBm": -76.0
+    },
+    {
+      "distance_m": 330,
+      "P_900MHz_dBm": -35.8,
+      "P_2400MHz_dBm": -63.5
+    },
+    {
+      "distance_m": 340,
+      "P_900MHz_dBm": -42.4,
+      "P_2400MHz_dBm": -64.9
+    },
+    {
+      "distance_m": 350,
+      "P_900MHz_dBm": -37.8,
+      "P_2400MHz_dBm": -66.0
+    },
+    {
+      "distance_m": 360,
+      "P_900MHz_dBm": -32.1,
+      "P_2400MHz_dBm": -72.7
+    },
+    {
+      "distance_m": 370,
+      "P_900MHz_dBm": -42.9,
+      "P_2400MHz_dBm": -76.8
+    },
+    {
+      "distance_m": 380,
+      "P_900MHz_dBm": -43.4,
+      "P_2400MHz_dBm": -72.1
+    },
+    {
+      "distance_m": 390,
+      "P_900MHz_dBm": -39.0,
+      "P_2400MHz_dBm": -70.2
+    },
+    {
+      "distance_m": 400,
+      "P_900MHz_dBm": -37.3,
+      "P_2400MHz_dBm": -72.0
+    },
+    {
+      "distance_m": 410,
+      "P_900MHz_dBm": -35.0,
+      "P_2400MHz_dBm": -73.9
+    },
+    {
+      "distance_m": 420,
+      "P_900MHz_dBm": -30.1,
+      "P_2400MHz_dBm": -68.8
+    },
+    {
+      "distance_m": 430,
+      "P_900MHz_dBm": -44.6,
+      "P_2400MHz_dBm": -79.1
+    },
+    {
+      "distance_m": 440,
+      "P_900MHz_dBm": -39.5,
+      "P_2400MHz_dBm": -74.3
+    },
+    {
+      "distance_m": 450,
+      "P_900MHz_dBm": -38.7,
+      "P_2400MHz_dBm": -70.3
+    },
+    {
+      "distance_m": 460,
+      "P_900MHz_dBm": -42.1,
+      "P_2400MHz_dBm": -78.4
+    },
+    {
+      "distance_m": 470,
+      "P_900MHz_dBm": -48.0,
+      "P_2400MHz_dBm": -76.2
+    },
+    {
+      "distance_m": 480,
+      "P_900MHz_dBm": -38.7,
+      "P_2400MHz_dBm": -72.4
+    },
+    {
+      "distance_m": 490,
+      "P_900MHz_dBm": -47.3,
+      "P_2400MHz_dBm": -72.8
+    },
+    {
+      "distance_m": 500,
+      "P_900MHz_dBm": -41.0,
+      "P_2400MHz_dBm": -79.3
+    }
+  ],
+  "notes": "Urban environment, measurements at 1.5m height"
+}

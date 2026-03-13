@@ -1,0 +1,90 @@
+{
+  "diodes": [
+    {
+      "part": "HSMS-2850",
+      "manufacturer": "Broadcom",
+      "type": "Zero-bias Schottky",
+      "Vf_mV": 150,
+      "Is_nA": 3000,
+      "n": 1.06,
+      "Rs_Ohm": 25,
+      "Cj0_pF": 0.18,
+      "BV_V": 3.8,
+      "package": "SOT-23",
+      "frequency_range": "Up to 6 GHz",
+      "best_for": "High power (> -20 dBm)",
+      "cost_usd": 0.4
+    },
+    {
+      "part": "HSMS-2860",
+      "manufacturer": "Broadcom",
+      "type": "DC-biased Schottky",
+      "Vf_mV": 350,
+      "Is_nA": 50,
+      "n": 1.08,
+      "Rs_Ohm": 6,
+      "Cj0_pF": 0.18,
+      "BV_V": 7.0,
+      "package": "SOT-23",
+      "frequency_range": "Up to 4 GHz",
+      "best_for": "Higher voltage applications",
+      "cost_usd": 0.35
+    },
+    {
+      "part": "SMS7630",
+      "manufacturer": "Skyworks",
+      "type": "Zero-bias Schottky",
+      "Vf_mV": 90,
+      "Is_nA": 5000,
+      "n": 1.05,
+      "Rs_Ohm": 20,
+      "Cj0_pF": 0.14,
+      "BV_V": 2.0,
+      "package": "SC-79",
+      "frequency_range": "Up to 24 GHz",
+      "best_for": "Very low power (< -20 dBm)",
+      "cost_usd": 0.6
+    },
+    {
+      "part": "HSMS-2820",
+      "manufacturer": "Broadcom",
+      "type": "Zero-bias Schottky",
+      "Vf_mV": 340,
+      "Is_nA": 22,
+      "n": 1.08,
+      "Rs_Ohm": 6,
+      "Cj0_pF": 0.7,
+      "BV_V": 15.0,
+      "package": "SOT-23",
+      "frequency_range": "Up to 4 GHz",
+      "best_for": "Detector/mixer applications",
+      "cost_usd": 0.3
+    }
+  ],
+  "rectifier_topologies": [
+    {
+      "name": "Single Series",
+      "stages": 1,
+      "Vout_approx": "Vpeak - Vf",
+      "best_for": "Highest efficiency at moderate power"
+    },
+    {
+      "name": "Voltage Doubler",
+      "stages": 2,
+      "Vout_approx": "2*(Vpeak - Vf)",
+      "best_for": "Higher output voltage, moderate efficiency"
+    },
+    {
+      "name": "Dickson 3-stage",
+      "stages": 3,
+      "Vout_approx": "3*(Vpeak - Vf)",
+      "best_for": "Very low input power, high output voltage"
+    },
+    {
+      "name": "Dickson 5-stage",
+      "stages": 5,
+      "Vout_approx": "5*(Vpeak - Vf)",
+      "best_for": "Extremely low input power"
+    }
+  ]
+}

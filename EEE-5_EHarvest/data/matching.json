@@ -1,0 +1,156 @@
+{
+  "rectifier_impedances": [
+    {
+      "frequency_MHz": 900,
+      "input_power_dBm": -20,
+      "Z_real_Ohm": 210.9,
+      "Z_imag_Ohm": -82.4
+    },
+    {
+      "frequency_MHz": 900,
+      "input_power_dBm": -15,
+      "Z_real_Ohm": 145.8,
+      "Z_imag_Ohm": -56.8
+    },
+    {
+      "frequency_MHz": 900,
+      "input_power_dBm": -10,
+      "Z_real_Ohm": 89.4,
+      "Z_imag_Ohm": -31.6
+    },
+    {
+      "frequency_MHz": 900,
+      "input_power_dBm": -5,
+      "Z_real_Ohm": 46.2,
+      "Z_imag_Ohm": -4.5
+    },
+    {
+      "frequency_MHz": 900,
+      "input_power_dBm": 0,
+      "Z_real_Ohm": 1.7,
+      "Z_imag_Ohm": 25.6
+    },
+    {
+      "frequency_MHz": 1200,
+      "input_power_dBm": -20,
+      "Z_real_Ohm": 204.8,
+      "Z_imag_Ohm": -75.7
+    },
+    {
+      "frequency_MHz": 1200,
+      "input_power_dBm": -15,
+      "Z_real_Ohm": 145.5,
+      "Z_imag_Ohm": -47.5
+    },
+    {
+      "frequency_MHz": 1200,
+      "input_power_dBm": -10,
+      "Z_real_Ohm": 93.4,
+      "Z_imag_Ohm": -18.5
+    },
+    {
+      "frequency_MHz": 1200,
+      "input_power_dBm": -5,
+      "Z_real_Ohm": 55.9,
+      "Z_imag_Ohm": -0.4
+    },
+    {
+      "frequency_MHz": 1200,
+      "input_power_dBm": 0,
+      "Z_real_Ohm": -8.6,
+      "Z_imag_Ohm": 30.1
+    },
+    {
+      "frequency_MHz": 1800,
+      "input_power_dBm": -20,
+      "Z_real_Ohm": 199.4,
+      "Z_imag_Ohm": -58.3
+    },
+    {
+      "frequency_MHz": 1800,
+      "input_power_dBm": -15,
+      "Z_real_Ohm": 142.0,
+      "Z_imag_Ohm": -38.8
+    },
+    {
+      "frequency_MHz": 1800,
+      "input_power_dBm": -10,
+      "Z_real_Ohm": 100.0,
+      "Z_imag_Ohm": -11.9
+    },
+    {
+      "frequency_MHz": 1800,
+      "input_power_dBm": -5,
+      "Z_real_Ohm": 47.7,
+      "Z_imag_Ohm": 14.9
+    },
+    {
+      "frequency_MHz": 1800,
+      "input_power_dBm": 0,
+      "Z_real_Ohm": -5.3,
+      "Z_imag_Ohm": 37.6
+    },
+    {
+      "frequency_MHz": 2400,
+      "input_power_dBm": -20,
+      "Z_real_Ohm": 200.6,
+      "Z_imag_Ohm": -48.5
+    },
+    {
+      "frequency_MHz": 2400,
+      "input_power_dBm": -15,
+      "Z_real_Ohm": 153.6,
+      "Z_imag_Ohm": -28.4
+    },
+    {
+      "frequency_MHz": 2400,
+      "input_power_dBm": -10,
+      "Z_real_Ohm": 92.3,
+      "Z_imag_Ohm": 3.8
+    },
+    {
+      "frequency_MHz": 2400,
+      "input_power_dBm": -5,
+      "Z_real_Ohm": 51.7,
+      "Z_imag_Ohm": 22.8
+    },
+    {
+      "frequency_MHz": 2400,
+      "input_power_dBm": 0,
+      "Z_real_Ohm": 7.8,
+      "Z_imag_Ohm": 50.3
+    }
+  ],
+  "source_impedance_Ohm": 50,
+  "matching_topologies": [
+    {
+      "name": "L-network (series L, shunt C)",
+      "suitable_when": "Z_load > Z_source",
+      "Q_factor": "sqrt(R_load/R_source - 1)",
+      "bandwidth": "Narrow (5-10%)"
+    },
+    {
+      "name": "Pi-network",
+      "suitable_when": "Need wider bandwidth",
+      "Q_factor": "Adjustable",
+      "bandwidth": "Medium (10-20%)"
+    },
+    {
+      "name": "T-network",
+      "suitable_when": "Need impedance step-up",
+      "Q_factor": "Adjustable",
+      "bandwidth": "Medium (10-20%)"
+    },
+    {
+      "name": "Multi-section matching",
+      "suitable_when": "Wideband 900-2400 MHz",
+      "Q_factor": "Low",
+      "bandwidth": "Wide (>50%)"
+    }
+  ],
+  "notes": [
+    "Rectifier impedance is power-dependent \u2014 match at expected operating power",
+    "Conjugate match: Z_match = Z_rect* for maximum power transfer",
+    "Component parasitics matter above 1 GHz \u2014 use distributed elements"
+  ]
+}
