@@ -1,0 +1,4538 @@
+{
+  "microservice-01": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-01",
+        "version": "0.12.24"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "company-common_88",
+        "version": "2.5.17",
+        "purl": "pkg:pypi/company-common_88@2.5.17"
+      },
+      {
+        "type": "library",
+        "name": "company/worker:79.0",
+        "version": "2.5.18",
+        "purl": "pkg:docker/company/worker:79.0@2.5.18"
+      },
+      {
+        "type": "library",
+        "name": "@internal/auth-38",
+        "version": "3.8.3",
+        "purl": "pkg:npm/@internal/auth-38@3.8.3"
+      },
+      {
+        "type": "library",
+        "name": "company-sdk_77",
+        "version": "0.14.16",
+        "purl": "pkg:pypi/company-sdk_77@0.14.16"
+      },
+      {
+        "type": "library",
+        "name": "@company/auth-232",
+        "version": "2.15.33",
+        "purl": "pkg:npm/@company/auth-232@2.15.33"
+      },
+      {
+        "type": "library",
+        "name": "company/queue:72.0",
+        "version": "3.18.30",
+        "purl": "pkg:docker/company/queue:72.0@3.18.30"
+      },
+      {
+        "type": "library",
+        "name": "@internal/helpers-141",
+        "version": "0.20.41",
+        "purl": "pkg:npm/@internal/helpers-141@0.20.41"
+      },
+      {
+        "type": "library",
+        "name": "internal-core_143",
+        "version": "1.0.44",
+        "purl": "pkg:pypi/internal-core_143@1.0.44"
+      },
+      {
+        "type": "library",
+        "name": "@company/utils-218",
+        "version": "2.12.39",
+        "purl": "pkg:npm/@company/utils-218@2.12.39"
+      },
+      {
+        "type": "library",
+        "name": "internal-helpers_104",
+        "version": "3.19.38",
+        "purl": "pkg:pypi/internal-helpers_104@3.19.38"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/cache:62.0",
+        "version": "3.5.4",
+        "purl": "pkg:docker/registry.io/cache:62.0@3.5.4"
+      },
+      {
+        "type": "library",
+        "name": "company-queue_91",
+        "version": "2.3.27",
+        "purl": "pkg:pypi/company-queue_91@2.3.27"
+      },
+      {
+        "type": "library",
+        "name": "internal-common_144",
+        "version": "1.20.36",
+        "purl": "pkg:pypi/internal-common_144@1.20.36"
+      },
+      {
+        "type": "library",
+        "name": "@company/client-165",
+        "version": "2.2.41",
+        "purl": "pkg:npm/@company/client-165@2.2.41"
+      },
+      {
+        "type": "library",
+        "name": "@internal/api-131",
+        "version": "1.11.6",
+        "purl": "pkg:npm/@internal/api-131@1.11.6"
+      },
+      {
+        "type": "library",
+        "name": "lib-82",
+        "version": "2.3.47",
+        "purl": "pkg:npm/lib-82@2.3.47"
+      },
+      {
+        "type": "library",
+        "name": "company-helpers_149",
+        "version": "2.5.24",
+        "purl": "pkg:pypi/company-helpers_149@2.5.24"
+      },
+      {
+        "type": "library",
+        "name": "@company/queue-37",
+        "version": "1.8.18",
+        "purl": "pkg:npm/@company/queue-37@1.8.18"
+      },
+      {
+        "type": "library",
+        "name": "internal-core_147",
+        "version": "3.15.24",
+        "purl": "pkg:pypi/internal-core_147@3.15.24"
+      }
+    ]
+  },
+  "microservice-02": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-02",
+        "version": "3.6.39"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "api-91",
+        "version": "2.1.14",
+        "purl": "pkg:npm/api-91@2.1.14"
+      },
+      {
+        "type": "library",
+        "name": "@company/lib-225",
+        "version": "3.16.2",
+        "purl": "pkg:npm/@company/lib-225@3.16.2"
+      },
+      {
+        "type": "library",
+        "name": "@company/common-35",
+        "version": "1.11.18",
+        "purl": "pkg:npm/@company/common-35@1.11.18"
+      },
+      {
+        "type": "library",
+        "name": "internal-server_1",
+        "version": "3.17.42",
+        "purl": "pkg:pypi/internal-server_1@3.17.42"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/queue:75.0",
+        "version": "2.17.20",
+        "purl": "pkg:docker/registry.io/queue:75.0@2.17.20"
+      },
+      {
+        "type": "library",
+        "name": "@company/sdk-102",
+        "version": "1.9.28",
+        "purl": "pkg:npm/@company/sdk-102@1.9.28"
+      },
+      {
+        "type": "library",
+        "name": "internal-helpers_62",
+        "version": "3.14.20",
+        "purl": "pkg:pypi/internal-helpers_62@3.14.20"
+      },
+      {
+        "type": "library",
+        "name": "@internal/api-201",
+        "version": "0.18.8",
+        "purl": "pkg:npm/@internal/api-201@0.18.8"
+      },
+      {
+        "type": "library",
+        "name": "internal-config_80",
+        "version": "0.4.48",
+        "purl": "pkg:pypi/internal-config_80@0.4.48"
+      },
+      {
+        "type": "library",
+        "name": "config-55",
+        "version": "0.14.26",
+        "purl": "pkg:npm/config-55@0.14.26"
+      },
+      {
+        "type": "library",
+        "name": "@internal/helpers-73",
+        "version": "2.0.26",
+        "purl": "pkg:npm/@internal/helpers-73@2.0.26"
+      },
+      {
+        "type": "library",
+        "name": "core_26",
+        "version": "0.8.35",
+        "purl": "pkg:pypi/core_26@0.8.35"
+      },
+      {
+        "type": "library",
+        "name": "internal-core_143",
+        "version": "1.0.44",
+        "purl": "pkg:pypi/internal-core_143@1.0.44"
+      }
+    ]
+  },
+  "microservice-03": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-03",
+        "version": "0.1.42"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/lib-52",
+        "version": "3.18.38",
+        "purl": "pkg:npm/@internal/lib-52@3.18.38"
+      },
+      {
+        "type": "library",
+        "name": "@internal/lib-17",
+        "version": "0.7.36",
+        "purl": "pkg:npm/@internal/lib-17@0.7.36"
+      },
+      {
+        "type": "library",
+        "name": "@company/queue-37",
+        "version": "1.8.18",
+        "purl": "pkg:npm/@company/queue-37@1.8.18"
+      },
+      {
+        "type": "library",
+        "name": "auth-36",
+        "version": "0.17.19",
+        "purl": "pkg:npm/auth-36@0.17.19"
+      },
+      {
+        "type": "library",
+        "name": "server_42",
+        "version": "2.0.40",
+        "purl": "pkg:pypi/server_42@2.0.40"
+      },
+      {
+        "type": "library",
+        "name": "company-core_122",
+        "version": "0.5.28",
+        "purl": "pkg:pypi/company-core_122@0.5.28"
+      },
+      {
+        "type": "library",
+        "name": "sdk-128",
+        "version": "3.3.8",
+        "purl": "pkg:npm/sdk-128@3.3.8"
+      },
+      {
+        "type": "library",
+        "name": "internal-core_147",
+        "version": "3.15.24",
+        "purl": "pkg:pypi/internal-core_147@3.15.24"
+      },
+      {
+        "type": "library",
+        "name": "@company/client-228",
+        "version": "2.3.26",
+        "purl": "pkg:npm/@company/client-228@2.3.26"
+      },
+      {
+        "type": "library",
+        "name": "@internal/server-9",
+        "version": "2.2.13",
+        "purl": "pkg:npm/@internal/server-9@2.2.13"
+      },
+      {
+        "type": "library",
+        "name": "internal/cache:59.0",
+        "version": "0.2.16",
+        "purl": "pkg:docker/internal/cache:59.0@0.2.16"
+      },
+      {
+        "type": "library",
+        "name": "company-cache_4",
+        "version": "1.18.31",
+        "purl": "pkg:pypi/company-cache_4@1.18.31"
+      },
+      {
+        "type": "library",
+        "name": "@company/logger-76",
+        "version": "3.18.39",
+        "purl": "pkg:npm/@company/logger-76@3.18.39"
+      }
+    ]
+  },
+  "microservice-04": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-04",
+        "version": "0.17.14"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "internal/base:63.0",
+        "version": "1.17.41",
+        "purl": "pkg:docker/internal/base:63.0@1.17.41"
+      },
+      {
+        "type": "library",
+        "name": "client-200",
+        "version": "2.12.36",
+        "purl": "pkg:npm/client-200@2.12.36"
+      },
+      {
+        "type": "library",
+        "name": "helpers_44",
+        "version": "0.8.9",
+        "purl": "pkg:pypi/helpers_44@0.8.9"
+      },
+      {
+        "type": "library",
+        "name": "auth-1",
+        "version": "3.7.28",
+        "purl": "pkg:npm/auth-1@3.7.28"
+      },
+      {
+        "type": "library",
+        "name": "queue_13",
+        "version": "0.7.47",
+        "purl": "pkg:pypi/queue_13@0.7.47"
+      },
+      {
+        "type": "library",
+        "name": "client_112",
+        "version": "0.16.43",
+        "purl": "pkg:pypi/client_112@0.16.43"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/gateway:81.0",
+        "version": "2.1.24",
+        "purl": "pkg:docker/registry.io/gateway:81.0@2.1.24"
+      },
+      {
+        "type": "library",
+        "name": "internal-common_144",
+        "version": "1.20.36",
+        "purl": "pkg:pypi/internal-common_144@1.20.36"
+      },
+      {
+        "type": "library",
+        "name": "internal-server_1",
+        "version": "3.17.42",
+        "purl": "pkg:pypi/internal-server_1@3.17.42"
+      },
+      {
+        "type": "library",
+        "name": "@internal/lib-244",
+        "version": "0.10.10",
+        "purl": "pkg:npm/@internal/lib-244@0.10.10"
+      },
+      {
+        "type": "library",
+        "name": "auth-223",
+        "version": "1.11.35",
+        "purl": "pkg:npm/auth-223@1.11.35"
+      },
+      {
+        "type": "library",
+        "name": "@company/logger-206",
+        "version": "1.7.50",
+        "purl": "pkg:npm/@company/logger-206@1.7.50"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/queue:32.0",
+        "version": "3.11.32",
+        "purl": "pkg:docker/registry.io/queue:32.0@3.11.32"
+      },
+      {
+        "type": "library",
+        "name": "company-core_122",
+        "version": "0.5.28",
+        "purl": "pkg:pypi/company-core_122@0.5.28"
+      },
+      {
+        "type": "library",
+        "name": "company-helpers_149",
+        "version": "2.5.24",
+        "purl": "pkg:pypi/company-helpers_149@2.5.24"
+      }
+    ]
+  },
+  "microservice-05": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-05",
+        "version": "3.9.41"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/client-62",
+        "version": "3.13.3",
+        "purl": "pkg:npm/@internal/client-62@3.13.3"
+      },
+      {
+        "type": "library",
+        "name": "internal-cache_40",
+        "version": "2.12.48",
+        "purl": "pkg:pypi/internal-cache_40@2.12.48"
+      },
+      {
+        "type": "library",
+        "name": "client_24",
+        "version": "2.8.23",
+        "purl": "pkg:pypi/client_24@2.8.23"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/api:78.0",
+        "version": "3.0.33",
+        "purl": "pkg:docker/registry.io/api:78.0@3.0.33"
+      },
+      {
+        "type": "library",
+        "name": "cache-183",
+        "version": "2.4.8",
+        "purl": "pkg:npm/cache-183@2.4.8"
+      },
+      {
+        "type": "library",
+        "name": "server-170",
+        "version": "2.8.46",
+        "purl": "pkg:npm/server-170@2.8.46"
+      },
+      {
+        "type": "library",
+        "name": "server_99",
+        "version": "2.17.43",
+        "purl": "pkg:pypi/server_99@2.17.43"
+      },
+      {
+        "type": "library",
+        "name": "@internal/helpers-155",
+        "version": "0.15.47",
+        "purl": "pkg:npm/@internal/helpers-155@0.15.47"
+      },
+      {
+        "type": "library",
+        "name": "auth-205",
+        "version": "2.9.10",
+        "purl": "pkg:npm/auth-205@2.9.10"
+      },
+      {
+        "type": "library",
+        "name": "@internal/sdk-28",
+        "version": "3.9.27",
+        "purl": "pkg:npm/@internal/sdk-28@3.9.27"
+      },
+      {
+        "type": "library",
+        "name": "auth_73",
+        "version": "3.13.43",
+        "purl": "pkg:pypi/auth_73@3.13.43"
+      },
+      {
+        "type": "library",
+        "name": "company/proxy:90.0",
+        "version": "1.1.43",
+        "purl": "pkg:docker/company/proxy:90.0@1.1.43"
+      },
+      {
+        "type": "library",
+        "name": "config_81",
+        "version": "1.7.9",
+        "purl": "pkg:pypi/config_81@1.7.9"
+      },
+      {
+        "type": "library",
+        "name": "config-46",
+        "version": "2.0.7",
+        "purl": "pkg:npm/config-46@2.0.7"
+      },
+      {
+        "type": "library",
+        "name": "core-187",
+        "version": "2.13.0",
+        "purl": "pkg:npm/core-187@2.13.0"
+      },
+      {
+        "type": "library",
+        "name": "queue_23",
+        "version": "1.12.15",
+        "purl": "pkg:pypi/queue_23@1.12.15"
+      },
+      {
+        "type": "library",
+        "name": "company/proxy:36.0",
+        "version": "3.16.19",
+        "purl": "pkg:docker/company/proxy:36.0@3.16.19"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/api:91.0",
+        "version": "0.16.49",
+        "purl": "pkg:docker/registry.io/api:91.0@0.16.49"
+      },
+      {
+        "type": "library",
+        "name": "@company/client-174",
+        "version": "3.6.14",
+        "purl": "pkg:npm/@company/client-174@3.6.14"
+      },
+      {
+        "type": "library",
+        "name": "@internal/common-41",
+        "version": "0.11.13",
+        "purl": "pkg:npm/@internal/common-41@0.11.13"
+      }
+    ]
+  },
+  "microservice-06": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-06",
+        "version": "3.3.40"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "company/api:95.0",
+        "version": "0.18.14",
+        "purl": "pkg:docker/company/api:95.0@0.18.14"
+      },
+      {
+        "type": "library",
+        "name": "server-196",
+        "version": "0.13.38",
+        "purl": "pkg:npm/server-196@0.13.38"
+      },
+      {
+        "type": "library",
+        "name": "company-common_88",
+        "version": "2.5.17",
+        "purl": "pkg:pypi/company-common_88@2.5.17"
+      },
+      {
+        "type": "library",
+        "name": "@company/logger-97",
+        "version": "1.15.33",
+        "purl": "pkg:npm/@company/logger-97@1.15.33"
+      },
+      {
+        "type": "library",
+        "name": "@internal/server-153",
+        "version": "0.9.43",
+        "purl": "pkg:npm/@internal/server-153@0.9.43"
+      },
+      {
+        "type": "library",
+        "name": "logger_106",
+        "version": "2.5.23",
+        "purl": "pkg:pypi/logger_106@2.5.23"
+      }
+    ]
+  },
+  "microservice-07": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-07",
+        "version": "3.0.2"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "auth_126",
+        "version": "1.3.29",
+        "purl": "pkg:pypi/auth_126@1.3.29"
+      },
+      {
+        "type": "library",
+        "name": "@company/logger-97",
+        "version": "1.15.33",
+        "purl": "pkg:npm/@company/logger-97@1.15.33"
+      },
+      {
+        "type": "library",
+        "name": "@company/common-71",
+        "version": "2.18.43",
+        "purl": "pkg:npm/@company/common-71@2.18.43"
+      },
+      {
+        "type": "library",
+        "name": "logger-18",
+        "version": "1.4.42",
+        "purl": "pkg:npm/logger-18@1.4.42"
+      },
+      {
+        "type": "library",
+        "name": "@internal/cache-98",
+        "version": "3.2.30",
+        "purl": "pkg:npm/@internal/cache-98@3.2.30"
+      },
+      {
+        "type": "library",
+        "name": "core-12",
+        "version": "3.19.4",
+        "purl": "pkg:npm/core-12@3.19.4"
+      },
+      {
+        "type": "library",
+        "name": "company-queue_118",
+        "version": "2.2.2",
+        "purl": "pkg:pypi/company-queue_118@2.2.2"
+      },
+      {
+        "type": "library",
+        "name": "company-client_53",
+        "version": "3.8.50",
+        "purl": "pkg:pypi/company-client_53@3.8.50"
+      },
+      {
+        "type": "library",
+        "name": "utils-122",
+        "version": "2.14.2",
+        "purl": "pkg:npm/utils-122@2.14.2"
+      },
+      {
+        "type": "library",
+        "name": "internal-client_0",
+        "version": "1.7.8",
+        "purl": "pkg:pypi/internal-client_0@1.7.8"
+      },
+      {
+        "type": "library",
+        "name": "@internal/auth-199",
+        "version": "1.0.9",
+        "purl": "pkg:npm/@internal/auth-199@1.0.9"
+      },
+      {
+        "type": "library",
+        "name": "client-32",
+        "version": "2.6.42",
+        "purl": "pkg:npm/client-32@2.6.42"
+      },
+      {
+        "type": "library",
+        "name": "company/proxy:5.0",
+        "version": "3.5.23",
+        "purl": "pkg:docker/company/proxy:5.0@3.5.23"
+      },
+      {
+        "type": "library",
+        "name": "core_26",
+        "version": "0.8.35",
+        "purl": "pkg:pypi/core_26@0.8.35"
+      },
+      {
+        "type": "library",
+        "name": "internal-auth_79",
+        "version": "2.19.34",
+        "purl": "pkg:pypi/internal-auth_79@2.19.34"
+      },
+      {
+        "type": "library",
+        "name": "@company/config-157",
+        "version": "2.18.27",
+        "purl": "pkg:npm/@company/config-157@2.18.27"
+      },
+      {
+        "type": "library",
+        "name": "internal-api_5",
+        "version": "0.17.29",
+        "purl": "pkg:pypi/internal-api_5@0.17.29"
+      },
+      {
+        "type": "library",
+        "name": "queue_23",
+        "version": "1.12.15",
+        "purl": "pkg:pypi/queue_23@1.12.15"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/proxy:94.0",
+        "version": "1.0.29",
+        "purl": "pkg:docker/registry.io/proxy:94.0@1.0.29"
+      }
+    ]
+  },
+  "microservice-08": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-08",
+        "version": "3.17.9"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/logger-207",
+        "version": "1.19.5",
+        "purl": "pkg:npm/@internal/logger-207@1.19.5"
+      },
+      {
+        "type": "library",
+        "name": "api-60",
+        "version": "1.8.28",
+        "purl": "pkg:npm/api-60@1.8.28"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-108",
+        "version": "3.14.20",
+        "purl": "pkg:npm/@internal/client-108@3.14.20"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/monitor:13.0",
+        "version": "0.3.36",
+        "purl": "pkg:docker/registry.io/monitor:13.0@0.3.36"
+      },
+      {
+        "type": "library",
+        "name": "helpers_84",
+        "version": "3.20.42",
+        "purl": "pkg:pypi/helpers_84@3.20.42"
+      },
+      {
+        "type": "library",
+        "name": "company-queue_91",
+        "version": "2.3.27",
+        "purl": "pkg:pypi/company-queue_91@2.3.27"
+      }
+    ]
+  },
+  "microservice-09": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-09",
+        "version": "0.7.44"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "auth_126",
+        "version": "1.3.29",
+        "purl": "pkg:pypi/auth_126@1.3.29"
+      },
+      {
+        "type": "library",
+        "name": "logger-72",
+        "version": "2.19.7",
+        "purl": "pkg:npm/logger-72@2.19.7"
+      },
+      {
+        "type": "library",
+        "name": "internal-client_0",
+        "version": "1.7.8",
+        "purl": "pkg:pypi/internal-client_0@1.7.8"
+      },
+      {
+        "type": "library",
+        "name": "helpers_84",
+        "version": "3.20.42",
+        "purl": "pkg:pypi/helpers_84@3.20.42"
+      },
+      {
+        "type": "library",
+        "name": "@internal/server-9",
+        "version": "2.2.13",
+        "purl": "pkg:npm/@internal/server-9@2.2.13"
+      },
+      {
+        "type": "library",
+        "name": "@company/cache-241",
+        "version": "1.17.47",
+        "purl": "pkg:npm/@company/cache-241@1.17.47"
+      }
+    ]
+  },
+  "microservice-10": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-10",
+        "version": "1.18.4"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "internal/base:63.0",
+        "version": "1.17.41",
+        "purl": "pkg:docker/internal/base:63.0@1.17.41"
+      },
+      {
+        "type": "library",
+        "name": "@company/config-157",
+        "version": "2.18.27",
+        "purl": "pkg:npm/@company/config-157@2.18.27"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/base:20.0",
+        "version": "1.6.12",
+        "purl": "pkg:docker/registry.io/base:20.0@1.6.12"
+      },
+      {
+        "type": "library",
+        "name": "internal/cache:6.0",
+        "version": "2.7.17",
+        "purl": "pkg:docker/internal/cache:6.0@2.7.17"
+      },
+      {
+        "type": "library",
+        "name": "common-49",
+        "version": "2.19.20",
+        "purl": "pkg:npm/common-49@2.19.20"
+      },
+      {
+        "type": "library",
+        "name": "@internal/auth-233",
+        "version": "2.20.44",
+        "purl": "pkg:npm/@internal/auth-233@2.20.44"
+      }
+    ]
+  },
+  "microservice-11": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-11",
+        "version": "1.10.50"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "client-32",
+        "version": "2.6.42",
+        "purl": "pkg:npm/client-32@2.6.42"
+      },
+      {
+        "type": "library",
+        "name": "internal/web:11.0",
+        "version": "0.2.24",
+        "purl": "pkg:docker/internal/web:11.0@0.2.24"
+      },
+      {
+        "type": "library",
+        "name": "logger-103",
+        "version": "1.5.19",
+        "purl": "pkg:npm/logger-103@1.5.19"
+      },
+      {
+        "type": "library",
+        "name": "@company/utils-218",
+        "version": "2.12.39",
+        "purl": "pkg:npm/@company/utils-218@2.12.39"
+      },
+      {
+        "type": "library",
+        "name": "@company/sdk-172",
+        "version": "3.20.50",
+        "purl": "pkg:npm/@company/sdk-172@3.20.50"
+      },
+      {
+        "type": "library",
+        "name": "company/monitor:15.0",
+        "version": "3.1.25",
+        "purl": "pkg:docker/company/monitor:15.0@3.1.25"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/queue:27.0",
+        "version": "3.18.6",
+        "purl": "pkg:docker/registry.io/queue:27.0@3.18.6"
+      },
+      {
+        "type": "library",
+        "name": "company-core_127",
+        "version": "1.12.23",
+        "purl": "pkg:pypi/company-core_127@1.12.23"
+      },
+      {
+        "type": "library",
+        "name": "db_97",
+        "version": "1.12.18",
+        "purl": "pkg:pypi/db_97@1.12.18"
+      },
+      {
+        "type": "library",
+        "name": "auth-205",
+        "version": "2.9.10",
+        "purl": "pkg:npm/auth-205@2.9.10"
+      },
+      {
+        "type": "library",
+        "name": "common-166",
+        "version": "0.14.36",
+        "purl": "pkg:npm/common-166@0.14.36"
+      },
+      {
+        "type": "library",
+        "name": "helpers-61",
+        "version": "1.4.14",
+        "purl": "pkg:npm/helpers-61@1.4.14"
+      }
+    ]
+  },
+  "microservice-12": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-12",
+        "version": "1.14.15"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@company/common-171",
+        "version": "2.9.41",
+        "purl": "pkg:npm/@company/common-171@2.9.41"
+      },
+      {
+        "type": "library",
+        "name": "client-32",
+        "version": "2.6.42",
+        "purl": "pkg:npm/client-32@2.6.42"
+      },
+      {
+        "type": "library",
+        "name": "helpers-61",
+        "version": "1.4.14",
+        "purl": "pkg:npm/helpers-61@1.4.14"
+      },
+      {
+        "type": "library",
+        "name": "@company/core-140",
+        "version": "2.19.40",
+        "purl": "pkg:npm/@company/core-140@2.19.40"
+      },
+      {
+        "type": "library",
+        "name": "logger-72",
+        "version": "2.19.7",
+        "purl": "pkg:npm/logger-72@2.19.7"
+      },
+      {
+        "type": "library",
+        "name": "company-config_137",
+        "version": "3.17.19",
+        "purl": "pkg:pypi/company-config_137@3.17.19"
+      },
+      {
+        "type": "library",
+        "name": "helpers-212",
+        "version": "1.18.37",
+        "purl": "pkg:npm/helpers-212@1.18.37"
+      },
+      {
+        "type": "library",
+        "name": "@company/sdk-86",
+        "version": "3.3.4",
+        "purl": "pkg:npm/@company/sdk-86@3.3.4"
+      },
+      {
+        "type": "library",
+        "name": "logger_106",
+        "version": "2.5.23",
+        "purl": "pkg:pypi/logger_106@2.5.23"
+      },
+      {
+        "type": "library",
+        "name": "server-189",
+        "version": "2.8.47",
+        "purl": "pkg:npm/server-189@2.8.47"
+      }
+    ]
+  },
+  "microservice-13": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-13",
+        "version": "3.2.0"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "company/proxy:5.0",
+        "version": "3.5.23",
+        "purl": "pkg:docker/company/proxy:5.0@3.5.23"
+      },
+      {
+        "type": "library",
+        "name": "internal/runtime:33.0",
+        "version": "3.4.47",
+        "purl": "pkg:docker/internal/runtime:33.0@3.4.47"
+      },
+      {
+        "type": "library",
+        "name": "auth_73",
+        "version": "3.13.43",
+        "purl": "pkg:pypi/auth_73@3.13.43"
+      },
+      {
+        "type": "library",
+        "name": "company-config_63",
+        "version": "2.20.6",
+        "purl": "pkg:pypi/company-config_63@2.20.6"
+      },
+      {
+        "type": "library",
+        "name": "@internal/utils-192",
+        "version": "2.6.2",
+        "purl": "pkg:npm/@internal/utils-192@2.6.2"
+      },
+      {
+        "type": "library",
+        "name": "cache_148",
+        "version": "1.5.28",
+        "purl": "pkg:pypi/cache_148@1.5.28"
+      },
+      {
+        "type": "library",
+        "name": "@internal/queue-80",
+        "version": "1.9.42",
+        "purl": "pkg:npm/@internal/queue-80@1.9.42"
+      },
+      {
+        "type": "library",
+        "name": "queue-8",
+        "version": "1.10.49",
+        "purl": "pkg:npm/queue-8@1.10.49"
+      }
+    ]
+  },
+  "microservice-14": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-14",
+        "version": "3.7.11"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "client-213",
+        "version": "0.0.5",
+        "purl": "pkg:npm/client-213@0.0.5"
+      },
+      {
+        "type": "library",
+        "name": "company-helpers_105",
+        "version": "0.4.44",
+        "purl": "pkg:pypi/company-helpers_105@0.4.44"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/monitor:13.0",
+        "version": "0.3.36",
+        "purl": "pkg:docker/registry.io/monitor:13.0@0.3.36"
+      },
+      {
+        "type": "library",
+        "name": "company/proxy:5.0",
+        "version": "3.5.23",
+        "purl": "pkg:docker/company/proxy:5.0@3.5.23"
+      },
+      {
+        "type": "library",
+        "name": "company-client_145",
+        "version": "2.5.40",
+        "purl": "pkg:pypi/company-client_145@2.5.40"
+      },
+      {
+        "type": "library",
+        "name": "@internal/db-243",
+        "version": "0.10.18",
+        "purl": "pkg:npm/@internal/db-243@0.10.18"
+      },
+      {
+        "type": "library",
+        "name": "internal-helpers_104",
+        "version": "3.19.38",
+        "purl": "pkg:pypi/internal-helpers_104@3.19.38"
+      },
+      {
+        "type": "library",
+        "name": "@internal/auth-64",
+        "version": "1.15.14",
+        "purl": "pkg:npm/@internal/auth-64@1.15.14"
+      },
+      {
+        "type": "library",
+        "name": "@internal/api-105",
+        "version": "1.14.35",
+        "purl": "pkg:npm/@internal/api-105@1.14.35"
+      },
+      {
+        "type": "library",
+        "name": "@internal/helpers-73",
+        "version": "2.0.26",
+        "purl": "pkg:npm/@internal/helpers-73@2.0.26"
+      },
+      {
+        "type": "library",
+        "name": "company-sdk_77",
+        "version": "0.14.16",
+        "purl": "pkg:pypi/company-sdk_77@0.14.16"
+      },
+      {
+        "type": "library",
+        "name": "lib-138",
+        "version": "0.16.19",
+        "purl": "pkg:npm/lib-138@0.16.19"
+      },
+      {
+        "type": "library",
+        "name": "server_17",
+        "version": "2.13.26",
+        "purl": "pkg:pypi/server_17@2.13.26"
+      },
+      {
+        "type": "library",
+        "name": "@internal/core-230",
+        "version": "1.1.36",
+        "purl": "pkg:npm/@internal/core-230@1.1.36"
+      }
+    ]
+  },
+  "microservice-15": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-15",
+        "version": "3.0.35"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "queue_117",
+        "version": "2.3.13",
+        "purl": "pkg:pypi/queue_117@2.3.13"
+      },
+      {
+        "type": "library",
+        "name": "internal-api_5",
+        "version": "0.17.29",
+        "purl": "pkg:pypi/internal-api_5@0.17.29"
+      },
+      {
+        "type": "library",
+        "name": "company-config_63",
+        "version": "2.20.6",
+        "purl": "pkg:pypi/company-config_63@2.20.6"
+      },
+      {
+        "type": "library",
+        "name": "company/base:86.0",
+        "version": "1.10.38",
+        "purl": "pkg:docker/company/base:86.0@1.10.38"
+      },
+      {
+        "type": "library",
+        "name": "lib-45",
+        "version": "3.10.17",
+        "purl": "pkg:npm/lib-45@3.10.17"
+      },
+      {
+        "type": "library",
+        "name": "common_71",
+        "version": "1.17.10",
+        "purl": "pkg:pypi/common_71@1.17.10"
+      },
+      {
+        "type": "library",
+        "name": "internal/builder:23.0",
+        "version": "2.2.18",
+        "purl": "pkg:docker/internal/builder:23.0@2.2.18"
+      },
+      {
+        "type": "library",
+        "name": "company/web:0.0",
+        "version": "3.0.27",
+        "purl": "pkg:docker/company/web:0.0@3.0.27"
+      },
+      {
+        "type": "library",
+        "name": "@company/server-154",
+        "version": "0.0.13",
+        "purl": "pkg:npm/@company/server-154@0.0.13"
+      },
+      {
+        "type": "library",
+        "name": "@company/client-178",
+        "version": "3.14.49",
+        "purl": "pkg:npm/@company/client-178@3.14.49"
+      }
+    ]
+  },
+  "microservice-16": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-16",
+        "version": "1.8.3"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "internal-logger_66",
+        "version": "0.18.6",
+        "purl": "pkg:pypi/internal-logger_66@0.18.6"
+      },
+      {
+        "type": "library",
+        "name": "queue-185",
+        "version": "3.3.49",
+        "purl": "pkg:npm/queue-185@3.3.49"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/worker:41.0",
+        "version": "0.0.40",
+        "purl": "pkg:docker/registry.io/worker:41.0@0.0.40"
+      },
+      {
+        "type": "library",
+        "name": "internal-queue_139",
+        "version": "1.10.3",
+        "purl": "pkg:pypi/internal-queue_139@1.10.3"
+      },
+      {
+        "type": "library",
+        "name": "core_26",
+        "version": "0.8.35",
+        "purl": "pkg:pypi/core_26@0.8.35"
+      },
+      {
+        "type": "library",
+        "name": "config_9",
+        "version": "1.20.22",
+        "purl": "pkg:pypi/config_9@1.20.22"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-112",
+        "version": "3.20.5",
+        "purl": "pkg:npm/@internal/client-112@3.20.5"
+      },
+      {
+        "type": "library",
+        "name": "@internal/lib-237",
+        "version": "1.17.17",
+        "purl": "pkg:npm/@internal/lib-237@1.17.17"
+      }
+    ]
+  },
+  "microservice-17": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-17",
+        "version": "0.17.11"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "company-cache_4",
+        "version": "1.18.31",
+        "purl": "pkg:pypi/company-cache_4@1.18.31"
+      },
+      {
+        "type": "library",
+        "name": "@company/core-90",
+        "version": "1.5.35",
+        "purl": "pkg:npm/@company/core-90@1.5.35"
+      },
+      {
+        "type": "library",
+        "name": "@internal/queue-81",
+        "version": "2.11.44",
+        "purl": "pkg:npm/@internal/queue-81@2.11.44"
+      },
+      {
+        "type": "library",
+        "name": "company-cache_93",
+        "version": "1.2.33",
+        "purl": "pkg:pypi/company-cache_93@1.2.33"
+      },
+      {
+        "type": "library",
+        "name": "company/queue:72.0",
+        "version": "3.18.30",
+        "purl": "pkg:docker/company/queue:72.0@3.18.30"
+      },
+      {
+        "type": "library",
+        "name": "api-22",
+        "version": "1.17.8",
+        "purl": "pkg:npm/api-22@1.17.8"
+      },
+      {
+        "type": "library",
+        "name": "@company/core-27",
+        "version": "3.15.30",
+        "purl": "pkg:npm/@company/core-27@3.15.30"
+      },
+      {
+        "type": "library",
+        "name": "internal-config_80",
+        "version": "0.4.48",
+        "purl": "pkg:pypi/internal-config_80@0.4.48"
+      },
+      {
+        "type": "library",
+        "name": "@internal/cache-186",
+        "version": "3.2.7",
+        "purl": "pkg:npm/@internal/cache-186@3.2.7"
+      },
+      {
+        "type": "library",
+        "name": "logger-145",
+        "version": "3.1.18",
+        "purl": "pkg:npm/logger-145@3.1.18"
+      },
+      {
+        "type": "library",
+        "name": "@internal/config-107",
+        "version": "0.9.46",
+        "purl": "pkg:npm/@internal/config-107@0.9.46"
+      },
+      {
+        "type": "library",
+        "name": "@company/server-222",
+        "version": "1.8.46",
+        "purl": "pkg:npm/@company/server-222@1.8.46"
+      },
+      {
+        "type": "library",
+        "name": "sdk-128",
+        "version": "3.3.8",
+        "purl": "pkg:npm/sdk-128@3.3.8"
+      },
+      {
+        "type": "library",
+        "name": "@company/common-171",
+        "version": "2.9.41",
+        "purl": "pkg:npm/@company/common-171@2.9.41"
+      },
+      {
+        "type": "library",
+        "name": "internal-utils_65",
+        "version": "1.14.37",
+        "purl": "pkg:pypi/internal-utils_65@1.14.37"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/cache:12.0",
+        "version": "0.19.37",
+        "purl": "pkg:docker/registry.io/cache:12.0@0.19.37"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/proxy:55.0",
+        "version": "1.10.22",
+        "purl": "pkg:docker/registry.io/proxy:55.0@1.10.22"
+      },
+      {
+        "type": "library",
+        "name": "lib_138",
+        "version": "0.16.30",
+        "purl": "pkg:pypi/lib_138@0.16.30"
+      },
+      {
+        "type": "library",
+        "name": "@company/auth-232",
+        "version": "2.15.33",
+        "purl": "pkg:npm/@company/auth-232@2.15.33"
+      },
+      {
+        "type": "library",
+        "name": "core-53",
+        "version": "0.9.32",
+        "purl": "pkg:npm/core-53@0.9.32"
+      }
+    ]
+  },
+  "microservice-18": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-18",
+        "version": "3.6.47"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "auth-36",
+        "version": "0.17.19",
+        "purl": "pkg:npm/auth-36@0.17.19"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/db:58.0",
+        "version": "2.19.1",
+        "purl": "pkg:docker/registry.io/db:58.0@2.19.1"
+      },
+      {
+        "type": "library",
+        "name": "@internal/utils-120",
+        "version": "0.19.47",
+        "purl": "pkg:npm/@internal/utils-120@0.19.47"
+      },
+      {
+        "type": "library",
+        "name": "helpers_119",
+        "version": "0.16.8",
+        "purl": "pkg:pypi/helpers_119@0.16.8"
+      },
+      {
+        "type": "library",
+        "name": "@company/server-227",
+        "version": "2.18.21",
+        "purl": "pkg:npm/@company/server-227@2.18.21"
+      },
+      {
+        "type": "library",
+        "name": "company-client_53",
+        "version": "3.8.50",
+        "purl": "pkg:pypi/company-client_53@3.8.50"
+      },
+      {
+        "type": "library",
+        "name": "internal-api_46",
+        "version": "3.3.1",
+        "purl": "pkg:pypi/internal-api_46@3.3.1"
+      },
+      {
+        "type": "library",
+        "name": "common-166",
+        "version": "0.14.36",
+        "purl": "pkg:npm/common-166@0.14.36"
+      }
+    ]
+  },
+  "microservice-19": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-19",
+        "version": "3.4.13"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/db-116",
+        "version": "1.15.37",
+        "purl": "pkg:npm/@internal/db-116@1.15.37"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-50",
+        "version": "3.9.35",
+        "purl": "pkg:npm/@internal/client-50@3.9.35"
+      },
+      {
+        "type": "library",
+        "name": "@company/cache-121",
+        "version": "1.19.16",
+        "purl": "pkg:npm/@company/cache-121@1.19.16"
+      },
+      {
+        "type": "library",
+        "name": "company-core_127",
+        "version": "1.12.23",
+        "purl": "pkg:pypi/company-core_127@1.12.23"
+      },
+      {
+        "type": "library",
+        "name": "@company/client-211",
+        "version": "2.2.16",
+        "purl": "pkg:npm/@company/client-211@2.2.16"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/builder:45.0",
+        "version": "1.0.37",
+        "purl": "pkg:docker/registry.io/builder:45.0@1.0.37"
+      },
+      {
+        "type": "library",
+        "name": "@company/sdk-102",
+        "version": "1.9.28",
+        "purl": "pkg:npm/@company/sdk-102@1.9.28"
+      },
+      {
+        "type": "library",
+        "name": "@internal/utils-192",
+        "version": "2.6.2",
+        "purl": "pkg:npm/@internal/utils-192@2.6.2"
+      },
+      {
+        "type": "library",
+        "name": "company/runtime:56.0",
+        "version": "3.12.29",
+        "purl": "pkg:docker/company/runtime:56.0@3.12.29"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-112",
+        "version": "3.20.5",
+        "purl": "pkg:npm/@internal/client-112@3.20.5"
+      },
+      {
+        "type": "library",
+        "name": "@company/queue-37",
+        "version": "1.8.18",
+        "purl": "pkg:npm/@company/queue-37@1.8.18"
+      },
+      {
+        "type": "library",
+        "name": "@company/cache-241",
+        "version": "1.17.47",
+        "purl": "pkg:npm/@company/cache-241@1.17.47"
+      },
+      {
+        "type": "library",
+        "name": "company-core_49",
+        "version": "3.8.26",
+        "purl": "pkg:pypi/company-core_49@3.8.26"
+      },
+      {
+        "type": "library",
+        "name": "@internal/sdk-248",
+        "version": "0.8.41",
+        "purl": "pkg:npm/@internal/sdk-248@0.8.41"
+      },
+      {
+        "type": "library",
+        "name": "@company/core-27",
+        "version": "3.15.30",
+        "purl": "pkg:npm/@company/core-27@3.15.30"
+      }
+    ]
+  },
+  "microservice-20": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-20",
+        "version": "1.3.29"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/config-191",
+        "version": "1.14.44",
+        "purl": "pkg:npm/@internal/config-191@1.14.44"
+      },
+      {
+        "type": "library",
+        "name": "@company/lib-69",
+        "version": "0.19.9",
+        "purl": "pkg:npm/@company/lib-69@0.19.9"
+      },
+      {
+        "type": "library",
+        "name": "@internal/lib-234",
+        "version": "2.9.45",
+        "purl": "pkg:npm/@internal/lib-234@2.9.45"
+      },
+      {
+        "type": "library",
+        "name": "company-queue_118",
+        "version": "2.2.2",
+        "purl": "pkg:pypi/company-queue_118@2.2.2"
+      },
+      {
+        "type": "library",
+        "name": "@company/client-99",
+        "version": "3.15.18",
+        "purl": "pkg:npm/@company/client-99@3.15.18"
+      },
+      {
+        "type": "library",
+        "name": "auth_73",
+        "version": "3.13.43",
+        "purl": "pkg:pypi/auth_73@3.13.43"
+      },
+      {
+        "type": "library",
+        "name": "cache-183",
+        "version": "2.4.8",
+        "purl": "pkg:npm/cache-183@2.4.8"
+      },
+      {
+        "type": "library",
+        "name": "company/gateway:99.0",
+        "version": "3.17.18",
+        "purl": "pkg:docker/company/gateway:99.0@3.17.18"
+      },
+      {
+        "type": "library",
+        "name": "lib-138",
+        "version": "0.16.19",
+        "purl": "pkg:npm/lib-138@0.16.19"
+      },
+      {
+        "type": "library",
+        "name": "logger-103",
+        "version": "1.5.19",
+        "purl": "pkg:npm/logger-103@1.5.19"
+      },
+      {
+        "type": "library",
+        "name": "@company/common-171",
+        "version": "2.9.41",
+        "purl": "pkg:npm/@company/common-171@2.9.41"
+      },
+      {
+        "type": "library",
+        "name": "cache-65",
+        "version": "3.5.29",
+        "purl": "pkg:npm/cache-65@3.5.29"
+      },
+      {
+        "type": "library",
+        "name": "common-16",
+        "version": "0.19.20",
+        "purl": "pkg:npm/common-16@0.19.20"
+      },
+      {
+        "type": "library",
+        "name": "internal-helpers_104",
+        "version": "3.19.38",
+        "purl": "pkg:pypi/internal-helpers_104@3.19.38"
+      },
+      {
+        "type": "library",
+        "name": "client_41",
+        "version": "0.3.27",
+        "purl": "pkg:pypi/client_41@0.3.27"
+      },
+      {
+        "type": "library",
+        "name": "@company/utils-30",
+        "version": "0.5.4",
+        "purl": "pkg:npm/@company/utils-30@0.5.4"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-143",
+        "version": "1.15.4",
+        "purl": "pkg:npm/@internal/client-143@1.15.4"
+      }
+    ]
+  },
+  "microservice-21": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-21",
+        "version": "1.2.26"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/client-112",
+        "version": "3.20.5",
+        "purl": "pkg:npm/@internal/client-112@3.20.5"
+      },
+      {
+        "type": "library",
+        "name": "company/cache:53.0",
+        "version": "2.8.29",
+        "purl": "pkg:docker/company/cache:53.0@2.8.29"
+      },
+      {
+        "type": "library",
+        "name": "helpers-151",
+        "version": "0.4.10",
+        "purl": "pkg:npm/helpers-151@0.4.10"
+      },
+      {
+        "type": "library",
+        "name": "company-helpers_59",
+        "version": "2.7.32",
+        "purl": "pkg:pypi/company-helpers_59@2.7.32"
+      },
+      {
+        "type": "library",
+        "name": "@internal/queue-80",
+        "version": "1.9.42",
+        "purl": "pkg:npm/@internal/queue-80@1.9.42"
+      },
+      {
+        "type": "library",
+        "name": "company/cache:4.0",
+        "version": "0.9.50",
+        "purl": "pkg:docker/company/cache:4.0@0.9.50"
+      },
+      {
+        "type": "library",
+        "name": "internal/cache:6.0",
+        "version": "2.7.17",
+        "purl": "pkg:docker/internal/cache:6.0@2.7.17"
+      },
+      {
+        "type": "library",
+        "name": "internal-auth_76",
+        "version": "0.14.34",
+        "purl": "pkg:pypi/internal-auth_76@0.14.34"
+      },
+      {
+        "type": "library",
+        "name": "internal/runtime:87.0",
+        "version": "2.16.14",
+        "purl": "pkg:docker/internal/runtime:87.0@2.16.14"
+      },
+      {
+        "type": "library",
+        "name": "company-config_63",
+        "version": "2.20.6",
+        "purl": "pkg:pypi/company-config_63@2.20.6"
+      },
+      {
+        "type": "library",
+        "name": "internal/base:63.0",
+        "version": "1.17.41",
+        "purl": "pkg:docker/internal/base:63.0@1.17.41"
+      },
+      {
+        "type": "library",
+        "name": "@company/core-87",
+        "version": "1.18.19",
+        "purl": "pkg:npm/@company/core-87@1.18.19"
+      },
+      {
+        "type": "library",
+        "name": "company-utils_45",
+        "version": "2.14.23",
+        "purl": "pkg:pypi/company-utils_45@2.14.23"
+      },
+      {
+        "type": "library",
+        "name": "internal/web:96.0",
+        "version": "0.12.43",
+        "purl": "pkg:docker/internal/web:96.0@0.12.43"
+      },
+      {
+        "type": "library",
+        "name": "core_33",
+        "version": "1.6.39",
+        "purl": "pkg:pypi/core_33@1.6.39"
+      }
+    ]
+  },
+  "microservice-22": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-22",
+        "version": "0.13.2"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "internal/api:28.0",
+        "version": "0.15.4",
+        "purl": "pkg:docker/internal/api:28.0@0.15.4"
+      },
+      {
+        "type": "library",
+        "name": "@company/sdk-236",
+        "version": "0.9.45",
+        "purl": "pkg:npm/@company/sdk-236@0.9.45"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-142",
+        "version": "3.12.26",
+        "purl": "pkg:npm/@internal/client-142@3.12.26"
+      },
+      {
+        "type": "library",
+        "name": "@company/db-7",
+        "version": "1.17.46",
+        "purl": "pkg:npm/@company/db-7@1.17.46"
+      },
+      {
+        "type": "library",
+        "name": "company-api_123",
+        "version": "2.14.16",
+        "purl": "pkg:pypi/company-api_123@2.14.16"
+      },
+      {
+        "type": "library",
+        "name": "queue-219",
+        "version": "2.6.48",
+        "purl": "pkg:npm/queue-219@2.6.48"
+      },
+      {
+        "type": "library",
+        "name": "auth_126",
+        "version": "1.3.29",
+        "purl": "pkg:pypi/auth_126@1.3.29"
+      },
+      {
+        "type": "library",
+        "name": "company/db:46.0",
+        "version": "2.17.39",
+        "purl": "pkg:docker/company/db:46.0@2.17.39"
+      },
+      {
+        "type": "library",
+        "name": "cache-126",
+        "version": "2.18.24",
+        "purl": "pkg:npm/cache-126@2.18.24"
+      },
+      {
+        "type": "library",
+        "name": "@company/utils-167",
+        "version": "3.3.21",
+        "purl": "pkg:npm/@company/utils-167@3.3.21"
+      },
+      {
+        "type": "library",
+        "name": "@company/server-222",
+        "version": "1.8.46",
+        "purl": "pkg:npm/@company/server-222@1.8.46"
+      },
+      {
+        "type": "library",
+        "name": "internal-api_46",
+        "version": "3.3.1",
+        "purl": "pkg:pypi/internal-api_46@3.3.1"
+      },
+      {
+        "type": "library",
+        "name": "@internal/config-113",
+        "version": "0.19.4",
+        "purl": "pkg:npm/@internal/config-113@0.19.4"
+      },
+      {
+        "type": "library",
+        "name": "company/runtime:56.0",
+        "version": "3.12.29",
+        "purl": "pkg:docker/company/runtime:56.0@3.12.29"
+      },
+      {
+        "type": "library",
+        "name": "company/api:74.0",
+        "version": "3.10.18",
+        "purl": "pkg:docker/company/api:74.0@3.10.18"
+      },
+      {
+        "type": "library",
+        "name": "internal-db_52",
+        "version": "1.15.20",
+        "purl": "pkg:pypi/internal-db_52@1.15.20"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/runtime:84.0",
+        "version": "1.5.47",
+        "purl": "pkg:docker/registry.io/runtime:84.0@1.5.47"
+      },
+      {
+        "type": "library",
+        "name": "@company/logger-76",
+        "version": "3.18.39",
+        "purl": "pkg:npm/@company/logger-76@3.18.39"
+      },
+      {
+        "type": "library",
+        "name": "company/cache:67.0",
+        "version": "2.17.49",
+        "purl": "pkg:docker/company/cache:67.0@2.17.49"
+      },
+      {
+        "type": "library",
+        "name": "internal-server_43",
+        "version": "1.18.42",
+        "purl": "pkg:pypi/internal-server_43@1.18.42"
+      }
+    ]
+  },
+  "microservice-23": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.814379",
+      "component": {
+        "type": "application",
+        "name": "microservice-23",
+        "version": "0.14.31"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/auth-217",
+        "version": "0.10.15",
+        "purl": "pkg:npm/@internal/auth-217@0.10.15"
+      },
+      {
+        "type": "library",
+        "name": "db_21",
+        "version": "0.2.12",
+        "purl": "pkg:pypi/db_21@0.2.12"
+      },
+      {
+        "type": "library",
+        "name": "@internal/api-201",
+        "version": "0.18.8",
+        "purl": "pkg:npm/@internal/api-201@0.18.8"
+      },
+      {
+        "type": "library",
+        "name": "@company/queue-245",
+        "version": "2.9.36",
+        "purl": "pkg:npm/@company/queue-245@2.9.36"
+      },
+      {
+        "type": "library",
+        "name": "internal/db:14.0",
+        "version": "2.12.41",
+        "purl": "pkg:docker/internal/db:14.0@2.12.41"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/db:8.0",
+        "version": "3.18.15",
+        "purl": "pkg:docker/registry.io/db:8.0@3.18.15"
+      }
+    ]
+  },
+  "microservice-24": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-24",
+        "version": "1.11.18"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "internal-helpers_104",
+        "version": "3.19.38",
+        "purl": "pkg:pypi/internal-helpers_104@3.19.38"
+      },
+      {
+        "type": "library",
+        "name": "queue_124",
+        "version": "0.6.20",
+        "purl": "pkg:pypi/queue_124@0.6.20"
+      },
+      {
+        "type": "library",
+        "name": "server-208",
+        "version": "3.18.4",
+        "purl": "pkg:npm/server-208@3.18.4"
+      },
+      {
+        "type": "library",
+        "name": "company/base:86.0",
+        "version": "1.10.38",
+        "purl": "pkg:docker/company/base:86.0@1.10.38"
+      },
+      {
+        "type": "library",
+        "name": "@company/auth-111",
+        "version": "3.0.46",
+        "purl": "pkg:npm/@company/auth-111@3.0.46"
+      }
+    ]
+  },
+  "microservice-25": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-25",
+        "version": "3.18.47"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@company/queue-245",
+        "version": "2.9.36",
+        "purl": "pkg:npm/@company/queue-245@2.9.36"
+      },
+      {
+        "type": "library",
+        "name": "company-queue_92",
+        "version": "0.3.20",
+        "purl": "pkg:pypi/company-queue_92@0.3.20"
+      },
+      {
+        "type": "library",
+        "name": "@company/auth-156",
+        "version": "2.2.25",
+        "purl": "pkg:npm/@company/auth-156@2.2.25"
+      },
+      {
+        "type": "library",
+        "name": "lib-82",
+        "version": "2.3.47",
+        "purl": "pkg:npm/lib-82@2.3.47"
+      },
+      {
+        "type": "library",
+        "name": "company-utils_110",
+        "version": "3.11.24",
+        "purl": "pkg:pypi/company-utils_110@3.11.24"
+      }
+    ]
+  },
+  "microservice-26": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-26",
+        "version": "2.16.2"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "company-client_145",
+        "version": "2.5.40",
+        "purl": "pkg:pypi/company-client_145@2.5.40"
+      },
+      {
+        "type": "library",
+        "name": "@company/api-70",
+        "version": "2.11.10",
+        "purl": "pkg:npm/@company/api-70@2.11.10"
+      },
+      {
+        "type": "library",
+        "name": "company/base:47.0",
+        "version": "0.13.28",
+        "purl": "pkg:docker/company/base:47.0@0.13.28"
+      },
+      {
+        "type": "library",
+        "name": "company-utils_110",
+        "version": "3.11.24",
+        "purl": "pkg:pypi/company-utils_110@3.11.24"
+      },
+      {
+        "type": "library",
+        "name": "@internal/logger-207",
+        "version": "1.19.5",
+        "purl": "pkg:npm/@internal/logger-207@1.19.5"
+      },
+      {
+        "type": "library",
+        "name": "common-94",
+        "version": "2.14.7",
+        "purl": "pkg:npm/common-94@2.14.7"
+      },
+      {
+        "type": "library",
+        "name": "company/cache:4.0",
+        "version": "0.9.50",
+        "purl": "pkg:docker/company/cache:4.0@0.9.50"
+      },
+      {
+        "type": "library",
+        "name": "company/db:46.0",
+        "version": "2.17.39",
+        "purl": "pkg:docker/company/db:46.0@2.17.39"
+      },
+      {
+        "type": "library",
+        "name": "server-189",
+        "version": "2.8.47",
+        "purl": "pkg:npm/server-189@2.8.47"
+      },
+      {
+        "type": "library",
+        "name": "internal-server_70",
+        "version": "1.18.24",
+        "purl": "pkg:pypi/internal-server_70@1.18.24"
+      },
+      {
+        "type": "library",
+        "name": "@internal/lib-237",
+        "version": "1.17.17",
+        "purl": "pkg:npm/@internal/lib-237@1.17.17"
+      },
+      {
+        "type": "library",
+        "name": "company-helpers_74",
+        "version": "0.7.18",
+        "purl": "pkg:pypi/company-helpers_74@0.7.18"
+      },
+      {
+        "type": "library",
+        "name": "@internal/utils-0",
+        "version": "0.2.13",
+        "purl": "pkg:npm/@internal/utils-0@0.2.13"
+      },
+      {
+        "type": "library",
+        "name": "internal/base:40.0",
+        "version": "0.17.12",
+        "purl": "pkg:docker/internal/base:40.0@0.17.12"
+      },
+      {
+        "type": "library",
+        "name": "common_71",
+        "version": "1.17.10",
+        "purl": "pkg:pypi/common_71@1.17.10"
+      },
+      {
+        "type": "library",
+        "name": "auth-36",
+        "version": "0.17.19",
+        "purl": "pkg:npm/auth-36@0.17.19"
+      },
+      {
+        "type": "library",
+        "name": "sdk-197",
+        "version": "2.14.38",
+        "purl": "pkg:npm/sdk-197@2.14.38"
+      },
+      {
+        "type": "library",
+        "name": "company/gateway:57.0",
+        "version": "0.5.6",
+        "purl": "pkg:docker/company/gateway:57.0@0.5.6"
+      },
+      {
+        "type": "library",
+        "name": "cache_103",
+        "version": "0.9.44",
+        "purl": "pkg:pypi/cache_103@0.9.44"
+      }
+    ]
+  },
+  "microservice-27": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-27",
+        "version": "2.1.7"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "company/api:3.0",
+        "version": "3.6.6",
+        "purl": "pkg:docker/company/api:3.0@3.6.6"
+      },
+      {
+        "type": "library",
+        "name": "company-sdk_100",
+        "version": "1.1.3",
+        "purl": "pkg:pypi/company-sdk_100@1.1.3"
+      },
+      {
+        "type": "library",
+        "name": "@internal/common-41",
+        "version": "0.11.13",
+        "purl": "pkg:npm/@internal/common-41@0.11.13"
+      },
+      {
+        "type": "library",
+        "name": "company-sdk_67",
+        "version": "3.16.40",
+        "purl": "pkg:pypi/company-sdk_67@3.16.40"
+      },
+      {
+        "type": "library",
+        "name": "internal/worker:50.0",
+        "version": "1.8.33",
+        "purl": "pkg:docker/internal/worker:50.0@1.8.33"
+      },
+      {
+        "type": "library",
+        "name": "@company/common-171",
+        "version": "2.9.41",
+        "purl": "pkg:npm/@company/common-171@2.9.41"
+      },
+      {
+        "type": "library",
+        "name": "auth_126",
+        "version": "1.3.29",
+        "purl": "pkg:pypi/auth_126@1.3.29"
+      },
+      {
+        "type": "library",
+        "name": "internal/gateway:77.0",
+        "version": "0.11.35",
+        "purl": "pkg:docker/internal/gateway:77.0@0.11.35"
+      },
+      {
+        "type": "library",
+        "name": "@internal/sdk-28",
+        "version": "3.9.27",
+        "purl": "pkg:npm/@internal/sdk-28@3.9.27"
+      },
+      {
+        "type": "library",
+        "name": "queue_13",
+        "version": "0.7.47",
+        "purl": "pkg:pypi/queue_13@0.7.47"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/runtime:84.0",
+        "version": "1.5.47",
+        "purl": "pkg:docker/registry.io/runtime:84.0@1.5.47"
+      }
+    ]
+  },
+  "microservice-28": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-28",
+        "version": "1.4.21"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "core-187",
+        "version": "2.13.0",
+        "purl": "pkg:npm/core-187@2.13.0"
+      },
+      {
+        "type": "library",
+        "name": "@internal/sdk-89",
+        "version": "0.19.47",
+        "purl": "pkg:npm/@internal/sdk-89@0.19.47"
+      },
+      {
+        "type": "library",
+        "name": "config_81",
+        "version": "1.7.9",
+        "purl": "pkg:pypi/config_81@1.7.9"
+      },
+      {
+        "type": "library",
+        "name": "company-queue_36",
+        "version": "1.2.31",
+        "purl": "pkg:pypi/company-queue_36@1.2.31"
+      },
+      {
+        "type": "library",
+        "name": "company-utils_110",
+        "version": "3.11.24",
+        "purl": "pkg:pypi/company-utils_110@3.11.24"
+      },
+      {
+        "type": "library",
+        "name": "helpers-34",
+        "version": "0.17.13",
+        "purl": "pkg:npm/helpers-34@0.17.13"
+      }
+    ]
+  },
+  "microservice-29": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-29",
+        "version": "0.11.22"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "company-core_127",
+        "version": "1.12.23",
+        "purl": "pkg:pypi/company-core_127@1.12.23"
+      },
+      {
+        "type": "library",
+        "name": "internal/worker:80.0",
+        "version": "0.11.28",
+        "purl": "pkg:docker/internal/worker:80.0@0.11.28"
+      },
+      {
+        "type": "library",
+        "name": "company-sdk_135",
+        "version": "0.7.36",
+        "purl": "pkg:pypi/company-sdk_135@0.7.36"
+      },
+      {
+        "type": "library",
+        "name": "internal-config_47",
+        "version": "3.0.18",
+        "purl": "pkg:pypi/internal-config_47@3.0.18"
+      },
+      {
+        "type": "library",
+        "name": "company/db:46.0",
+        "version": "2.17.39",
+        "purl": "pkg:docker/company/db:46.0@2.17.39"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/api:91.0",
+        "version": "0.16.49",
+        "purl": "pkg:docker/registry.io/api:91.0@0.16.49"
+      },
+      {
+        "type": "library",
+        "name": "company-common_109",
+        "version": "0.7.47",
+        "purl": "pkg:pypi/company-common_109@0.7.47"
+      },
+      {
+        "type": "library",
+        "name": "@internal/config-107",
+        "version": "0.9.46",
+        "purl": "pkg:npm/@internal/config-107@0.9.46"
+      },
+      {
+        "type": "library",
+        "name": "api_131",
+        "version": "0.2.17",
+        "purl": "pkg:pypi/api_131@0.2.17"
+      },
+      {
+        "type": "library",
+        "name": "internal-queue_139",
+        "version": "1.10.3",
+        "purl": "pkg:pypi/internal-queue_139@1.10.3"
+      },
+      {
+        "type": "library",
+        "name": "@internal/server-115",
+        "version": "1.7.33",
+        "purl": "pkg:npm/@internal/server-115@1.7.33"
+      },
+      {
+        "type": "library",
+        "name": "@internal/logger-164",
+        "version": "2.18.3",
+        "purl": "pkg:npm/@internal/logger-164@2.18.3"
+      },
+      {
+        "type": "library",
+        "name": "common-180",
+        "version": "0.16.7",
+        "purl": "pkg:npm/common-180@0.16.7"
+      },
+      {
+        "type": "library",
+        "name": "internal/cache:59.0",
+        "version": "0.2.16",
+        "purl": "pkg:docker/internal/cache:59.0@0.2.16"
+      },
+      {
+        "type": "library",
+        "name": "@company/utils-136",
+        "version": "2.7.37",
+        "purl": "pkg:npm/@company/utils-136@2.7.37"
+      },
+      {
+        "type": "library",
+        "name": "company-common_7",
+        "version": "0.15.2",
+        "purl": "pkg:pypi/company-common_7@0.15.2"
+      },
+      {
+        "type": "library",
+        "name": "company-api_98",
+        "version": "0.16.0",
+        "purl": "pkg:pypi/company-api_98@0.16.0"
+      },
+      {
+        "type": "library",
+        "name": "@internal/lib-216",
+        "version": "2.19.9",
+        "purl": "pkg:npm/@internal/lib-216@2.19.9"
+      },
+      {
+        "type": "library",
+        "name": "@internal/helpers-141",
+        "version": "0.20.41",
+        "purl": "pkg:npm/@internal/helpers-141@0.20.41"
+      },
+      {
+        "type": "library",
+        "name": "@company/core-27",
+        "version": "3.15.30",
+        "purl": "pkg:npm/@company/core-27@3.15.30"
+      }
+    ]
+  },
+  "microservice-30": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-30",
+        "version": "2.2.12"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@company/server-240",
+        "version": "3.15.41",
+        "purl": "pkg:npm/@company/server-240@3.15.41"
+      },
+      {
+        "type": "library",
+        "name": "company-server_113",
+        "version": "0.14.18",
+        "purl": "pkg:pypi/company-server_113@0.14.18"
+      },
+      {
+        "type": "library",
+        "name": "internal-sdk_22",
+        "version": "0.6.12",
+        "purl": "pkg:pypi/internal-sdk_22@0.6.12"
+      },
+      {
+        "type": "library",
+        "name": "db_97",
+        "version": "1.12.18",
+        "purl": "pkg:pypi/db_97@1.12.18"
+      },
+      {
+        "type": "library",
+        "name": "company/worker:22.0",
+        "version": "2.15.38",
+        "purl": "pkg:docker/company/worker:22.0@2.15.38"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/gateway:60.0",
+        "version": "1.10.33",
+        "purl": "pkg:docker/registry.io/gateway:60.0@1.10.33"
+      },
+      {
+        "type": "library",
+        "name": "@company/db-149",
+        "version": "3.2.9",
+        "purl": "pkg:npm/@company/db-149@3.2.9"
+      },
+      {
+        "type": "library",
+        "name": "@internal/core-231",
+        "version": "3.6.26",
+        "purl": "pkg:npm/@internal/core-231@3.6.26"
+      }
+    ]
+  },
+  "microservice-31": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-31",
+        "version": "0.9.26"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "internal/cache:59.0",
+        "version": "0.2.16",
+        "purl": "pkg:docker/internal/cache:59.0@0.2.16"
+      },
+      {
+        "type": "library",
+        "name": "api-91",
+        "version": "2.1.14",
+        "purl": "pkg:npm/api-91@2.1.14"
+      },
+      {
+        "type": "library",
+        "name": "@company/logger-147",
+        "version": "3.17.49",
+        "purl": "pkg:npm/@company/logger-147@3.17.49"
+      },
+      {
+        "type": "library",
+        "name": "company/proxy:90.0",
+        "version": "1.1.43",
+        "purl": "pkg:docker/company/proxy:90.0@1.1.43"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/queue:89.0",
+        "version": "3.17.48",
+        "purl": "pkg:docker/registry.io/queue:89.0@3.17.48"
+      },
+      {
+        "type": "library",
+        "name": "@company/cache-39",
+        "version": "2.5.47",
+        "purl": "pkg:npm/@company/cache-39@2.5.47"
+      },
+      {
+        "type": "library",
+        "name": "config-55",
+        "version": "0.14.26",
+        "purl": "pkg:npm/config-55@0.14.26"
+      },
+      {
+        "type": "library",
+        "name": "auth-84",
+        "version": "1.8.2",
+        "purl": "pkg:npm/auth-84@1.8.2"
+      },
+      {
+        "type": "library",
+        "name": "@internal/helpers-141",
+        "version": "0.20.41",
+        "purl": "pkg:npm/@internal/helpers-141@0.20.41"
+      },
+      {
+        "type": "library",
+        "name": "api-57",
+        "version": "0.17.15",
+        "purl": "pkg:npm/api-57@0.17.15"
+      },
+      {
+        "type": "library",
+        "name": "logger_106",
+        "version": "2.5.23",
+        "purl": "pkg:pypi/logger_106@2.5.23"
+      },
+      {
+        "type": "library",
+        "name": "@internal/api-75",
+        "version": "3.18.17",
+        "purl": "pkg:npm/@internal/api-75@3.18.17"
+      },
+      {
+        "type": "library",
+        "name": "company-cache_4",
+        "version": "1.18.31",
+        "purl": "pkg:pypi/company-cache_4@1.18.31"
+      },
+      {
+        "type": "library",
+        "name": "@internal/core-77",
+        "version": "3.6.22",
+        "purl": "pkg:npm/@internal/core-77@3.6.22"
+      },
+      {
+        "type": "library",
+        "name": "company/base:47.0",
+        "version": "0.13.28",
+        "purl": "pkg:docker/company/base:47.0@0.13.28"
+      },
+      {
+        "type": "library",
+        "name": "@company/api-104",
+        "version": "0.20.9",
+        "purl": "pkg:npm/@company/api-104@0.20.9"
+      },
+      {
+        "type": "library",
+        "name": "db_16",
+        "version": "1.20.43",
+        "purl": "pkg:pypi/db_16@1.20.43"
+      }
+    ]
+  },
+  "microservice-32": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-32",
+        "version": "3.18.21"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "server-215",
+        "version": "2.14.4",
+        "purl": "pkg:npm/server-215@2.14.4"
+      },
+      {
+        "type": "library",
+        "name": "@company/server-227",
+        "version": "2.18.21",
+        "purl": "pkg:npm/@company/server-227@2.18.21"
+      },
+      {
+        "type": "library",
+        "name": "company-core_127",
+        "version": "1.12.23",
+        "purl": "pkg:pypi/company-core_127@1.12.23"
+      },
+      {
+        "type": "library",
+        "name": "internal-config_80",
+        "version": "0.4.48",
+        "purl": "pkg:pypi/internal-config_80@0.4.48"
+      },
+      {
+        "type": "library",
+        "name": "api-10",
+        "version": "1.8.8",
+        "purl": "pkg:npm/api-10@1.8.8"
+      },
+      {
+        "type": "library",
+        "name": "@company/db-149",
+        "version": "3.2.9",
+        "purl": "pkg:npm/@company/db-149@3.2.9"
+      },
+      {
+        "type": "library",
+        "name": "@internal/utils-96",
+        "version": "0.7.43",
+        "purl": "pkg:npm/@internal/utils-96@0.7.43"
+      },
+      {
+        "type": "library",
+        "name": "client-32",
+        "version": "2.6.42",
+        "purl": "pkg:npm/client-32@2.6.42"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-11",
+        "version": "1.4.32",
+        "purl": "pkg:npm/@internal/client-11@1.4.32"
+      },
+      {
+        "type": "library",
+        "name": "company/db:46.0",
+        "version": "2.17.39",
+        "purl": "pkg:docker/company/db:46.0@2.17.39"
+      },
+      {
+        "type": "library",
+        "name": "company/base:10.0",
+        "version": "3.2.43",
+        "purl": "pkg:docker/company/base:10.0@3.2.43"
+      },
+      {
+        "type": "library",
+        "name": "sdk-118",
+        "version": "3.8.29",
+        "purl": "pkg:npm/sdk-118@3.8.29"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/queue:27.0",
+        "version": "3.18.6",
+        "purl": "pkg:docker/registry.io/queue:27.0@3.18.6"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/api:85.0",
+        "version": "1.5.37",
+        "purl": "pkg:docker/registry.io/api:85.0@1.5.37"
+      },
+      {
+        "type": "library",
+        "name": "db_16",
+        "version": "1.20.43",
+        "purl": "pkg:pypi/db_16@1.20.43"
+      },
+      {
+        "type": "library",
+        "name": "@company/common-171",
+        "version": "2.9.41",
+        "purl": "pkg:npm/@company/common-171@2.9.41"
+      }
+    ]
+  },
+  "microservice-33": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-33",
+        "version": "2.14.10"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/lib-234",
+        "version": "2.9.45",
+        "purl": "pkg:npm/@internal/lib-234@2.9.45"
+      },
+      {
+        "type": "library",
+        "name": "@internal/helpers-155",
+        "version": "0.15.47",
+        "purl": "pkg:npm/@internal/helpers-155@0.15.47"
+      },
+      {
+        "type": "library",
+        "name": "internal-cache_40",
+        "version": "2.12.48",
+        "purl": "pkg:pypi/internal-cache_40@2.12.48"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-67",
+        "version": "2.12.17",
+        "purl": "pkg:npm/@internal/client-67@2.12.17"
+      },
+      {
+        "type": "library",
+        "name": "internal/cache:59.0",
+        "version": "0.2.16",
+        "purl": "pkg:docker/internal/cache:59.0@0.2.16"
+      },
+      {
+        "type": "library",
+        "name": "company/cache:4.0",
+        "version": "0.9.50",
+        "purl": "pkg:docker/company/cache:4.0@0.9.50"
+      },
+      {
+        "type": "library",
+        "name": "@company/auth-156",
+        "version": "2.2.25",
+        "purl": "pkg:npm/@company/auth-156@2.2.25"
+      },
+      {
+        "type": "library",
+        "name": "@company/core-87",
+        "version": "1.18.19",
+        "purl": "pkg:npm/@company/core-87@1.18.19"
+      },
+      {
+        "type": "library",
+        "name": "db-133",
+        "version": "0.1.50",
+        "purl": "pkg:npm/db-133@0.1.50"
+      },
+      {
+        "type": "library",
+        "name": "@internal/db-116",
+        "version": "1.15.37",
+        "purl": "pkg:npm/@internal/db-116@1.15.37"
+      },
+      {
+        "type": "library",
+        "name": "@company/api-247",
+        "version": "2.7.0",
+        "purl": "pkg:npm/@company/api-247@2.7.0"
+      },
+      {
+        "type": "library",
+        "name": "cache-190",
+        "version": "0.18.47",
+        "purl": "pkg:npm/cache-190@0.18.47"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/monitor:97.0",
+        "version": "0.2.22",
+        "purl": "pkg:docker/registry.io/monitor:97.0@0.2.22"
+      },
+      {
+        "type": "library",
+        "name": "@company/logger-147",
+        "version": "3.17.49",
+        "purl": "pkg:npm/@company/logger-147@3.17.49"
+      },
+      {
+        "type": "library",
+        "name": "internal-common_144",
+        "version": "1.20.36",
+        "purl": "pkg:pypi/internal-common_144@1.20.36"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/queue:32.0",
+        "version": "3.11.32",
+        "purl": "pkg:docker/registry.io/queue:32.0@3.11.32"
+      },
+      {
+        "type": "library",
+        "name": "utils-24",
+        "version": "0.1.25",
+        "purl": "pkg:npm/utils-24@0.1.25"
+      },
+      {
+        "type": "library",
+        "name": "@internal/api-75",
+        "version": "3.18.17",
+        "purl": "pkg:npm/@internal/api-75@3.18.17"
+      },
+      {
+        "type": "library",
+        "name": "common-180",
+        "version": "0.16.7",
+        "purl": "pkg:npm/common-180@0.16.7"
+      }
+    ]
+  },
+  "microservice-34": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-34",
+        "version": "2.18.8"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "core-93",
+        "version": "2.4.4",
+        "purl": "pkg:npm/core-93@2.4.4"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/runtime:98.0",
+        "version": "2.14.24",
+        "purl": "pkg:docker/registry.io/runtime:98.0@2.14.24"
+      },
+      {
+        "type": "library",
+        "name": "@internal/sdk-89",
+        "version": "0.19.47",
+        "purl": "pkg:npm/@internal/sdk-89@0.19.47"
+      },
+      {
+        "type": "library",
+        "name": "internal/proxy:29.0",
+        "version": "2.6.9",
+        "purl": "pkg:docker/internal/proxy:29.0@2.6.9"
+      },
+      {
+        "type": "library",
+        "name": "client_112",
+        "version": "0.16.43",
+        "purl": "pkg:pypi/client_112@0.16.43"
+      },
+      {
+        "type": "library",
+        "name": "internal-helpers_104",
+        "version": "3.19.38",
+        "purl": "pkg:pypi/internal-helpers_104@3.19.38"
+      },
+      {
+        "type": "library",
+        "name": "internal/base:63.0",
+        "version": "1.17.41",
+        "purl": "pkg:docker/internal/base:63.0@1.17.41"
+      },
+      {
+        "type": "library",
+        "name": "company-queue_91",
+        "version": "2.3.27",
+        "purl": "pkg:pypi/company-queue_91@2.3.27"
+      },
+      {
+        "type": "library",
+        "name": "internal/cache:6.0",
+        "version": "2.7.17",
+        "purl": "pkg:docker/internal/cache:6.0@2.7.17"
+      },
+      {
+        "type": "library",
+        "name": "@internal/auth-78",
+        "version": "0.16.12",
+        "purl": "pkg:npm/@internal/auth-78@0.16.12"
+      },
+      {
+        "type": "library",
+        "name": "lib-82",
+        "version": "2.3.47",
+        "purl": "pkg:npm/lib-82@2.3.47"
+      },
+      {
+        "type": "library",
+        "name": "@company/cache-121",
+        "version": "1.19.16",
+        "purl": "pkg:npm/@company/cache-121@1.19.16"
+      },
+      {
+        "type": "library",
+        "name": "config-59",
+        "version": "3.14.16",
+        "purl": "pkg:npm/config-59@3.14.16"
+      },
+      {
+        "type": "library",
+        "name": "cache-21",
+        "version": "0.7.4",
+        "purl": "pkg:npm/cache-21@0.7.4"
+      }
+    ]
+  },
+  "microservice-35": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-35",
+        "version": "1.17.19"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/api-105",
+        "version": "1.14.35",
+        "purl": "pkg:npm/@internal/api-105@1.14.35"
+      },
+      {
+        "type": "library",
+        "name": "common_37",
+        "version": "0.7.13",
+        "purl": "pkg:pypi/common_37@0.7.13"
+      },
+      {
+        "type": "library",
+        "name": "client_112",
+        "version": "0.16.43",
+        "purl": "pkg:pypi/client_112@0.16.43"
+      },
+      {
+        "type": "library",
+        "name": "@internal/lib-17",
+        "version": "0.7.36",
+        "purl": "pkg:npm/@internal/lib-17@0.7.36"
+      },
+      {
+        "type": "library",
+        "name": "company-utils_90",
+        "version": "1.15.4",
+        "purl": "pkg:pypi/company-utils_90@1.15.4"
+      },
+      {
+        "type": "library",
+        "name": "@company/core-162",
+        "version": "1.20.4",
+        "purl": "pkg:npm/@company/core-162@1.20.4"
+      },
+      {
+        "type": "library",
+        "name": "@company/config-176",
+        "version": "1.14.2",
+        "purl": "pkg:npm/@company/config-176@1.14.2"
+      },
+      {
+        "type": "library",
+        "name": "@internal/api-75",
+        "version": "3.18.17",
+        "purl": "pkg:npm/@internal/api-75@3.18.17"
+      },
+      {
+        "type": "library",
+        "name": "cache-190",
+        "version": "0.18.47",
+        "purl": "pkg:npm/cache-190@0.18.47"
+      },
+      {
+        "type": "library",
+        "name": "@internal/sdk-229",
+        "version": "1.1.37",
+        "purl": "pkg:npm/@internal/sdk-229@1.1.37"
+      }
+    ]
+  },
+  "microservice-36": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-36",
+        "version": "1.18.46"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "internal-core_143",
+        "version": "1.0.44",
+        "purl": "pkg:pypi/internal-core_143@1.0.44"
+      },
+      {
+        "type": "library",
+        "name": "@internal/queue-74",
+        "version": "1.13.11",
+        "purl": "pkg:npm/@internal/queue-74@1.13.11"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/api:85.0",
+        "version": "1.5.37",
+        "purl": "pkg:docker/registry.io/api:85.0@1.5.37"
+      },
+      {
+        "type": "library",
+        "name": "@internal/lib-234",
+        "version": "2.9.45",
+        "purl": "pkg:npm/@internal/lib-234@2.9.45"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/queue:75.0",
+        "version": "2.17.20",
+        "purl": "pkg:docker/registry.io/queue:75.0@2.17.20"
+      },
+      {
+        "type": "library",
+        "name": "api-163",
+        "version": "2.20.20",
+        "purl": "pkg:npm/api-163@2.20.20"
+      },
+      {
+        "type": "library",
+        "name": "@company/queue-79",
+        "version": "3.20.45",
+        "purl": "pkg:npm/@company/queue-79@3.20.45"
+      },
+      {
+        "type": "library",
+        "name": "server-2",
+        "version": "2.8.9",
+        "purl": "pkg:npm/server-2@2.8.9"
+      },
+      {
+        "type": "library",
+        "name": "internal/web:96.0",
+        "version": "0.12.43",
+        "purl": "pkg:docker/internal/web:96.0@0.12.43"
+      },
+      {
+        "type": "library",
+        "name": "company-common_128",
+        "version": "3.4.5",
+        "purl": "pkg:pypi/company-common_128@3.4.5"
+      },
+      {
+        "type": "library",
+        "name": "internal-core_29",
+        "version": "0.16.2",
+        "purl": "pkg:pypi/internal-core_29@0.16.2"
+      },
+      {
+        "type": "library",
+        "name": "company/gateway:99.0",
+        "version": "3.17.18",
+        "purl": "pkg:docker/company/gateway:99.0@3.17.18"
+      },
+      {
+        "type": "library",
+        "name": "config_9",
+        "version": "1.20.22",
+        "purl": "pkg:pypi/config_9@1.20.22"
+      },
+      {
+        "type": "library",
+        "name": "@internal/server-169",
+        "version": "2.19.3",
+        "purl": "pkg:npm/@internal/server-169@2.19.3"
+      },
+      {
+        "type": "library",
+        "name": "config_81",
+        "version": "1.7.9",
+        "purl": "pkg:pypi/config_81@1.7.9"
+      },
+      {
+        "type": "library",
+        "name": "queue_111",
+        "version": "3.7.20",
+        "purl": "pkg:pypi/queue_111@3.7.20"
+      },
+      {
+        "type": "library",
+        "name": "helpers-151",
+        "version": "0.4.10",
+        "purl": "pkg:npm/helpers-151@0.4.10"
+      },
+      {
+        "type": "library",
+        "name": "@company/common-242",
+        "version": "0.12.50",
+        "purl": "pkg:npm/@company/common-242@0.12.50"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/db:58.0",
+        "version": "2.19.1",
+        "purl": "pkg:docker/registry.io/db:58.0@2.19.1"
+      },
+      {
+        "type": "library",
+        "name": "sdk-148",
+        "version": "0.5.17",
+        "purl": "pkg:npm/sdk-148@0.5.17"
+      }
+    ]
+  },
+  "microservice-37": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-37",
+        "version": "2.0.25"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "queue_124",
+        "version": "0.6.20",
+        "purl": "pkg:pypi/queue_124@0.6.20"
+      },
+      {
+        "type": "library",
+        "name": "@company/queue-245",
+        "version": "2.9.36",
+        "purl": "pkg:npm/@company/queue-245@2.9.36"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/gateway:60.0",
+        "version": "1.10.33",
+        "purl": "pkg:docker/registry.io/gateway:60.0@1.10.33"
+      },
+      {
+        "type": "library",
+        "name": "@company/lib-20",
+        "version": "1.2.21",
+        "purl": "pkg:npm/@company/lib-20@1.2.21"
+      },
+      {
+        "type": "library",
+        "name": "@company/common-71",
+        "version": "2.18.43",
+        "purl": "pkg:npm/@company/common-71@2.18.43"
+      },
+      {
+        "type": "library",
+        "name": "db_97",
+        "version": "1.12.18",
+        "purl": "pkg:pypi/db_97@1.12.18"
+      },
+      {
+        "type": "library",
+        "name": "internal-auth_32",
+        "version": "2.0.32",
+        "purl": "pkg:pypi/internal-auth_32@2.0.32"
+      },
+      {
+        "type": "library",
+        "name": "config-59",
+        "version": "3.14.16",
+        "purl": "pkg:npm/config-59@3.14.16"
+      }
+    ]
+  },
+  "microservice-38": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-38",
+        "version": "3.2.32"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "server-47",
+        "version": "2.10.27",
+        "purl": "pkg:npm/server-47@2.10.27"
+      },
+      {
+        "type": "library",
+        "name": "@company/utils-167",
+        "version": "3.3.21",
+        "purl": "pkg:npm/@company/utils-167@3.3.21"
+      },
+      {
+        "type": "library",
+        "name": "@internal/sdk-28",
+        "version": "3.9.27",
+        "purl": "pkg:npm/@internal/sdk-28@3.9.27"
+      },
+      {
+        "type": "library",
+        "name": "company-helpers_61",
+        "version": "1.11.19",
+        "purl": "pkg:pypi/company-helpers_61@1.11.19"
+      },
+      {
+        "type": "library",
+        "name": "client_78",
+        "version": "3.5.39",
+        "purl": "pkg:pypi/client_78@3.5.39"
+      },
+      {
+        "type": "library",
+        "name": "@company/client-99",
+        "version": "3.15.18",
+        "purl": "pkg:npm/@company/client-99@3.15.18"
+      },
+      {
+        "type": "library",
+        "name": "company-db_48",
+        "version": "1.12.10",
+        "purl": "pkg:pypi/company-db_48@1.12.10"
+      },
+      {
+        "type": "library",
+        "name": "internal-auth_19",
+        "version": "1.12.15",
+        "purl": "pkg:pypi/internal-auth_19@1.12.15"
+      },
+      {
+        "type": "library",
+        "name": "@internal/config-113",
+        "version": "0.19.4",
+        "purl": "pkg:npm/@internal/config-113@0.19.4"
+      },
+      {
+        "type": "library",
+        "name": "company/web:0.0",
+        "version": "3.0.27",
+        "purl": "pkg:docker/company/web:0.0@3.0.27"
+      },
+      {
+        "type": "library",
+        "name": "company/worker:79.0",
+        "version": "2.5.18",
+        "purl": "pkg:docker/company/worker:79.0@2.5.18"
+      },
+      {
+        "type": "library",
+        "name": "queue_142",
+        "version": "2.7.42",
+        "purl": "pkg:pypi/queue_142@2.7.42"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-142",
+        "version": "3.12.26",
+        "purl": "pkg:npm/@internal/client-142@3.12.26"
+      },
+      {
+        "type": "library",
+        "name": "@internal/sdk-100",
+        "version": "2.3.49",
+        "purl": "pkg:npm/@internal/sdk-100@2.3.49"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-11",
+        "version": "1.4.32",
+        "purl": "pkg:npm/@internal/client-11@1.4.32"
+      },
+      {
+        "type": "library",
+        "name": "common-42",
+        "version": "3.19.47",
+        "purl": "pkg:npm/common-42@3.19.47"
+      }
+    ]
+  },
+  "microservice-39": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-39",
+        "version": "2.0.18"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "client_58",
+        "version": "1.20.39",
+        "purl": "pkg:pypi/client_58@1.20.39"
+      },
+      {
+        "type": "library",
+        "name": "company-helpers_59",
+        "version": "2.7.32",
+        "purl": "pkg:pypi/company-helpers_59@2.7.32"
+      },
+      {
+        "type": "library",
+        "name": "company-api_11",
+        "version": "2.4.17",
+        "purl": "pkg:pypi/company-api_11@2.4.17"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/proxy:83.0",
+        "version": "2.18.34",
+        "purl": "pkg:docker/registry.io/proxy:83.0@2.18.34"
+      },
+      {
+        "type": "library",
+        "name": "@internal/sdk-28",
+        "version": "3.9.27",
+        "purl": "pkg:npm/@internal/sdk-28@3.9.27"
+      },
+      {
+        "type": "library",
+        "name": "company/db:65.0",
+        "version": "3.1.35",
+        "purl": "pkg:docker/company/db:65.0@3.1.35"
+      },
+      {
+        "type": "library",
+        "name": "company-queue_91",
+        "version": "2.3.27",
+        "purl": "pkg:pypi/company-queue_91@2.3.27"
+      },
+      {
+        "type": "library",
+        "name": "api-184",
+        "version": "3.19.0",
+        "purl": "pkg:npm/api-184@3.19.0"
+      },
+      {
+        "type": "library",
+        "name": "@internal/queue-203",
+        "version": "3.6.39",
+        "purl": "pkg:npm/@internal/queue-203@3.6.39"
+      },
+      {
+        "type": "library",
+        "name": "@internal/api-75",
+        "version": "3.18.17",
+        "purl": "pkg:npm/@internal/api-75@3.18.17"
+      },
+      {
+        "type": "library",
+        "name": "company-auth_116",
+        "version": "2.20.44",
+        "purl": "pkg:pypi/company-auth_116@2.20.44"
+      },
+      {
+        "type": "library",
+        "name": "internal/db:37.0",
+        "version": "3.4.20",
+        "purl": "pkg:docker/internal/db:37.0@3.4.20"
+      },
+      {
+        "type": "library",
+        "name": "@company/utils-218",
+        "version": "2.12.39",
+        "purl": "pkg:npm/@company/utils-218@2.12.39"
+      },
+      {
+        "type": "library",
+        "name": "server-189",
+        "version": "2.8.47",
+        "purl": "pkg:npm/server-189@2.8.47"
+      },
+      {
+        "type": "library",
+        "name": "sdk-197",
+        "version": "2.14.38",
+        "purl": "pkg:npm/sdk-197@2.14.38"
+      }
+    ]
+  },
+  "microservice-40": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-40",
+        "version": "3.4.37"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "company/base:47.0",
+        "version": "0.13.28",
+        "purl": "pkg:docker/company/base:47.0@0.13.28"
+      },
+      {
+        "type": "library",
+        "name": "common_37",
+        "version": "0.7.13",
+        "purl": "pkg:pypi/common_37@0.7.13"
+      },
+      {
+        "type": "library",
+        "name": "@company/server-44",
+        "version": "0.15.14",
+        "purl": "pkg:npm/@company/server-44@0.15.14"
+      },
+      {
+        "type": "library",
+        "name": "@company/api-110",
+        "version": "0.4.32",
+        "purl": "pkg:npm/@company/api-110@0.4.32"
+      },
+      {
+        "type": "library",
+        "name": "company-core_122",
+        "version": "0.5.28",
+        "purl": "pkg:pypi/company-core_122@0.5.28"
+      },
+      {
+        "type": "library",
+        "name": "internal/web:54.0",
+        "version": "2.13.47",
+        "purl": "pkg:docker/internal/web:54.0@2.13.47"
+      },
+      {
+        "type": "library",
+        "name": "@company/server-227",
+        "version": "2.18.21",
+        "purl": "pkg:npm/@company/server-227@2.18.21"
+      },
+      {
+        "type": "library",
+        "name": "company-common_129",
+        "version": "3.12.31",
+        "purl": "pkg:pypi/company-common_129@3.12.31"
+      },
+      {
+        "type": "library",
+        "name": "helpers-212",
+        "version": "1.18.37",
+        "purl": "pkg:npm/helpers-212@1.18.37"
+      },
+      {
+        "type": "library",
+        "name": "internal/web:11.0",
+        "version": "0.2.24",
+        "purl": "pkg:docker/internal/web:11.0@0.2.24"
+      },
+      {
+        "type": "library",
+        "name": "@internal/auth-226",
+        "version": "3.4.38",
+        "purl": "pkg:npm/@internal/auth-226@3.4.38"
+      },
+      {
+        "type": "library",
+        "name": "@company/logger-147",
+        "version": "3.17.49",
+        "purl": "pkg:npm/@company/logger-147@3.17.49"
+      },
+      {
+        "type": "library",
+        "name": "@internal/queue-83",
+        "version": "2.3.12",
+        "purl": "pkg:npm/@internal/queue-83@2.3.12"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/cache:12.0",
+        "version": "0.19.37",
+        "purl": "pkg:docker/registry.io/cache:12.0@0.19.37"
+      },
+      {
+        "type": "library",
+        "name": "internal/web:96.0",
+        "version": "0.12.43",
+        "purl": "pkg:docker/internal/web:96.0@0.12.43"
+      },
+      {
+        "type": "library",
+        "name": "internal/cache:59.0",
+        "version": "0.2.16",
+        "purl": "pkg:docker/internal/cache:59.0@0.2.16"
+      },
+      {
+        "type": "library",
+        "name": "@internal/auth-217",
+        "version": "0.10.15",
+        "purl": "pkg:npm/@internal/auth-217@0.10.15"
+      },
+      {
+        "type": "library",
+        "name": "company-api_123",
+        "version": "2.14.16",
+        "purl": "pkg:pypi/company-api_123@2.14.16"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/db:58.0",
+        "version": "2.19.1",
+        "purl": "pkg:docker/registry.io/db:58.0@2.19.1"
+      }
+    ]
+  },
+  "microservice-41": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-41",
+        "version": "0.0.26"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/helpers-155",
+        "version": "0.15.47",
+        "purl": "pkg:npm/@internal/helpers-155@0.15.47"
+      },
+      {
+        "type": "library",
+        "name": "@internal/db-243",
+        "version": "0.10.18",
+        "purl": "pkg:npm/@internal/db-243@0.10.18"
+      },
+      {
+        "type": "library",
+        "name": "company/web:44.0",
+        "version": "3.11.48",
+        "purl": "pkg:docker/company/web:44.0@3.11.48"
+      },
+      {
+        "type": "library",
+        "name": "internal-lib_18",
+        "version": "1.9.45",
+        "purl": "pkg:pypi/internal-lib_18@1.9.45"
+      },
+      {
+        "type": "library",
+        "name": "@company/common-171",
+        "version": "2.9.41",
+        "purl": "pkg:npm/@company/common-171@2.9.41"
+      },
+      {
+        "type": "library",
+        "name": "cache-33",
+        "version": "2.14.20",
+        "purl": "pkg:npm/cache-33@2.14.20"
+      },
+      {
+        "type": "library",
+        "name": "internal/gateway:77.0",
+        "version": "0.11.35",
+        "purl": "pkg:docker/internal/gateway:77.0@0.11.35"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/api:91.0",
+        "version": "0.16.49",
+        "purl": "pkg:docker/registry.io/api:91.0@0.16.49"
+      },
+      {
+        "type": "library",
+        "name": "internal-db_52",
+        "version": "1.15.20",
+        "purl": "pkg:pypi/internal-db_52@1.15.20"
+      },
+      {
+        "type": "library",
+        "name": "company-config_137",
+        "version": "3.17.19",
+        "purl": "pkg:pypi/company-config_137@3.17.19"
+      },
+      {
+        "type": "library",
+        "name": "@internal/utils-192",
+        "version": "2.6.2",
+        "purl": "pkg:npm/@internal/utils-192@2.6.2"
+      }
+    ]
+  },
+  "microservice-42": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-42",
+        "version": "3.17.47"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "company-server_113",
+        "version": "0.14.18",
+        "purl": "pkg:pypi/company-server_113@0.14.18"
+      },
+      {
+        "type": "library",
+        "name": "internal-cache_40",
+        "version": "2.12.48",
+        "purl": "pkg:pypi/internal-cache_40@2.12.48"
+      },
+      {
+        "type": "library",
+        "name": "internal-logger_136",
+        "version": "2.18.1",
+        "purl": "pkg:pypi/internal-logger_136@2.18.1"
+      },
+      {
+        "type": "library",
+        "name": "company/runtime:68.0",
+        "version": "1.0.21",
+        "purl": "pkg:docker/company/runtime:68.0@1.0.21"
+      },
+      {
+        "type": "library",
+        "name": "@company/api-70",
+        "version": "2.11.10",
+        "purl": "pkg:npm/@company/api-70@2.11.10"
+      },
+      {
+        "type": "library",
+        "name": "@company/sdk-102",
+        "version": "1.9.28",
+        "purl": "pkg:npm/@company/sdk-102@1.9.28"
+      },
+      {
+        "type": "library",
+        "name": "auth-95",
+        "version": "3.14.5",
+        "purl": "pkg:npm/auth-95@3.14.5"
+      },
+      {
+        "type": "library",
+        "name": "internal/gateway:26.0",
+        "version": "2.13.24",
+        "purl": "pkg:docker/internal/gateway:26.0@2.13.24"
+      },
+      {
+        "type": "library",
+        "name": "@internal/client-195",
+        "version": "1.15.44",
+        "purl": "pkg:npm/@internal/client-195@1.15.44"
+      },
+      {
+        "type": "library",
+        "name": "sdk-148",
+        "version": "0.5.17",
+        "purl": "pkg:npm/sdk-148@0.5.17"
+      },
+      {
+        "type": "library",
+        "name": "core_33",
+        "version": "1.6.39",
+        "purl": "pkg:pypi/core_33@1.6.39"
+      },
+      {
+        "type": "library",
+        "name": "internal-server_1",
+        "version": "3.17.42",
+        "purl": "pkg:pypi/internal-server_1@3.17.42"
+      },
+      {
+        "type": "library",
+        "name": "cache-21",
+        "version": "0.7.4",
+        "purl": "pkg:npm/cache-21@0.7.4"
+      },
+      {
+        "type": "library",
+        "name": "internal/gateway:21.0",
+        "version": "1.8.23",
+        "purl": "pkg:docker/internal/gateway:21.0@1.8.23"
+      },
+      {
+        "type": "library",
+        "name": "internal/builder:23.0",
+        "version": "2.2.18",
+        "purl": "pkg:docker/internal/builder:23.0@2.2.18"
+      },
+      {
+        "type": "library",
+        "name": "@company/server-154",
+        "version": "0.0.13",
+        "purl": "pkg:npm/@company/server-154@0.0.13"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/queue:27.0",
+        "version": "3.18.6",
+        "purl": "pkg:docker/registry.io/queue:27.0@3.18.6"
+      },
+      {
+        "type": "library",
+        "name": "company-core_49",
+        "version": "3.8.26",
+        "purl": "pkg:pypi/company-core_49@3.8.26"
+      },
+      {
+        "type": "library",
+        "name": "@internal/helpers-155",
+        "version": "0.15.47",
+        "purl": "pkg:npm/@internal/helpers-155@0.15.47"
+      }
+    ]
+  },
+  "microservice-43": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-43",
+        "version": "3.3.41"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/auth-78",
+        "version": "0.16.12",
+        "purl": "pkg:npm/@internal/auth-78@0.16.12"
+      },
+      {
+        "type": "library",
+        "name": "@company/config-134",
+        "version": "1.18.13",
+        "purl": "pkg:npm/@company/config-134@1.18.13"
+      },
+      {
+        "type": "library",
+        "name": "@internal/server-153",
+        "version": "0.9.43",
+        "purl": "pkg:npm/@internal/server-153@0.9.43"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/queue:89.0",
+        "version": "3.17.48",
+        "purl": "pkg:docker/registry.io/queue:89.0@3.17.48"
+      },
+      {
+        "type": "library",
+        "name": "company-sdk_77",
+        "version": "0.14.16",
+        "purl": "pkg:pypi/company-sdk_77@0.14.16"
+      }
+    ]
+  },
+  "microservice-44": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-44",
+        "version": "3.3.23"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "registry.io/cache:64.0",
+        "version": "0.15.28",
+        "purl": "pkg:docker/registry.io/cache:64.0@0.15.28"
+      },
+      {
+        "type": "library",
+        "name": "common_102",
+        "version": "1.4.34",
+        "purl": "pkg:pypi/common_102@1.4.34"
+      },
+      {
+        "type": "library",
+        "name": "internal-config_80",
+        "version": "0.4.48",
+        "purl": "pkg:pypi/internal-config_80@0.4.48"
+      },
+      {
+        "type": "library",
+        "name": "@company/config-125",
+        "version": "3.17.23",
+        "purl": "pkg:npm/@company/config-125@3.17.23"
+      },
+      {
+        "type": "library",
+        "name": "common-14",
+        "version": "2.16.48",
+        "purl": "pkg:npm/common-14@2.16.48"
+      },
+      {
+        "type": "library",
+        "name": "helpers-61",
+        "version": "1.4.14",
+        "purl": "pkg:npm/helpers-61@1.4.14"
+      },
+      {
+        "type": "library",
+        "name": "internal-core_141",
+        "version": "1.13.50",
+        "purl": "pkg:pypi/internal-core_141@1.13.50"
+      },
+      {
+        "type": "library",
+        "name": "@internal/helpers-141",
+        "version": "0.20.41",
+        "purl": "pkg:npm/@internal/helpers-141@0.20.41"
+      },
+      {
+        "type": "library",
+        "name": "company-auth_2",
+        "version": "3.16.45",
+        "purl": "pkg:pypi/company-auth_2@3.16.45"
+      },
+      {
+        "type": "library",
+        "name": "internal/web:96.0",
+        "version": "0.12.43",
+        "purl": "pkg:docker/internal/web:96.0@0.12.43"
+      },
+      {
+        "type": "library",
+        "name": "helpers-34",
+        "version": "0.17.13",
+        "purl": "pkg:npm/helpers-34@0.17.13"
+      },
+      {
+        "type": "library",
+        "name": "core_56",
+        "version": "3.12.4",
+        "purl": "pkg:pypi/core_56@3.12.4"
+      },
+      {
+        "type": "library",
+        "name": "api_131",
+        "version": "0.2.17",
+        "purl": "pkg:pypi/api_131@0.2.17"
+      },
+      {
+        "type": "library",
+        "name": "queue-185",
+        "version": "3.3.49",
+        "purl": "pkg:npm/queue-185@3.3.49"
+      },
+      {
+        "type": "library",
+        "name": "internal-config_47",
+        "version": "3.0.18",
+        "purl": "pkg:pypi/internal-config_47@3.0.18"
+      },
+      {
+        "type": "library",
+        "name": "@internal/config-246",
+        "version": "3.16.20",
+        "purl": "pkg:npm/@internal/config-246@3.16.20"
+      },
+      {
+        "type": "library",
+        "name": "company-lib_39",
+        "version": "1.12.4",
+        "purl": "pkg:pypi/company-lib_39@1.12.4"
+      },
+      {
+        "type": "library",
+        "name": "auth-223",
+        "version": "1.11.35",
+        "purl": "pkg:npm/auth-223@1.11.35"
+      },
+      {
+        "type": "library",
+        "name": "company/web:44.0",
+        "version": "3.11.48",
+        "purl": "pkg:docker/company/web:44.0@3.11.48"
+      },
+      {
+        "type": "library",
+        "name": "@internal/utils-132",
+        "version": "3.8.12",
+        "purl": "pkg:npm/@internal/utils-132@3.8.12"
+      }
+    ]
+  },
+  "microservice-45": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-45",
+        "version": "3.20.22"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/queue-83",
+        "version": "2.3.12",
+        "purl": "pkg:npm/@internal/queue-83@2.3.12"
+      },
+      {
+        "type": "library",
+        "name": "internal-config_47",
+        "version": "3.0.18",
+        "purl": "pkg:pypi/internal-config_47@3.0.18"
+      },
+      {
+        "type": "library",
+        "name": "@company/db-29",
+        "version": "0.10.3",
+        "purl": "pkg:npm/@company/db-29@0.10.3"
+      },
+      {
+        "type": "library",
+        "name": "@internal/queue-74",
+        "version": "1.13.11",
+        "purl": "pkg:npm/@internal/queue-74@1.13.11"
+      },
+      {
+        "type": "library",
+        "name": "api-163",
+        "version": "2.20.20",
+        "purl": "pkg:npm/api-163@2.20.20"
+      },
+      {
+        "type": "library",
+        "name": "@company/sdk-236",
+        "version": "0.9.45",
+        "purl": "pkg:npm/@company/sdk-236@0.9.45"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/gateway:49.0",
+        "version": "1.13.6",
+        "purl": "pkg:docker/registry.io/gateway:49.0@1.13.6"
+      },
+      {
+        "type": "library",
+        "name": "internal-helpers_104",
+        "version": "3.19.38",
+        "purl": "pkg:pypi/internal-helpers_104@3.19.38"
+      },
+      {
+        "type": "library",
+        "name": "@company/lib-69",
+        "version": "0.19.9",
+        "purl": "pkg:npm/@company/lib-69@0.19.9"
+      },
+      {
+        "type": "library",
+        "name": "client-182",
+        "version": "1.12.5",
+        "purl": "pkg:npm/client-182@1.12.5"
+      },
+      {
+        "type": "library",
+        "name": "@company/core-27",
+        "version": "3.15.30",
+        "purl": "pkg:npm/@company/core-27@3.15.30"
+      },
+      {
+        "type": "library",
+        "name": "@internal/cache-139",
+        "version": "0.15.45",
+        "purl": "pkg:npm/@internal/cache-139@0.15.45"
+      },
+      {
+        "type": "library",
+        "name": "api-184",
+        "version": "3.19.0",
+        "purl": "pkg:npm/api-184@3.19.0"
+      }
+    ]
+  },
+  "microservice-46": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-46",
+        "version": "1.17.20"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "queue_13",
+        "version": "0.7.47",
+        "purl": "pkg:pypi/queue_13@0.7.47"
+      },
+      {
+        "type": "library",
+        "name": "@company/client-99",
+        "version": "3.15.18",
+        "purl": "pkg:npm/@company/client-99@3.15.18"
+      },
+      {
+        "type": "library",
+        "name": "queue_142",
+        "version": "2.7.42",
+        "purl": "pkg:pypi/queue_142@2.7.42"
+      },
+      {
+        "type": "library",
+        "name": "common_71",
+        "version": "1.17.10",
+        "purl": "pkg:pypi/common_71@1.17.10"
+      },
+      {
+        "type": "library",
+        "name": "core-93",
+        "version": "2.4.4",
+        "purl": "pkg:npm/core-93@2.4.4"
+      },
+      {
+        "type": "library",
+        "name": "internal-core_141",
+        "version": "1.13.50",
+        "purl": "pkg:pypi/internal-core_141@1.13.50"
+      },
+      {
+        "type": "library",
+        "name": "@internal/utils-48",
+        "version": "3.0.33",
+        "purl": "pkg:npm/@internal/utils-48@3.0.33"
+      }
+    ]
+  },
+  "microservice-47": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-47",
+        "version": "2.11.49"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "company-sdk_100",
+        "version": "1.1.3",
+        "purl": "pkg:pypi/company-sdk_100@1.1.3"
+      },
+      {
+        "type": "library",
+        "name": "internal-logger_107",
+        "version": "3.8.33",
+        "purl": "pkg:pypi/internal-logger_107@3.8.33"
+      },
+      {
+        "type": "library",
+        "name": "common_102",
+        "version": "1.4.34",
+        "purl": "pkg:pypi/common_102@1.4.34"
+      },
+      {
+        "type": "library",
+        "name": "queue-185",
+        "version": "3.3.49",
+        "purl": "pkg:npm/queue-185@3.3.49"
+      },
+      {
+        "type": "library",
+        "name": "common-49",
+        "version": "2.19.20",
+        "purl": "pkg:npm/common-49@2.19.20"
+      },
+      {
+        "type": "library",
+        "name": "queue_23",
+        "version": "1.12.15",
+        "purl": "pkg:pypi/queue_23@1.12.15"
+      },
+      {
+        "type": "library",
+        "name": "internal-api_46",
+        "version": "3.3.1",
+        "purl": "pkg:pypi/internal-api_46@3.3.1"
+      },
+      {
+        "type": "library",
+        "name": "common-180",
+        "version": "0.16.7",
+        "purl": "pkg:npm/common-180@0.16.7"
+      },
+      {
+        "type": "library",
+        "name": "internal/gateway:21.0",
+        "version": "1.8.23",
+        "purl": "pkg:docker/internal/gateway:21.0@1.8.23"
+      },
+      {
+        "type": "library",
+        "name": "@internal/helpers-73",
+        "version": "2.0.26",
+        "purl": "pkg:npm/@internal/helpers-73@2.0.26"
+      },
+      {
+        "type": "library",
+        "name": "@internal/core-6",
+        "version": "2.11.13",
+        "purl": "pkg:npm/@internal/core-6@2.11.13"
+      },
+      {
+        "type": "library",
+        "name": "@company/api-70",
+        "version": "2.11.10",
+        "purl": "pkg:npm/@company/api-70@2.11.10"
+      },
+      {
+        "type": "library",
+        "name": "internal-lib_15",
+        "version": "2.4.42",
+        "purl": "pkg:pypi/internal-lib_15@2.4.42"
+      }
+    ]
+  },
+  "microservice-48": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-48",
+        "version": "0.13.29"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@internal/lib-52",
+        "version": "3.18.38",
+        "purl": "pkg:npm/@internal/lib-52@3.18.38"
+      },
+      {
+        "type": "library",
+        "name": "@company/auth-111",
+        "version": "3.0.46",
+        "purl": "pkg:npm/@company/auth-111@3.0.46"
+      },
+      {
+        "type": "library",
+        "name": "@company/queue-79",
+        "version": "3.20.45",
+        "purl": "pkg:npm/@company/queue-79@3.20.45"
+      },
+      {
+        "type": "library",
+        "name": "company-common_7",
+        "version": "0.15.2",
+        "purl": "pkg:pypi/company-common_7@0.15.2"
+      },
+      {
+        "type": "library",
+        "name": "@internal/config-113",
+        "version": "0.19.4",
+        "purl": "pkg:npm/@internal/config-113@0.19.4"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/base:25.0",
+        "version": "3.4.41",
+        "purl": "pkg:docker/registry.io/base:25.0@3.4.41"
+      },
+      {
+        "type": "library",
+        "name": "@internal/utils-96",
+        "version": "0.7.43",
+        "purl": "pkg:npm/@internal/utils-96@0.7.43"
+      },
+      {
+        "type": "library",
+        "name": "company/runtime:7.0",
+        "version": "2.17.26",
+        "purl": "pkg:docker/company/runtime:7.0@2.17.26"
+      },
+      {
+        "type": "library",
+        "name": "internal/cache:59.0",
+        "version": "0.2.16",
+        "purl": "pkg:docker/internal/cache:59.0@0.2.16"
+      },
+      {
+        "type": "library",
+        "name": "company-queue_36",
+        "version": "1.2.31",
+        "purl": "pkg:pypi/company-queue_36@1.2.31"
+      }
+    ]
+  },
+  "microservice-49": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-49",
+        "version": "1.14.38"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@company/queue-245",
+        "version": "2.9.36",
+        "purl": "pkg:npm/@company/queue-245@2.9.36"
+      },
+      {
+        "type": "library",
+        "name": "@company/client-178",
+        "version": "3.14.49",
+        "purl": "pkg:npm/@company/client-178@3.14.49"
+      },
+      {
+        "type": "library",
+        "name": "@internal/config-159",
+        "version": "0.7.27",
+        "purl": "pkg:npm/@internal/config-159@0.7.27"
+      },
+      {
+        "type": "library",
+        "name": "cache_103",
+        "version": "0.9.44",
+        "purl": "pkg:pypi/cache_103@0.9.44"
+      },
+      {
+        "type": "library",
+        "name": "queue-185",
+        "version": "3.3.49",
+        "purl": "pkg:npm/queue-185@3.3.49"
+      }
+    ]
+  },
+  "microservice-50": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-03-13T10:15:01.815370",
+      "component": {
+        "type": "application",
+        "name": "microservice-50",
+        "version": "1.2.27"
+      }
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "common-14",
+        "version": "2.16.48",
+        "purl": "pkg:npm/common-14@2.16.48"
+      },
+      {
+        "type": "library",
+        "name": "api_131",
+        "version": "0.2.17",
+        "purl": "pkg:pypi/api_131@0.2.17"
+      },
+      {
+        "type": "library",
+        "name": "registry.io/proxy:17.0",
+        "version": "0.7.8",
+        "purl": "pkg:docker/registry.io/proxy:17.0@0.7.8"
+      },
+      {
+        "type": "library",
+        "name": "api-60",
+        "version": "1.8.28",
+        "purl": "pkg:npm/api-60@1.8.28"
+      },
+      {
+        "type": "library",
+        "name": "@internal/config-113",
+        "version": "0.19.4",
+        "purl": "pkg:npm/@internal/config-113@0.19.4"
+      },
+      {
+        "type": "library",
+        "name": "cache-65",
+        "version": "3.5.29",
+        "purl": "pkg:npm/cache-65@3.5.29"
+      },
+      {
+        "type": "library",
+        "name": "company/web:38.0",
+        "version": "0.0.28",
+        "purl": "pkg:docker/company/web:38.0@0.0.28"
+      },
+      {
+        "type": "library",
+        "name": "company-helpers_105",
+        "version": "0.4.44",
+        "purl": "pkg:pypi/company-helpers_105@0.4.44"
+      },
+      {
+        "type": "library",
+        "name": "logger-72",
+        "version": "2.19.7",
+        "purl": "pkg:npm/logger-72@2.19.7"
+      },
+      {
+        "type": "library",
+        "name": "common_102",
+        "version": "1.4.34",
+        "purl": "pkg:pypi/common_102@1.4.34"
+      },
+      {
+        "type": "library",
+        "name": "@internal/db-116",
+        "version": "1.15.37",
+        "purl": "pkg:npm/@internal/db-116@1.15.37"
+      },
+      {
+        "type": "library",
+        "name": "@company/config-157",
+        "version": "2.18.27",
+        "purl": "pkg:npm/@company/config-157@2.18.27"
+      },
+      {
+        "type": "library",
+        "name": "@internal/auth-64",
+        "version": "1.15.14",
+        "purl": "pkg:npm/@internal/auth-64@1.15.14"
+      },
+      {
+        "type": "library",
+        "name": "@internal/config-107",
+        "version": "0.9.46",
+        "purl": "pkg:npm/@internal/config-107@0.9.46"
+      }
+    ]
+  }
+}

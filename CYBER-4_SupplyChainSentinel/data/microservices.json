@@ -1,0 +1,3759 @@
+{
+  "services": [
+    {
+      "name": "microservice-01",
+      "version": "0.12.24",
+      "description": "Microservice 1 for internal platform",
+      "team": "team-gamma",
+      "repository": "git@github.com:company/microservice-01.git",
+      "deployed_date": "2024-01-16T00:00:00",
+      "dependencies": [
+        {
+          "name": "company-common_88",
+          "version": "2.5.17",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company/worker:79.0",
+          "version": "2.5.18",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/auth-38",
+          "version": "3.8.3",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-sdk_77",
+          "version": "0.14.16",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/auth-232",
+          "version": "2.15.33",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/queue:72.0",
+          "version": "3.18.30",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/helpers-141",
+          "version": "0.20.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-core_143",
+          "version": "1.0.44",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/utils-218",
+          "version": "2.12.39",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-helpers_104",
+          "version": "3.19.38",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/cache:62.0",
+          "version": "3.5.4",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-queue_91",
+          "version": "2.3.27",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-common_144",
+          "version": "1.20.36",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/client-165",
+          "version": "2.2.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/api-131",
+          "version": "1.11.6",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "lib-82",
+          "version": "2.3.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-helpers_149",
+          "version": "2.5.24",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/queue-37",
+          "version": "1.8.18",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-core_147",
+          "version": "3.15.24",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "staging",
+      "port": 8001
+    },
+    {
+      "name": "microservice-02",
+      "version": "3.6.39",
+      "description": "Microservice 2 for internal platform",
+      "team": "team-alpha",
+      "repository": "git@github.com:company/microservice-02.git",
+      "deployed_date": "2024-04-23T00:00:00",
+      "dependencies": [
+        {
+          "name": "api-91",
+          "version": "2.1.14",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/lib-225",
+          "version": "3.16.2",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/common-35",
+          "version": "1.11.18",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-server_1",
+          "version": "3.17.42",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/queue:75.0",
+          "version": "2.17.20",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/sdk-102",
+          "version": "1.9.28",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-helpers_62",
+          "version": "3.14.20",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/api-201",
+          "version": "0.18.8",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-config_80",
+          "version": "0.4.48",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "config-55",
+          "version": "0.14.26",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/helpers-73",
+          "version": "2.0.26",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "core_26",
+          "version": "0.8.35",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-core_143",
+          "version": "1.0.44",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "development",
+      "port": 8002
+    },
+    {
+      "name": "microservice-03",
+      "version": "0.1.42",
+      "description": "Microservice 3 for internal platform",
+      "team": "team-delta",
+      "repository": "git@github.com:company/microservice-03.git",
+      "deployed_date": "2024-03-09T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/lib-52",
+          "version": "3.18.38",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/lib-17",
+          "version": "0.7.36",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/queue-37",
+          "version": "1.8.18",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "auth-36",
+          "version": "0.17.19",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "server_42",
+          "version": "2.0.40",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-core_122",
+          "version": "0.5.28",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "sdk-128",
+          "version": "3.3.8",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-core_147",
+          "version": "3.15.24",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/client-228",
+          "version": "2.3.26",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/server-9",
+          "version": "2.2.13",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/cache:59.0",
+          "version": "0.2.16",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-cache_4",
+          "version": "1.18.31",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/logger-76",
+          "version": "3.18.39",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8003
+    },
+    {
+      "name": "microservice-04",
+      "version": "0.17.14",
+      "description": "Microservice 4 for internal platform",
+      "team": "team-alpha",
+      "repository": "git@github.com:company/microservice-04.git",
+      "deployed_date": "2024-04-08T00:00:00",
+      "dependencies": [
+        {
+          "name": "internal/base:63.0",
+          "version": "1.17.41",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "client-200",
+          "version": "2.12.36",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "helpers_44",
+          "version": "0.8.9",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "auth-1",
+          "version": "3.7.28",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "queue_13",
+          "version": "0.7.47",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "client_112",
+          "version": "0.16.43",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/gateway:81.0",
+          "version": "2.1.24",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal-common_144",
+          "version": "1.20.36",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-server_1",
+          "version": "3.17.42",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/lib-244",
+          "version": "0.10.10",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "auth-223",
+          "version": "1.11.35",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/logger-206",
+          "version": "1.7.50",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/queue:32.0",
+          "version": "3.11.32",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-core_122",
+          "version": "0.5.28",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-helpers_149",
+          "version": "2.5.24",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "development",
+      "port": 8004
+    },
+    {
+      "name": "microservice-05",
+      "version": "3.9.41",
+      "description": "Microservice 5 for internal platform",
+      "team": "team-beta",
+      "repository": "git@github.com:company/microservice-05.git",
+      "deployed_date": "2024-02-15T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/client-62",
+          "version": "3.13.3",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-cache_40",
+          "version": "2.12.48",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "client_24",
+          "version": "2.8.23",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/api:78.0",
+          "version": "3.0.33",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "cache-183",
+          "version": "2.4.8",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "server-170",
+          "version": "2.8.46",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "server_99",
+          "version": "2.17.43",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/helpers-155",
+          "version": "0.15.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "auth-205",
+          "version": "2.9.10",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/sdk-28",
+          "version": "3.9.27",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "auth_73",
+          "version": "3.13.43",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company/proxy:90.0",
+          "version": "1.1.43",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "config_81",
+          "version": "1.7.9",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "config-46",
+          "version": "2.0.7",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "core-187",
+          "version": "2.13.0",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "queue_23",
+          "version": "1.12.15",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company/proxy:36.0",
+          "version": "3.16.19",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "registry.io/api:91.0",
+          "version": "0.16.49",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/client-174",
+          "version": "3.6.14",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/common-41",
+          "version": "0.11.13",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "development",
+      "port": 8005
+    },
+    {
+      "name": "microservice-06",
+      "version": "3.3.40",
+      "description": "Microservice 6 for internal platform",
+      "team": "team-gamma",
+      "repository": "git@github.com:company/microservice-06.git",
+      "deployed_date": "2024-05-04T00:00:00",
+      "dependencies": [
+        {
+          "name": "company/api:95.0",
+          "version": "0.18.14",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "server-196",
+          "version": "0.13.38",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-common_88",
+          "version": "2.5.17",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/logger-97",
+          "version": "1.15.33",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/server-153",
+          "version": "0.9.43",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "logger_106",
+          "version": "2.5.23",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "production",
+      "port": 8006
+    },
+    {
+      "name": "microservice-07",
+      "version": "3.0.2",
+      "description": "Microservice 7 for internal platform",
+      "team": "team-gamma",
+      "repository": "git@github.com:company/microservice-07.git",
+      "deployed_date": "2024-01-15T00:00:00",
+      "dependencies": [
+        {
+          "name": "auth_126",
+          "version": "1.3.29",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/logger-97",
+          "version": "1.15.33",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/common-71",
+          "version": "2.18.43",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "logger-18",
+          "version": "1.4.42",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/cache-98",
+          "version": "3.2.30",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "core-12",
+          "version": "3.19.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-queue_118",
+          "version": "2.2.2",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-client_53",
+          "version": "3.8.50",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "utils-122",
+          "version": "2.14.2",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-client_0",
+          "version": "1.7.8",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/auth-199",
+          "version": "1.0.9",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "client-32",
+          "version": "2.6.42",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/proxy:5.0",
+          "version": "3.5.23",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "core_26",
+          "version": "0.8.35",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-auth_79",
+          "version": "2.19.34",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/config-157",
+          "version": "2.18.27",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-api_5",
+          "version": "0.17.29",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "queue_23",
+          "version": "1.12.15",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/proxy:94.0",
+          "version": "1.0.29",
+          "ecosystem": "docker"
+        }
+      ],
+      "environment": "staging",
+      "port": 8007
+    },
+    {
+      "name": "microservice-08",
+      "version": "3.17.9",
+      "description": "Microservice 8 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-08.git",
+      "deployed_date": "2024-02-29T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/logger-207",
+          "version": "1.19.5",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "api-60",
+          "version": "1.8.28",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/client-108",
+          "version": "3.14.20",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/monitor:13.0",
+          "version": "0.3.36",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "helpers_84",
+          "version": "3.20.42",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-queue_91",
+          "version": "2.3.27",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "production",
+      "port": 8008
+    },
+    {
+      "name": "microservice-09",
+      "version": "0.7.44",
+      "description": "Microservice 9 for internal platform",
+      "team": "team-beta",
+      "repository": "git@github.com:company/microservice-09.git",
+      "deployed_date": "2024-01-04T00:00:00",
+      "dependencies": [
+        {
+          "name": "auth_126",
+          "version": "1.3.29",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "logger-72",
+          "version": "2.19.7",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-client_0",
+          "version": "1.7.8",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "helpers_84",
+          "version": "3.20.42",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/server-9",
+          "version": "2.2.13",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/cache-241",
+          "version": "1.17.47",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8009
+    },
+    {
+      "name": "microservice-10",
+      "version": "1.18.4",
+      "description": "Microservice 10 for internal platform",
+      "team": "team-alpha",
+      "repository": "git@github.com:company/microservice-10.git",
+      "deployed_date": "2024-01-30T00:00:00",
+      "dependencies": [
+        {
+          "name": "internal/base:63.0",
+          "version": "1.17.41",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/config-157",
+          "version": "2.18.27",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/base:20.0",
+          "version": "1.6.12",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal/cache:6.0",
+          "version": "2.7.17",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "common-49",
+          "version": "2.19.20",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/auth-233",
+          "version": "2.20.44",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "staging",
+      "port": 8010
+    },
+    {
+      "name": "microservice-11",
+      "version": "1.10.50",
+      "description": "Microservice 11 for internal platform",
+      "team": "team-beta",
+      "repository": "git@github.com:company/microservice-11.git",
+      "deployed_date": "2024-01-12T00:00:00",
+      "dependencies": [
+        {
+          "name": "client-32",
+          "version": "2.6.42",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/web:11.0",
+          "version": "0.2.24",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "logger-103",
+          "version": "1.5.19",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/utils-218",
+          "version": "2.12.39",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/sdk-172",
+          "version": "3.20.50",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/monitor:15.0",
+          "version": "3.1.25",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "registry.io/queue:27.0",
+          "version": "3.18.6",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-core_127",
+          "version": "1.12.23",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "db_97",
+          "version": "1.12.18",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "auth-205",
+          "version": "2.9.10",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common-166",
+          "version": "0.14.36",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "helpers-61",
+          "version": "1.4.14",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "development",
+      "port": 8011
+    },
+    {
+      "name": "microservice-12",
+      "version": "1.14.15",
+      "description": "Microservice 12 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-12.git",
+      "deployed_date": "2024-01-11T00:00:00",
+      "dependencies": [
+        {
+          "name": "@company/common-171",
+          "version": "2.9.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "client-32",
+          "version": "2.6.42",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "helpers-61",
+          "version": "1.4.14",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/core-140",
+          "version": "2.19.40",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "logger-72",
+          "version": "2.19.7",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-config_137",
+          "version": "3.17.19",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "helpers-212",
+          "version": "1.18.37",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/sdk-86",
+          "version": "3.3.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "logger_106",
+          "version": "2.5.23",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "server-189",
+          "version": "2.8.47",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8012
+    },
+    {
+      "name": "microservice-13",
+      "version": "3.2.0",
+      "description": "Microservice 13 for internal platform",
+      "team": "team-alpha",
+      "repository": "git@github.com:company/microservice-13.git",
+      "deployed_date": "2024-02-15T00:00:00",
+      "dependencies": [
+        {
+          "name": "company/proxy:5.0",
+          "version": "3.5.23",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal/runtime:33.0",
+          "version": "3.4.47",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "auth_73",
+          "version": "3.13.43",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-config_63",
+          "version": "2.20.6",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/utils-192",
+          "version": "2.6.2",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "cache_148",
+          "version": "1.5.28",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/queue-80",
+          "version": "1.9.42",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "queue-8",
+          "version": "1.10.49",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8013
+    },
+    {
+      "name": "microservice-14",
+      "version": "3.7.11",
+      "description": "Microservice 14 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-14.git",
+      "deployed_date": "2024-06-26T00:00:00",
+      "dependencies": [
+        {
+          "name": "client-213",
+          "version": "0.0.5",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-helpers_105",
+          "version": "0.4.44",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/monitor:13.0",
+          "version": "0.3.36",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company/proxy:5.0",
+          "version": "3.5.23",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-client_145",
+          "version": "2.5.40",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/db-243",
+          "version": "0.10.18",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-helpers_104",
+          "version": "3.19.38",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/auth-64",
+          "version": "1.15.14",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/api-105",
+          "version": "1.14.35",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/helpers-73",
+          "version": "2.0.26",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-sdk_77",
+          "version": "0.14.16",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "lib-138",
+          "version": "0.16.19",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "server_17",
+          "version": "2.13.26",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/core-230",
+          "version": "1.1.36",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8014
+    },
+    {
+      "name": "microservice-15",
+      "version": "3.0.35",
+      "description": "Microservice 15 for internal platform",
+      "team": "team-beta",
+      "repository": "git@github.com:company/microservice-15.git",
+      "deployed_date": "2024-02-19T00:00:00",
+      "dependencies": [
+        {
+          "name": "queue_117",
+          "version": "2.3.13",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-api_5",
+          "version": "0.17.29",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-config_63",
+          "version": "2.20.6",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company/base:86.0",
+          "version": "1.10.38",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "lib-45",
+          "version": "3.10.17",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common_71",
+          "version": "1.17.10",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/builder:23.0",
+          "version": "2.2.18",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company/web:0.0",
+          "version": "3.0.27",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/server-154",
+          "version": "0.0.13",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/client-178",
+          "version": "3.14.49",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8015
+    },
+    {
+      "name": "microservice-16",
+      "version": "1.8.3",
+      "description": "Microservice 16 for internal platform",
+      "team": "team-beta",
+      "repository": "git@github.com:company/microservice-16.git",
+      "deployed_date": "2024-01-29T00:00:00",
+      "dependencies": [
+        {
+          "name": "internal-logger_66",
+          "version": "0.18.6",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "queue-185",
+          "version": "3.3.49",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/worker:41.0",
+          "version": "0.0.40",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal-queue_139",
+          "version": "1.10.3",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "core_26",
+          "version": "0.8.35",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "config_9",
+          "version": "1.20.22",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/client-112",
+          "version": "3.20.5",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/lib-237",
+          "version": "1.17.17",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8016
+    },
+    {
+      "name": "microservice-17",
+      "version": "0.17.11",
+      "description": "Microservice 17 for internal platform",
+      "team": "team-beta",
+      "repository": "git@github.com:company/microservice-17.git",
+      "deployed_date": "2024-01-08T00:00:00",
+      "dependencies": [
+        {
+          "name": "company-cache_4",
+          "version": "1.18.31",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/core-90",
+          "version": "1.5.35",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/queue-81",
+          "version": "2.11.44",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-cache_93",
+          "version": "1.2.33",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company/queue:72.0",
+          "version": "3.18.30",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "api-22",
+          "version": "1.17.8",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/core-27",
+          "version": "3.15.30",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-config_80",
+          "version": "0.4.48",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/cache-186",
+          "version": "3.2.7",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "logger-145",
+          "version": "3.1.18",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/config-107",
+          "version": "0.9.46",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/server-222",
+          "version": "1.8.46",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "sdk-128",
+          "version": "3.3.8",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/common-171",
+          "version": "2.9.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-utils_65",
+          "version": "1.14.37",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/cache:12.0",
+          "version": "0.19.37",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "registry.io/proxy:55.0",
+          "version": "1.10.22",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "lib_138",
+          "version": "0.16.30",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/auth-232",
+          "version": "2.15.33",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "core-53",
+          "version": "0.9.32",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "staging",
+      "port": 8017
+    },
+    {
+      "name": "microservice-18",
+      "version": "3.6.47",
+      "description": "Microservice 18 for internal platform",
+      "team": "team-gamma",
+      "repository": "git@github.com:company/microservice-18.git",
+      "deployed_date": "2024-02-28T00:00:00",
+      "dependencies": [
+        {
+          "name": "auth-36",
+          "version": "0.17.19",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/db:58.0",
+          "version": "2.19.1",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/utils-120",
+          "version": "0.19.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "helpers_119",
+          "version": "0.16.8",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/server-227",
+          "version": "2.18.21",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-client_53",
+          "version": "3.8.50",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-api_46",
+          "version": "3.3.1",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "common-166",
+          "version": "0.14.36",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8018
+    },
+    {
+      "name": "microservice-19",
+      "version": "3.4.13",
+      "description": "Microservice 19 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-19.git",
+      "deployed_date": "2024-04-26T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/db-116",
+          "version": "1.15.37",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/client-50",
+          "version": "3.9.35",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/cache-121",
+          "version": "1.19.16",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-core_127",
+          "version": "1.12.23",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/client-211",
+          "version": "2.2.16",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/builder:45.0",
+          "version": "1.0.37",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/sdk-102",
+          "version": "1.9.28",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/utils-192",
+          "version": "2.6.2",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/runtime:56.0",
+          "version": "3.12.29",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/client-112",
+          "version": "3.20.5",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/queue-37",
+          "version": "1.8.18",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/cache-241",
+          "version": "1.17.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-core_49",
+          "version": "3.8.26",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/sdk-248",
+          "version": "0.8.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/core-27",
+          "version": "3.15.30",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8019
+    },
+    {
+      "name": "microservice-20",
+      "version": "1.3.29",
+      "description": "Microservice 20 for internal platform",
+      "team": "team-delta",
+      "repository": "git@github.com:company/microservice-20.git",
+      "deployed_date": "2024-04-17T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/config-191",
+          "version": "1.14.44",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/lib-69",
+          "version": "0.19.9",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/lib-234",
+          "version": "2.9.45",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-queue_118",
+          "version": "2.2.2",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/client-99",
+          "version": "3.15.18",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "auth_73",
+          "version": "3.13.43",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "cache-183",
+          "version": "2.4.8",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/gateway:99.0",
+          "version": "3.17.18",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "lib-138",
+          "version": "0.16.19",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "logger-103",
+          "version": "1.5.19",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/common-171",
+          "version": "2.9.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "cache-65",
+          "version": "3.5.29",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common-16",
+          "version": "0.19.20",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-helpers_104",
+          "version": "3.19.38",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "client_41",
+          "version": "0.3.27",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/utils-30",
+          "version": "0.5.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/client-143",
+          "version": "1.15.4",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8020
+    },
+    {
+      "name": "microservice-21",
+      "version": "1.2.26",
+      "description": "Microservice 21 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-21.git",
+      "deployed_date": "2024-05-05T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/client-112",
+          "version": "3.20.5",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/cache:53.0",
+          "version": "2.8.29",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "helpers-151",
+          "version": "0.4.10",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-helpers_59",
+          "version": "2.7.32",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/queue-80",
+          "version": "1.9.42",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/cache:4.0",
+          "version": "0.9.50",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal/cache:6.0",
+          "version": "2.7.17",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal-auth_76",
+          "version": "0.14.34",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/runtime:87.0",
+          "version": "2.16.14",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-config_63",
+          "version": "2.20.6",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/base:63.0",
+          "version": "1.17.41",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/core-87",
+          "version": "1.18.19",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-utils_45",
+          "version": "2.14.23",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/web:96.0",
+          "version": "0.12.43",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "core_33",
+          "version": "1.6.39",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "production",
+      "port": 8021
+    },
+    {
+      "name": "microservice-22",
+      "version": "0.13.2",
+      "description": "Microservice 22 for internal platform",
+      "team": "team-alpha",
+      "repository": "git@github.com:company/microservice-22.git",
+      "deployed_date": "2024-04-30T00:00:00",
+      "dependencies": [
+        {
+          "name": "internal/api:28.0",
+          "version": "0.15.4",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/sdk-236",
+          "version": "0.9.45",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/client-142",
+          "version": "3.12.26",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/db-7",
+          "version": "1.17.46",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-api_123",
+          "version": "2.14.16",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "queue-219",
+          "version": "2.6.48",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "auth_126",
+          "version": "1.3.29",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company/db:46.0",
+          "version": "2.17.39",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "cache-126",
+          "version": "2.18.24",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/utils-167",
+          "version": "3.3.21",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/server-222",
+          "version": "1.8.46",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-api_46",
+          "version": "3.3.1",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/config-113",
+          "version": "0.19.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/runtime:56.0",
+          "version": "3.12.29",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company/api:74.0",
+          "version": "3.10.18",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal-db_52",
+          "version": "1.15.20",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/runtime:84.0",
+          "version": "1.5.47",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/logger-76",
+          "version": "3.18.39",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/cache:67.0",
+          "version": "2.17.49",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal-server_43",
+          "version": "1.18.42",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "development",
+      "port": 8022
+    },
+    {
+      "name": "microservice-23",
+      "version": "0.14.31",
+      "description": "Microservice 23 for internal platform",
+      "team": "team-beta",
+      "repository": "git@github.com:company/microservice-23.git",
+      "deployed_date": "2024-01-22T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/auth-217",
+          "version": "0.10.15",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "db_21",
+          "version": "0.2.12",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/api-201",
+          "version": "0.18.8",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/queue-245",
+          "version": "2.9.36",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/db:14.0",
+          "version": "2.12.41",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "registry.io/db:8.0",
+          "version": "3.18.15",
+          "ecosystem": "docker"
+        }
+      ],
+      "environment": "development",
+      "port": 8023
+    },
+    {
+      "name": "microservice-24",
+      "version": "1.11.18",
+      "description": "Microservice 24 for internal platform",
+      "team": "team-beta",
+      "repository": "git@github.com:company/microservice-24.git",
+      "deployed_date": "2024-06-14T00:00:00",
+      "dependencies": [
+        {
+          "name": "internal-helpers_104",
+          "version": "3.19.38",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "queue_124",
+          "version": "0.6.20",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "server-208",
+          "version": "3.18.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/base:86.0",
+          "version": "1.10.38",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/auth-111",
+          "version": "3.0.46",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8024
+    },
+    {
+      "name": "microservice-25",
+      "version": "3.18.47",
+      "description": "Microservice 25 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-25.git",
+      "deployed_date": "2024-01-07T00:00:00",
+      "dependencies": [
+        {
+          "name": "@company/queue-245",
+          "version": "2.9.36",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-queue_92",
+          "version": "0.3.20",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/auth-156",
+          "version": "2.2.25",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "lib-82",
+          "version": "2.3.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-utils_110",
+          "version": "3.11.24",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "staging",
+      "port": 8025
+    },
+    {
+      "name": "microservice-26",
+      "version": "2.16.2",
+      "description": "Microservice 26 for internal platform",
+      "team": "team-gamma",
+      "repository": "git@github.com:company/microservice-26.git",
+      "deployed_date": "2024-04-19T00:00:00",
+      "dependencies": [
+        {
+          "name": "company-client_145",
+          "version": "2.5.40",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/api-70",
+          "version": "2.11.10",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/base:47.0",
+          "version": "0.13.28",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-utils_110",
+          "version": "3.11.24",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/logger-207",
+          "version": "1.19.5",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common-94",
+          "version": "2.14.7",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/cache:4.0",
+          "version": "0.9.50",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company/db:46.0",
+          "version": "2.17.39",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "server-189",
+          "version": "2.8.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-server_70",
+          "version": "1.18.24",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/lib-237",
+          "version": "1.17.17",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-helpers_74",
+          "version": "0.7.18",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/utils-0",
+          "version": "0.2.13",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/base:40.0",
+          "version": "0.17.12",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "common_71",
+          "version": "1.17.10",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "auth-36",
+          "version": "0.17.19",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "sdk-197",
+          "version": "2.14.38",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/gateway:57.0",
+          "version": "0.5.6",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "cache_103",
+          "version": "0.9.44",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "staging",
+      "port": 8026
+    },
+    {
+      "name": "microservice-27",
+      "version": "2.1.7",
+      "description": "Microservice 27 for internal platform",
+      "team": "team-delta",
+      "repository": "git@github.com:company/microservice-27.git",
+      "deployed_date": "2024-04-03T00:00:00",
+      "dependencies": [
+        {
+          "name": "company/api:3.0",
+          "version": "3.6.6",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-sdk_100",
+          "version": "1.1.3",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/common-41",
+          "version": "0.11.13",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-sdk_67",
+          "version": "3.16.40",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/worker:50.0",
+          "version": "1.8.33",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/common-171",
+          "version": "2.9.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "auth_126",
+          "version": "1.3.29",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/gateway:77.0",
+          "version": "0.11.35",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/sdk-28",
+          "version": "3.9.27",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "queue_13",
+          "version": "0.7.47",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/runtime:84.0",
+          "version": "1.5.47",
+          "ecosystem": "docker"
+        }
+      ],
+      "environment": "staging",
+      "port": 8027
+    },
+    {
+      "name": "microservice-28",
+      "version": "1.4.21",
+      "description": "Microservice 28 for internal platform",
+      "team": "team-beta",
+      "repository": "git@github.com:company/microservice-28.git",
+      "deployed_date": "2024-05-18T00:00:00",
+      "dependencies": [
+        {
+          "name": "core-187",
+          "version": "2.13.0",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/sdk-89",
+          "version": "0.19.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "config_81",
+          "version": "1.7.9",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-queue_36",
+          "version": "1.2.31",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-utils_110",
+          "version": "3.11.24",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "helpers-34",
+          "version": "0.17.13",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8028
+    },
+    {
+      "name": "microservice-29",
+      "version": "0.11.22",
+      "description": "Microservice 29 for internal platform",
+      "team": "team-delta",
+      "repository": "git@github.com:company/microservice-29.git",
+      "deployed_date": "2024-05-04T00:00:00",
+      "dependencies": [
+        {
+          "name": "company-core_127",
+          "version": "1.12.23",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/worker:80.0",
+          "version": "0.11.28",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-sdk_135",
+          "version": "0.7.36",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-config_47",
+          "version": "3.0.18",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company/db:46.0",
+          "version": "2.17.39",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "registry.io/api:91.0",
+          "version": "0.16.49",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-common_109",
+          "version": "0.7.47",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/config-107",
+          "version": "0.9.46",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "api_131",
+          "version": "0.2.17",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-queue_139",
+          "version": "1.10.3",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/server-115",
+          "version": "1.7.33",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/logger-164",
+          "version": "2.18.3",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common-180",
+          "version": "0.16.7",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/cache:59.0",
+          "version": "0.2.16",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/utils-136",
+          "version": "2.7.37",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-common_7",
+          "version": "0.15.2",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-api_98",
+          "version": "0.16.0",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/lib-216",
+          "version": "2.19.9",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/helpers-141",
+          "version": "0.20.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/core-27",
+          "version": "3.15.30",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "development",
+      "port": 8029
+    },
+    {
+      "name": "microservice-30",
+      "version": "2.2.12",
+      "description": "Microservice 30 for internal platform",
+      "team": "team-delta",
+      "repository": "git@github.com:company/microservice-30.git",
+      "deployed_date": "2024-01-23T00:00:00",
+      "dependencies": [
+        {
+          "name": "@company/server-240",
+          "version": "3.15.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-server_113",
+          "version": "0.14.18",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-sdk_22",
+          "version": "0.6.12",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "db_97",
+          "version": "1.12.18",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company/worker:22.0",
+          "version": "2.15.38",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "registry.io/gateway:60.0",
+          "version": "1.10.33",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/db-149",
+          "version": "3.2.9",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/core-231",
+          "version": "3.6.26",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8030
+    },
+    {
+      "name": "microservice-31",
+      "version": "0.9.26",
+      "description": "Microservice 31 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-31.git",
+      "deployed_date": "2024-02-03T00:00:00",
+      "dependencies": [
+        {
+          "name": "internal/cache:59.0",
+          "version": "0.2.16",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "api-91",
+          "version": "2.1.14",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/logger-147",
+          "version": "3.17.49",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/proxy:90.0",
+          "version": "1.1.43",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "registry.io/queue:89.0",
+          "version": "3.17.48",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/cache-39",
+          "version": "2.5.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "config-55",
+          "version": "0.14.26",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "auth-84",
+          "version": "1.8.2",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/helpers-141",
+          "version": "0.20.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "api-57",
+          "version": "0.17.15",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "logger_106",
+          "version": "2.5.23",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/api-75",
+          "version": "3.18.17",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-cache_4",
+          "version": "1.18.31",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/core-77",
+          "version": "3.6.22",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/base:47.0",
+          "version": "0.13.28",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/api-104",
+          "version": "0.20.9",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "db_16",
+          "version": "1.20.43",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "staging",
+      "port": 8031
+    },
+    {
+      "name": "microservice-32",
+      "version": "3.18.21",
+      "description": "Microservice 32 for internal platform",
+      "team": "team-gamma",
+      "repository": "git@github.com:company/microservice-32.git",
+      "deployed_date": "2024-05-04T00:00:00",
+      "dependencies": [
+        {
+          "name": "server-215",
+          "version": "2.14.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/server-227",
+          "version": "2.18.21",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-core_127",
+          "version": "1.12.23",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-config_80",
+          "version": "0.4.48",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "api-10",
+          "version": "1.8.8",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/db-149",
+          "version": "3.2.9",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/utils-96",
+          "version": "0.7.43",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "client-32",
+          "version": "2.6.42",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/client-11",
+          "version": "1.4.32",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/db:46.0",
+          "version": "2.17.39",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company/base:10.0",
+          "version": "3.2.43",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "sdk-118",
+          "version": "3.8.29",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/queue:27.0",
+          "version": "3.18.6",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "registry.io/api:85.0",
+          "version": "1.5.37",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "db_16",
+          "version": "1.20.43",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/common-171",
+          "version": "2.9.41",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "development",
+      "port": 8032
+    },
+    {
+      "name": "microservice-33",
+      "version": "2.14.10",
+      "description": "Microservice 33 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-33.git",
+      "deployed_date": "2024-02-11T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/lib-234",
+          "version": "2.9.45",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/helpers-155",
+          "version": "0.15.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-cache_40",
+          "version": "2.12.48",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/client-67",
+          "version": "2.12.17",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/cache:59.0",
+          "version": "0.2.16",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company/cache:4.0",
+          "version": "0.9.50",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/auth-156",
+          "version": "2.2.25",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/core-87",
+          "version": "1.18.19",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "db-133",
+          "version": "0.1.50",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/db-116",
+          "version": "1.15.37",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/api-247",
+          "version": "2.7.0",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "cache-190",
+          "version": "0.18.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/monitor:97.0",
+          "version": "0.2.22",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/logger-147",
+          "version": "3.17.49",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-common_144",
+          "version": "1.20.36",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/queue:32.0",
+          "version": "3.11.32",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "utils-24",
+          "version": "0.1.25",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/api-75",
+          "version": "3.18.17",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common-180",
+          "version": "0.16.7",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "development",
+      "port": 8033
+    },
+    {
+      "name": "microservice-34",
+      "version": "2.18.8",
+      "description": "Microservice 34 for internal platform",
+      "team": "team-delta",
+      "repository": "git@github.com:company/microservice-34.git",
+      "deployed_date": "2024-03-07T00:00:00",
+      "dependencies": [
+        {
+          "name": "core-93",
+          "version": "2.4.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/runtime:98.0",
+          "version": "2.14.24",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/sdk-89",
+          "version": "0.19.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/proxy:29.0",
+          "version": "2.6.9",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "client_112",
+          "version": "0.16.43",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-helpers_104",
+          "version": "3.19.38",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/base:63.0",
+          "version": "1.17.41",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-queue_91",
+          "version": "2.3.27",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/cache:6.0",
+          "version": "2.7.17",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/auth-78",
+          "version": "0.16.12",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "lib-82",
+          "version": "2.3.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/cache-121",
+          "version": "1.19.16",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "config-59",
+          "version": "3.14.16",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "cache-21",
+          "version": "0.7.4",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "staging",
+      "port": 8034
+    },
+    {
+      "name": "microservice-35",
+      "version": "1.17.19",
+      "description": "Microservice 35 for internal platform",
+      "team": "team-alpha",
+      "repository": "git@github.com:company/microservice-35.git",
+      "deployed_date": "2024-01-07T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/api-105",
+          "version": "1.14.35",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common_37",
+          "version": "0.7.13",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "client_112",
+          "version": "0.16.43",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/lib-17",
+          "version": "0.7.36",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-utils_90",
+          "version": "1.15.4",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/core-162",
+          "version": "1.20.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/config-176",
+          "version": "1.14.2",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/api-75",
+          "version": "3.18.17",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "cache-190",
+          "version": "0.18.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/sdk-229",
+          "version": "1.1.37",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "staging",
+      "port": 8035
+    },
+    {
+      "name": "microservice-36",
+      "version": "1.18.46",
+      "description": "Microservice 36 for internal platform",
+      "team": "team-delta",
+      "repository": "git@github.com:company/microservice-36.git",
+      "deployed_date": "2024-03-27T00:00:00",
+      "dependencies": [
+        {
+          "name": "internal-core_143",
+          "version": "1.0.44",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/queue-74",
+          "version": "1.13.11",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/api:85.0",
+          "version": "1.5.37",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/lib-234",
+          "version": "2.9.45",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/queue:75.0",
+          "version": "2.17.20",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "api-163",
+          "version": "2.20.20",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/queue-79",
+          "version": "3.20.45",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "server-2",
+          "version": "2.8.9",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/web:96.0",
+          "version": "0.12.43",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-common_128",
+          "version": "3.4.5",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-core_29",
+          "version": "0.16.2",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company/gateway:99.0",
+          "version": "3.17.18",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "config_9",
+          "version": "1.20.22",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/server-169",
+          "version": "2.19.3",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "config_81",
+          "version": "1.7.9",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "queue_111",
+          "version": "3.7.20",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "helpers-151",
+          "version": "0.4.10",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/common-242",
+          "version": "0.12.50",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/db:58.0",
+          "version": "2.19.1",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "sdk-148",
+          "version": "0.5.17",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "development",
+      "port": 8036
+    },
+    {
+      "name": "microservice-37",
+      "version": "2.0.25",
+      "description": "Microservice 37 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-37.git",
+      "deployed_date": "2024-02-26T00:00:00",
+      "dependencies": [
+        {
+          "name": "queue_124",
+          "version": "0.6.20",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/queue-245",
+          "version": "2.9.36",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/gateway:60.0",
+          "version": "1.10.33",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/lib-20",
+          "version": "1.2.21",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/common-71",
+          "version": "2.18.43",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "db_97",
+          "version": "1.12.18",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-auth_32",
+          "version": "2.0.32",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "config-59",
+          "version": "3.14.16",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "staging",
+      "port": 8037
+    },
+    {
+      "name": "microservice-38",
+      "version": "3.2.32",
+      "description": "Microservice 38 for internal platform",
+      "team": "team-delta",
+      "repository": "git@github.com:company/microservice-38.git",
+      "deployed_date": "2024-02-19T00:00:00",
+      "dependencies": [
+        {
+          "name": "server-47",
+          "version": "2.10.27",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/utils-167",
+          "version": "3.3.21",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/sdk-28",
+          "version": "3.9.27",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-helpers_61",
+          "version": "1.11.19",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "client_78",
+          "version": "3.5.39",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/client-99",
+          "version": "3.15.18",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-db_48",
+          "version": "1.12.10",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-auth_19",
+          "version": "1.12.15",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/config-113",
+          "version": "0.19.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/web:0.0",
+          "version": "3.0.27",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company/worker:79.0",
+          "version": "2.5.18",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "queue_142",
+          "version": "2.7.42",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/client-142",
+          "version": "3.12.26",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/sdk-100",
+          "version": "2.3.49",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/client-11",
+          "version": "1.4.32",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common-42",
+          "version": "3.19.47",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "staging",
+      "port": 8038
+    },
+    {
+      "name": "microservice-39",
+      "version": "2.0.18",
+      "description": "Microservice 39 for internal platform",
+      "team": "team-gamma",
+      "repository": "git@github.com:company/microservice-39.git",
+      "deployed_date": "2024-03-30T00:00:00",
+      "dependencies": [
+        {
+          "name": "client_58",
+          "version": "1.20.39",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-helpers_59",
+          "version": "2.7.32",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-api_11",
+          "version": "2.4.17",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/proxy:83.0",
+          "version": "2.18.34",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/sdk-28",
+          "version": "3.9.27",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/db:65.0",
+          "version": "3.1.35",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-queue_91",
+          "version": "2.3.27",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "api-184",
+          "version": "3.19.0",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/queue-203",
+          "version": "3.6.39",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/api-75",
+          "version": "3.18.17",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-auth_116",
+          "version": "2.20.44",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/db:37.0",
+          "version": "3.4.20",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/utils-218",
+          "version": "2.12.39",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "server-189",
+          "version": "2.8.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "sdk-197",
+          "version": "2.14.38",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "staging",
+      "port": 8039
+    },
+    {
+      "name": "microservice-40",
+      "version": "3.4.37",
+      "description": "Microservice 40 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-40.git",
+      "deployed_date": "2024-01-23T00:00:00",
+      "dependencies": [
+        {
+          "name": "company/base:47.0",
+          "version": "0.13.28",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "common_37",
+          "version": "0.7.13",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/server-44",
+          "version": "0.15.14",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/api-110",
+          "version": "0.4.32",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-core_122",
+          "version": "0.5.28",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/web:54.0",
+          "version": "2.13.47",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/server-227",
+          "version": "2.18.21",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-common_129",
+          "version": "3.12.31",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "helpers-212",
+          "version": "1.18.37",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/web:11.0",
+          "version": "0.2.24",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/auth-226",
+          "version": "3.4.38",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/logger-147",
+          "version": "3.17.49",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/queue-83",
+          "version": "2.3.12",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/cache:12.0",
+          "version": "0.19.37",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal/web:96.0",
+          "version": "0.12.43",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal/cache:59.0",
+          "version": "0.2.16",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/auth-217",
+          "version": "0.10.15",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-api_123",
+          "version": "2.14.16",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/db:58.0",
+          "version": "2.19.1",
+          "ecosystem": "docker"
+        }
+      ],
+      "environment": "production",
+      "port": 8040
+    },
+    {
+      "name": "microservice-41",
+      "version": "0.0.26",
+      "description": "Microservice 41 for internal platform",
+      "team": "team-gamma",
+      "repository": "git@github.com:company/microservice-41.git",
+      "deployed_date": "2024-04-16T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/helpers-155",
+          "version": "0.15.47",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/db-243",
+          "version": "0.10.18",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/web:44.0",
+          "version": "3.11.48",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal-lib_18",
+          "version": "1.9.45",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/common-171",
+          "version": "2.9.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "cache-33",
+          "version": "2.14.20",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/gateway:77.0",
+          "version": "0.11.35",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "registry.io/api:91.0",
+          "version": "0.16.49",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal-db_52",
+          "version": "1.15.20",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company-config_137",
+          "version": "3.17.19",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/utils-192",
+          "version": "2.6.2",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8041
+    },
+    {
+      "name": "microservice-42",
+      "version": "3.17.47",
+      "description": "Microservice 42 for internal platform",
+      "team": "team-delta",
+      "repository": "git@github.com:company/microservice-42.git",
+      "deployed_date": "2024-02-27T00:00:00",
+      "dependencies": [
+        {
+          "name": "company-server_113",
+          "version": "0.14.18",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-cache_40",
+          "version": "2.12.48",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-logger_136",
+          "version": "2.18.1",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "company/runtime:68.0",
+          "version": "1.0.21",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/api-70",
+          "version": "2.11.10",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/sdk-102",
+          "version": "1.9.28",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "auth-95",
+          "version": "3.14.5",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/gateway:26.0",
+          "version": "2.13.24",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/client-195",
+          "version": "1.15.44",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "sdk-148",
+          "version": "0.5.17",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "core_33",
+          "version": "1.6.39",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-server_1",
+          "version": "3.17.42",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "cache-21",
+          "version": "0.7.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/gateway:21.0",
+          "version": "1.8.23",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal/builder:23.0",
+          "version": "2.2.18",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@company/server-154",
+          "version": "0.0.13",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/queue:27.0",
+          "version": "3.18.6",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-core_49",
+          "version": "3.8.26",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/helpers-155",
+          "version": "0.15.47",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8042
+    },
+    {
+      "name": "microservice-43",
+      "version": "3.3.41",
+      "description": "Microservice 43 for internal platform",
+      "team": "team-gamma",
+      "repository": "git@github.com:company/microservice-43.git",
+      "deployed_date": "2024-04-16T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/auth-78",
+          "version": "0.16.12",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/config-134",
+          "version": "1.18.13",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/server-153",
+          "version": "0.9.43",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/queue:89.0",
+          "version": "3.17.48",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-sdk_77",
+          "version": "0.14.16",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "production",
+      "port": 8043
+    },
+    {
+      "name": "microservice-44",
+      "version": "3.3.23",
+      "description": "Microservice 44 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-44.git",
+      "deployed_date": "2024-05-27T00:00:00",
+      "dependencies": [
+        {
+          "name": "registry.io/cache:64.0",
+          "version": "0.15.28",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "common_102",
+          "version": "1.4.34",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-config_80",
+          "version": "0.4.48",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/config-125",
+          "version": "3.17.23",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common-14",
+          "version": "2.16.48",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "helpers-61",
+          "version": "1.4.14",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-core_141",
+          "version": "1.13.50",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/helpers-141",
+          "version": "0.20.41",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-auth_2",
+          "version": "3.16.45",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal/web:96.0",
+          "version": "0.12.43",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "helpers-34",
+          "version": "0.17.13",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "core_56",
+          "version": "3.12.4",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "api_131",
+          "version": "0.2.17",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "queue-185",
+          "version": "3.3.49",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-config_47",
+          "version": "3.0.18",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/config-246",
+          "version": "3.16.20",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-lib_39",
+          "version": "1.12.4",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "auth-223",
+          "version": "1.11.35",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/web:44.0",
+          "version": "3.11.48",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/utils-132",
+          "version": "3.8.12",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8044
+    },
+    {
+      "name": "microservice-45",
+      "version": "3.20.22",
+      "description": "Microservice 45 for internal platform",
+      "team": "team-alpha",
+      "repository": "git@github.com:company/microservice-45.git",
+      "deployed_date": "2024-03-15T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/queue-83",
+          "version": "2.3.12",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-config_47",
+          "version": "3.0.18",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/db-29",
+          "version": "0.10.3",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/queue-74",
+          "version": "1.13.11",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "api-163",
+          "version": "2.20.20",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/sdk-236",
+          "version": "0.9.45",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/gateway:49.0",
+          "version": "1.13.6",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal-helpers_104",
+          "version": "3.19.38",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/lib-69",
+          "version": "0.19.9",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "client-182",
+          "version": "1.12.5",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/core-27",
+          "version": "3.15.30",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/cache-139",
+          "version": "0.15.45",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "api-184",
+          "version": "3.19.0",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "staging",
+      "port": 8045
+    },
+    {
+      "name": "microservice-46",
+      "version": "1.17.20",
+      "description": "Microservice 46 for internal platform",
+      "team": "team-gamma",
+      "repository": "git@github.com:company/microservice-46.git",
+      "deployed_date": "2024-06-24T00:00:00",
+      "dependencies": [
+        {
+          "name": "queue_13",
+          "version": "0.7.47",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@company/client-99",
+          "version": "3.15.18",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "queue_142",
+          "version": "2.7.42",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "common_71",
+          "version": "1.17.10",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "core-93",
+          "version": "2.4.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-core_141",
+          "version": "1.13.50",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/utils-48",
+          "version": "3.0.33",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "staging",
+      "port": 8046
+    },
+    {
+      "name": "microservice-47",
+      "version": "2.11.49",
+      "description": "Microservice 47 for internal platform",
+      "team": "team-delta",
+      "repository": "git@github.com:company/microservice-47.git",
+      "deployed_date": "2024-04-15T00:00:00",
+      "dependencies": [
+        {
+          "name": "company-sdk_100",
+          "version": "1.1.3",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-logger_107",
+          "version": "3.8.33",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "common_102",
+          "version": "1.4.34",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "queue-185",
+          "version": "3.3.49",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common-49",
+          "version": "2.19.20",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "queue_23",
+          "version": "1.12.15",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "internal-api_46",
+          "version": "3.3.1",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "common-180",
+          "version": "0.16.7",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal/gateway:21.0",
+          "version": "1.8.23",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/helpers-73",
+          "version": "2.0.26",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/core-6",
+          "version": "2.11.13",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/api-70",
+          "version": "2.11.10",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "internal-lib_15",
+          "version": "2.4.42",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "staging",
+      "port": 8047
+    },
+    {
+      "name": "microservice-48",
+      "version": "0.13.29",
+      "description": "Microservice 48 for internal platform",
+      "team": "team-alpha",
+      "repository": "git@github.com:company/microservice-48.git",
+      "deployed_date": "2024-01-30T00:00:00",
+      "dependencies": [
+        {
+          "name": "@internal/lib-52",
+          "version": "3.18.38",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/auth-111",
+          "version": "3.0.46",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/queue-79",
+          "version": "3.20.45",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company-common_7",
+          "version": "0.15.2",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/config-113",
+          "version": "0.19.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "registry.io/base:25.0",
+          "version": "3.4.41",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "@internal/utils-96",
+          "version": "0.7.43",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/runtime:7.0",
+          "version": "2.17.26",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "internal/cache:59.0",
+          "version": "0.2.16",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-queue_36",
+          "version": "1.2.31",
+          "ecosystem": "pypi"
+        }
+      ],
+      "environment": "production",
+      "port": 8048
+    },
+    {
+      "name": "microservice-49",
+      "version": "1.14.38",
+      "description": "Microservice 49 for internal platform",
+      "team": "team-epsilon",
+      "repository": "git@github.com:company/microservice-49.git",
+      "deployed_date": "2024-03-28T00:00:00",
+      "dependencies": [
+        {
+          "name": "@company/queue-245",
+          "version": "2.9.36",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/client-178",
+          "version": "3.14.49",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/config-159",
+          "version": "0.7.27",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "cache_103",
+          "version": "0.9.44",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "queue-185",
+          "version": "3.3.49",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8049
+    },
+    {
+      "name": "microservice-50",
+      "version": "1.2.27",
+      "description": "Microservice 50 for internal platform",
+      "team": "team-alpha",
+      "repository": "git@github.com:company/microservice-50.git",
+      "deployed_date": "2024-01-20T00:00:00",
+      "dependencies": [
+        {
+          "name": "common-14",
+          "version": "2.16.48",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "api_131",
+          "version": "0.2.17",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "registry.io/proxy:17.0",
+          "version": "0.7.8",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "api-60",
+          "version": "1.8.28",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/config-113",
+          "version": "0.19.4",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "cache-65",
+          "version": "3.5.29",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "company/web:38.0",
+          "version": "0.0.28",
+          "ecosystem": "docker"
+        },
+        {
+          "name": "company-helpers_105",
+          "version": "0.4.44",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "logger-72",
+          "version": "2.19.7",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "common_102",
+          "version": "1.4.34",
+          "ecosystem": "pypi"
+        },
+        {
+          "name": "@internal/db-116",
+          "version": "1.15.37",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@company/config-157",
+          "version": "2.18.27",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/auth-64",
+          "version": "1.15.14",
+          "ecosystem": "npm"
+        },
+        {
+          "name": "@internal/config-107",
+          "version": "0.9.46",
+          "ecosystem": "npm"
+        }
+      ],
+      "environment": "production",
+      "port": 8050
+    }
+  ]
+}
