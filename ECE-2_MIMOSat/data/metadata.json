@@ -1,0 +1,22 @@
+{
+  "problem": "ECE-2 MIMO-Sat",
+  "description": "LEO Satellite Communication Link Design",
+  "system_params": {
+    "orbit_altitude_km": 550,
+    "downlink_freq_ghz": 12,
+    "uplink_freq_ghz": 14,
+    "ground_antenna_m": 1.2,
+    "satellite_elements": 256,
+    "downlink_rate_mbps": 100,
+    "uplink_rate_mbps": 10,
+    "ber_requirement": 1e-06
+  },
+  "data_contents": {
+    "rain_model": "10 climate zones with exceedance data + attenuation coefficients",
+    "orbit": "constellation params + 50 pass geometries",
+    "ground_stations": "8 stations in different climate zones",
+    "atmosphere": "gaseous attenuation + elevation scaling profiles",
+    "link_budget_template": "DVB-S2X ModCod table + link parameters"
+  },
+  "seed": 42
+}

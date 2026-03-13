@@ -1,0 +1,313 @@
+{
+  "name": "LEO Broadband Constellation",
+  "altitude_km": 550,
+  "inclination_deg": 53.0,
+  "num_orbital_planes": 72,
+  "sats_per_plane": 22,
+  "total_satellites": 1584,
+  "orbital_period_min": 95.7,
+  "orbital_velocity_kms": 7.59,
+  "min_elevation_deg": 25,
+  "passes": [
+    {
+      "pass_id": 1,
+      "max_elevation_deg": 49.3,
+      "duration_s": 266.1,
+      "start_azimuth_deg": 342.3
+    },
+    {
+      "pass_id": 2,
+      "max_elevation_deg": 63.9,
+      "duration_s": 353.5,
+      "start_azimuth_deg": 56.2
+    },
+    {
+      "pass_id": 3,
+      "max_elevation_deg": 28.8,
+      "duration_s": 142.7,
+      "start_azimuth_deg": 311.8
+    },
+    {
+      "pass_id": 4,
+      "max_elevation_deg": 71.0,
+      "duration_s": 396.1,
+      "start_azimuth_deg": 7.4
+    },
+    {
+      "pass_id": 5,
+      "max_elevation_deg": 79.1,
+      "duration_s": 444.7,
+      "start_azimuth_deg": 76.4
+    },
+    {
+      "pass_id": 6,
+      "max_elevation_deg": 36.9,
+      "duration_s": 191.5,
+      "start_azimuth_deg": 109.5
+    },
+    {
+      "pass_id": 7,
+      "max_elevation_deg": 53.1,
+      "duration_s": 288.5,
+      "start_azimuth_deg": 104.8
+    },
+    {
+      "pass_id": 8,
+      "max_elevation_deg": 34.1,
+      "duration_s": 174.4,
+      "start_azimuth_deg": 105.2
+    },
+    {
+      "pass_id": 9,
+      "max_elevation_deg": 54.6,
+      "duration_s": 297.9,
+      "start_azimuth_deg": 282.7
+    },
+    {
+      "pass_id": 10,
+      "max_elevation_deg": 58.4,
+      "duration_s": 320.6,
+      "start_azimuth_deg": 213.3
+    },
+    {
+      "pass_id": 11,
+      "max_elevation_deg": 64.5,
+      "duration_s": 356.9,
+      "start_azimuth_deg": 61.4
+    },
+    {
+      "pass_id": 12,
+      "max_elevation_deg": 86.7,
+      "duration_s": 490.1,
+      "start_azimuth_deg": 347.6
+    },
+    {
+      "pass_id": 13,
+      "max_elevation_deg": 44.8,
+      "duration_s": 238.8,
+      "start_azimuth_deg": 35.2
+    },
+    {
+      "pass_id": 14,
+      "max_elevation_deg": 53.6,
+      "duration_s": 291.7,
+      "start_azimuth_deg": 43.9
+    },
+    {
+      "pass_id": 15,
+      "max_elevation_deg": 27.2,
+      "duration_s": 133.4,
+      "start_azimuth_deg": 327.4
+    },
+    {
+      "pass_id": 16,
+      "max_elevation_deg": 68.1,
+      "duration_s": 378.4,
+      "start_azimuth_deg": 112.2
+    },
+    {
+      "pass_id": 17,
+      "max_elevation_deg": 60.5,
+      "duration_s": 333.2,
+      "start_azimuth_deg": 66.5
+    },
+    {
+      "pass_id": 18,
+      "max_elevation_deg": 75.4,
+      "duration_s": 422.3,
+      "start_azimuth_deg": 338.2
+    },
+    {
+      "pass_id": 19,
+      "max_elevation_deg": 63.9,
+      "duration_s": 353.2,
+      "start_azimuth_deg": 331.9
+    },
+    {
+      "pass_id": 20,
+      "max_elevation_deg": 37.7,
+      "duration_s": 196.4,
+      "start_azimuth_deg": 16.3
+    },
+    {
+      "pass_id": 21,
+      "max_elevation_deg": 50.3,
+      "duration_s": 271.6,
+      "start_azimuth_deg": 97.7
+    },
+    {
+      "pass_id": 22,
+      "max_elevation_deg": 48.2,
+      "duration_s": 259.1,
+      "start_azimuth_deg": 101.1
+    },
+    {
+      "pass_id": 23,
+      "max_elevation_deg": 34.2,
+      "duration_s": 175.0,
+      "start_azimuth_deg": 288.8
+    },
+    {
+      "pass_id": 24,
+      "max_elevation_deg": 89.1,
+      "duration_s": 504.9,
+      "start_azimuth_deg": 278.0
+    },
+    {
+      "pass_id": 25,
+      "max_elevation_deg": 25.4,
+      "duration_s": 122.2,
+      "start_azimuth_deg": 293.6
+    },
+    {
+      "pass_id": 26,
+      "max_elevation_deg": 72.4,
+      "duration_s": 404.3,
+      "start_azimuth_deg": 277.7
+    },
+    {
+      "pass_id": 27,
+      "max_elevation_deg": 48.3,
+      "duration_s": 259.8,
+      "start_azimuth_deg": 41.7
+    },
+    {
+      "pass_id": 28,
+      "max_elevation_deg": 65.5,
+      "duration_s": 363.1,
+      "start_azimuth_deg": 119.1
+    },
+    {
+      "pass_id": 29,
+      "max_elevation_deg": 45.2,
+      "duration_s": 241.3,
+      "start_azimuth_deg": 117.1
+    },
+    {
+      "pass_id": 30,
+      "max_elevation_deg": 66.4,
+      "duration_s": 368.6,
+      "start_azimuth_deg": 319.4
+    },
+    {
+      "pass_id": 31,
+      "max_elevation_deg": 32.8,
+      "duration_s": 166.6,
+      "start_azimuth_deg": 256.8
+    },
+    {
+      "pass_id": 32,
+      "max_elevation_deg": 61.5,
+      "duration_s": 338.9,
+      "start_azimuth_deg": 277.5
+    },
+    {
+      "pass_id": 33,
+      "max_elevation_deg": 59.0,
+      "duration_s": 323.9,
+      "start_azimuth_deg": 153.9
+    },
+    {
+      "pass_id": 34,
+      "max_elevation_deg": 32.0,
+      "duration_s": 162.1,
+      "start_azimuth_deg": 11.3
+    },
+    {
+      "pass_id": 35,
+      "max_elevation_deg": 45.4,
+      "duration_s": 242.6,
+      "start_azimuth_deg": 183.1
+    },
+    {
+      "pass_id": 36,
+      "max_elevation_deg": 41.2,
+      "duration_s": 217.2,
+      "start_azimuth_deg": 147.7
+    },
+    {
+      "pass_id": 37,
+      "max_elevation_deg": 39.9,
+      "duration_s": 209.2,
+      "start_azimuth_deg": 27.7
+    },
+    {
+      "pass_id": 38,
+      "max_elevation_deg": 35.5,
+      "duration_s": 182.9,
+      "start_azimuth_deg": 334.7
+    },
+    {
+      "pass_id": 39,
+      "max_elevation_deg": 66.2,
+      "duration_s": 367.0,
+      "start_azimuth_deg": 313.7
+    },
+    {
+      "pass_id": 40,
+      "max_elevation_deg": 37.1,
+      "duration_s": 192.8,
+      "start_azimuth_deg": 321.3
+    },
+    {
+      "pass_id": 41,
+      "max_elevation_deg": 77.5,
+      "duration_s": 434.9,
+      "start_azimuth_deg": 322.6
+    },
+    {
+      "pass_id": 42,
+      "max_elevation_deg": 32.2,
+      "duration_s": 162.9,
+      "start_azimuth_deg": 82.1
+    },
+    {
+      "pass_id": 43,
+      "max_elevation_deg": 78.2,
+      "duration_s": 439.0,
+      "start_azimuth_deg": 309.9
+    },
+    {
+      "pass_id": 44,
+      "max_elevation_deg": 58.2,
+      "duration_s": 319.2,
+      "start_azimuth_deg": 150.3
+    },
+    {
+      "pass_id": 45,
+      "max_elevation_deg": 32.8,
+      "duration_s": 166.7,
+      "start_azimuth_deg": 121.5
+    },
+    {
+      "pass_id": 46,
+      "max_elevation_deg": 46.0,
+      "duration_s": 246.0,
+      "start_azimuth_deg": 186.8
+    },
+    {
+      "pass_id": 47,
+      "max_elevation_deg": 48.6,
+      "duration_s": 261.8,
+      "start_azimuth_deg": 349.8
+    },
+    {
+      "pass_id": 48,
+      "max_elevation_deg": 41.4,
+      "duration_s": 218.2,
+      "start_azimuth_deg": 179.0
+    },
+    {
+      "pass_id": 49,
+      "max_elevation_deg": 43.5,
+      "duration_s": 231.1,
+      "start_azimuth_deg": 13.3
+    },
+    {
+      "pass_id": 50,
+      "max_elevation_deg": 57.7,
+      "duration_s": 316.0,
+      "start_azimuth_deg": 18.5
+    }
+  ]
+}

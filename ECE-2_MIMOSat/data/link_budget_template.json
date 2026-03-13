@@ -1,0 +1,111 @@
+{
+  "downlink": {
+    "frequency_ghz": 12.0,
+    "satellite_eirp_dbw": 40.0,
+    "satellite_antenna_gain_dbi": 35.0,
+    "satellite_tx_power_dbw": 5.0,
+    "ground_antenna_diameter_m": 1.2,
+    "ground_antenna_efficiency": 0.6,
+    "ground_antenna_gain_dbi": 39.8,
+    "system_noise_temp_k": 400,
+    "ground_g_over_t_dbk": 13.8,
+    "data_rate_mbps": 100,
+    "modulation": "QPSK",
+    "code_rate": 0.75,
+    "coding_type": "LDPC",
+    "implementation_loss_db": 2.0,
+    "pointing_loss_db": 0.5
+  },
+  "uplink": {
+    "frequency_ghz": 14.0,
+    "ground_eirp_dbw": 45.0,
+    "ground_tx_power_dbw": 2.0,
+    "ground_antenna_gain_dbi": 43.0,
+    "satellite_antenna_gain_dbi": 35.0,
+    "satellite_noise_temp_k": 800,
+    "satellite_g_over_t_dbk": 6.0,
+    "data_rate_mbps": 10,
+    "modulation": "QPSK",
+    "code_rate": 0.5,
+    "coding_type": "LDPC",
+    "implementation_loss_db": 2.5,
+    "pointing_loss_db": 1.0
+  },
+  "modcod_table": [
+    {
+      "name": "QPSK_1/4",
+      "efficiency_bps_hz": 0.49,
+      "ebn0_req_db": -2.35
+    },
+    {
+      "name": "QPSK_1/3",
+      "efficiency_bps_hz": 0.66,
+      "ebn0_req_db": -1.24
+    },
+    {
+      "name": "QPSK_2/5",
+      "efficiency_bps_hz": 0.79,
+      "ebn0_req_db": -0.3
+    },
+    {
+      "name": "QPSK_1/2",
+      "efficiency_bps_hz": 0.99,
+      "ebn0_req_db": 1.0
+    },
+    {
+      "name": "QPSK_3/5",
+      "efficiency_bps_hz": 1.19,
+      "ebn0_req_db": 2.23
+    },
+    {
+      "name": "QPSK_2/3",
+      "efficiency_bps_hz": 1.32,
+      "ebn0_req_db": 3.1
+    },
+    {
+      "name": "QPSK_3/4",
+      "efficiency_bps_hz": 1.49,
+      "ebn0_req_db": 4.03
+    },
+    {
+      "name": "8PSK_3/5",
+      "efficiency_bps_hz": 1.77,
+      "ebn0_req_db": 5.18
+    },
+    {
+      "name": "8PSK_2/3",
+      "efficiency_bps_hz": 1.98,
+      "ebn0_req_db": 6.2
+    },
+    {
+      "name": "8PSK_3/4",
+      "efficiency_bps_hz": 2.23,
+      "ebn0_req_db": 7.02
+    },
+    {
+      "name": "16APSK_2/3",
+      "efficiency_bps_hz": 2.64,
+      "ebn0_req_db": 8.97
+    },
+    {
+      "name": "16APSK_3/4",
+      "efficiency_bps_hz": 2.97,
+      "ebn0_req_db": 10.21
+    },
+    {
+      "name": "16APSK_4/5",
+      "efficiency_bps_hz": 3.17,
+      "ebn0_req_db": 11.03
+    },
+    {
+      "name": "32APSK_3/4",
+      "efficiency_bps_hz": 3.7,
+      "ebn0_req_db": 12.73
+    },
+    {
+      "name": "32APSK_4/5",
+      "efficiency_bps_hz": 3.95,
+      "ebn0_req_db": 13.64
+    }
+  ]
+}
