@@ -1,0 +1,27 @@
+{
+  "ecg_channel": {
+    "total_budget_uvrms": 5.0,
+    "breakdown": {
+      "instrumentation_amp": 2.5,
+      "high_pass_filter": 1.0,
+      "low_pass_filter": 0.5,
+      "pga": 1.5,
+      "adc_quantization": 1.0,
+      "adc_thermal": 0.8,
+      "power_supply_rejection": 0.5,
+      "rss_total": 3.4
+    },
+    "note": "RSS total should be < 5 uVrms budget"
+  },
+  "ppg_channel": {
+    "total_budget_narms": 100,
+    "breakdown": {
+      "tia_thermal": 50,
+      "tia_shot_noise": 30,
+      "ambient_light_shot": 40,
+      "adc_quantization": 20,
+      "led_driver_noise": 15,
+      "rss_total": 75
+    }
+  }
+}

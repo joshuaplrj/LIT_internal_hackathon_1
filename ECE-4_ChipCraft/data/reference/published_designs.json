@@ -1,0 +1,57 @@
+[
+  {
+    "paper": "Texas Instruments ADS1298",
+    "year": 2012,
+    "technology_nm": 180,
+    "ecg_noise_uvrms": 4.0,
+    "cmrr_db": 115,
+    "power_uw": 750,
+    "adc_bits": 24,
+    "channels": 8,
+    "sampling_rate_sps": 32000
+  },
+  {
+    "paper": "Analog Devices AD8232",
+    "year": 2013,
+    "technology_nm": 500,
+    "ecg_noise_uvrms": 14,
+    "cmrr_db": 80,
+    "power_uw": 340,
+    "adc_bits": 0,
+    "channels": 1,
+    "sampling_rate_sps": 0
+  },
+  {
+    "paper": "ISSCC 2018 - Samsung AFE",
+    "year": 2018,
+    "technology_nm": 65,
+    "ecg_noise_uvrms": 1.3,
+    "cmrr_db": 120,
+    "power_uw": 120,
+    "adc_bits": 16,
+    "channels": 1,
+    "sampling_rate_sps": 1000
+  },
+  {
+    "paper": "JSSC 2020 - Low Power ECG",
+    "year": 2020,
+    "technology_nm": 180,
+    "ecg_noise_uvrms": 2.8,
+    "cmrr_db": 105,
+    "power_uw": 200,
+    "adc_bits": 16,
+    "channels": 2,
+    "sampling_rate_sps": 500
+  },
+  {
+    "paper": "ISSCC 2021 - Wearable PPG/ECG",
+    "year": 2021,
+    "technology_nm": 55,
+    "ecg_noise_uvrms": 0.9,
+    "cmrr_db": 130,
+    "power_uw": 85,
+    "adc_bits": 18,
+    "channels": 4,
+    "sampling_rate_sps": 2000
+  }
+]

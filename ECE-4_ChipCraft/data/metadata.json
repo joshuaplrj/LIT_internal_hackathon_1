@@ -1,0 +1,20 @@
+{
+  "problem": "ECE-4 ChipCraft",
+  "description": "Mixed-Signal ASIC Design for Biomedical Sensing",
+  "design_targets": {
+    "ecg_noise_uvrms": 5.0,
+    "ecg_cmrr_db": 100,
+    "ecg_input_impedance_gohm": 10,
+    "ppg_snr_db": 60,
+    "ppg_ambient_rejection_db": 80,
+    "adc_resolution_bits": 16,
+    "adc_enob_bits": 14,
+    "total_power_uw": 500
+  },
+  "data_contents": {
+    "process": "180nm CMOS PDK parameters + gm/Id lookup",
+    "signals": "6 ECG scenarios + 5 PPG scenarios",
+    "reference": "5 published design comparisons + noise budget"
+  },
+  "seed": 42
+}

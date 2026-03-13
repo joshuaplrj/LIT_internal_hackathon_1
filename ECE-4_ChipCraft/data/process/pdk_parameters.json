@@ -1,0 +1,161 @@
+{
+  "technology": "180nm Generic CMOS",
+  "node": "0.18um",
+  "supply_voltage_v": 1.8,
+  "nmos": {
+    "vth_nom_v": 0.45,
+    "vth_sigma_mv": 15,
+    "kp_ua_v2": 270,
+    "lambda_v_inv": 0.04,
+    "cox_ff_um2": 8.6,
+    "mu_cm2_vs": 450,
+    "tox_nm": 4.0,
+    "min_length_um": 0.18,
+    "min_width_um": 0.22,
+    "gm_id_table": {
+      "weak_inversion": {
+        "gm_id_range": [
+          20,
+          28
+        ],
+        "id_w_ua_um": [
+          0.01,
+          0.1
+        ]
+      },
+      "moderate_inversion": {
+        "gm_id_range": [
+          12,
+          20
+        ],
+        "id_w_ua_um": [
+          0.1,
+          1.0
+        ]
+      },
+      "strong_inversion": {
+        "gm_id_range": [
+          5,
+          12
+        ],
+        "id_w_ua_um": [
+          1.0,
+          50.0
+        ]
+      }
+    },
+    "noise": {
+      "thermal_gamma": 0.67,
+      "flicker_kf": 4e-25,
+      "flicker_af": 1.0,
+      "flicker_ef": 1.0
+    }
+  },
+  "pmos": {
+    "vth_nom_v": -0.45,
+    "vth_sigma_mv": 18,
+    "kp_ua_v2": 70,
+    "lambda_v_inv": 0.05,
+    "cox_ff_um2": 8.6,
+    "mu_cm2_vs": 120,
+    "tox_nm": 4.0,
+    "min_length_um": 0.18,
+    "min_width_um": 0.22,
+    "gm_id_table": {
+      "weak_inversion": {
+        "gm_id_range": [
+          20,
+          28
+        ],
+        "id_w_ua_um": [
+          0.005,
+          0.05
+        ]
+      },
+      "moderate_inversion": {
+        "gm_id_range": [
+          12,
+          20
+        ],
+        "id_w_ua_um": [
+          0.05,
+          0.5
+        ]
+      },
+      "strong_inversion": {
+        "gm_id_range": [
+          5,
+          12
+        ],
+        "id_w_ua_um": [
+          0.5,
+          20.0
+        ]
+      }
+    },
+    "noise": {
+      "thermal_gamma": 0.67,
+      "flicker_kf": 1.5e-24,
+      "flicker_af": 1.0,
+      "flicker_ef": 1.0
+    }
+  },
+  "resistors": {
+    "poly_high_r": {
+      "sheet_r_ohm_sq": 1000,
+      "tc_ppm_c": 1500,
+      "matching_percent_um": 0.5
+    },
+    "poly_r": {
+      "sheet_r_ohm_sq": 200,
+      "tc_ppm_c": 800,
+      "matching_percent_um": 0.3
+    },
+    "nwell_r": {
+      "sheet_r_ohm_sq": 600,
+      "tc_ppm_c": 3000,
+      "matching_percent_um": 1.0
+    },
+    "diffusion_r": {
+      "sheet_r_ohm_sq": 100,
+      "tc_ppm_c": 1500,
+      "matching_percent_um": 0.5
+    }
+  },
+  "capacitors": {
+    "mim_cap": {
+      "density_ff_um2": 1.0,
+      "tc_ppm_c": 30,
+      "matching_percent_um": 0.1,
+      "voltage_coeff_ppm_v": 50
+    },
+    "poly_cap": {
+      "density_ff_um2": 0.7,
+      "tc_ppm_c": 20,
+      "matching_percent_um": 0.15,
+      "voltage_coeff_ppm_v": 100
+    },
+    "mos_cap": {
+      "density_ff_um2": 8.6,
+      "tc_ppm_c": 100,
+      "matching_percent_um": 0.3,
+      "voltage_coeff_ppm_v": 500
+    }
+  },
+  "bjt": {
+    "npn_vertical": {
+      "beta": 100,
+      "va_v": 50,
+      "is_a": 5e-18,
+      "area_um2": 4,
+      "re_ohm": 5
+    },
+    "pnp_lateral": {
+      "beta": 10,
+      "va_v": 20,
+      "is_a": 2e-18,
+      "area_um2": 16,
+      "re_ohm": 50
+    }
+  }
+}
