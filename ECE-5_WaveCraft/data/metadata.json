@@ -1,0 +1,22 @@
+{
+  "problem": "ECE-5 WaveCraft",
+  "description": "Software-Defined Radio for Multi-Standard Reception",
+  "frequency_coverage": {
+    "min_mhz": 88,
+    "max_mhz": 7125,
+    "ratio": "81:1"
+  },
+  "standards_covered": [
+    "fm_radio",
+    "dab_plus",
+    "lte",
+    "wifi_6e",
+    "gps_l1"
+  ],
+  "data_contents": {
+    "standards": "5 wireless standard specifications",
+    "test_signals": "FM IQ, GPS L1 IQ, LTE OFDM IQ (baseband samples)",
+    "components": "ADCs, LNAs, PLLs, mixers, filters (14 total)"
+  },
+  "seed": 42
+}

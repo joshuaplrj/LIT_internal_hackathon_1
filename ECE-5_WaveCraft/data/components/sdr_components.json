@@ -1,0 +1,162 @@
+{
+  "adcs": [
+    {
+      "model": "ADC-14bit-250M",
+      "resolution_bits": 14,
+      "max_rate_msps": 250,
+      "input_bw_mhz": 500,
+      "snr_db": 72,
+      "sfdr_db": 85,
+      "enob": 11.5,
+      "power_mw": 800,
+      "interface": "JESD204B",
+      "price_usd": 150
+    },
+    {
+      "model": "ADC-12bit-1G",
+      "resolution_bits": 12,
+      "max_rate_msps": 1000,
+      "input_bw_mhz": 2000,
+      "snr_db": 64,
+      "sfdr_db": 75,
+      "enob": 10.3,
+      "power_mw": 1500,
+      "interface": "JESD204B",
+      "price_usd": 300
+    },
+    {
+      "model": "ADC-16bit-125M",
+      "resolution_bits": 16,
+      "max_rate_msps": 125,
+      "input_bw_mhz": 200,
+      "snr_db": 78,
+      "sfdr_db": 92,
+      "enob": 12.7,
+      "power_mw": 500,
+      "interface": "LVDS",
+      "price_usd": 100
+    },
+    {
+      "model": "ADC-12bit-3G",
+      "resolution_bits": 12,
+      "max_rate_msps": 3000,
+      "input_bw_mhz": 5000,
+      "snr_db": 58,
+      "sfdr_db": 68,
+      "enob": 9.3,
+      "power_mw": 3000,
+      "interface": "JESD204C",
+      "price_usd": 800
+    }
+  ],
+  "lnas": [
+    {
+      "model": "LNA-WB-100M-6G",
+      "freq_min_mhz": 100,
+      "freq_max_mhz": 6000,
+      "gain_db": 15,
+      "nf_db": 2.0,
+      "oip3_dbm": 22,
+      "p1db_dbm": 8,
+      "power_mw": 200,
+      "price_usd": 25
+    },
+    {
+      "model": "LNA-NB-1G-2G",
+      "freq_min_mhz": 1000,
+      "freq_max_mhz": 2000,
+      "gain_db": 20,
+      "nf_db": 0.8,
+      "oip3_dbm": 28,
+      "p1db_dbm": 12,
+      "power_mw": 80,
+      "price_usd": 15
+    },
+    {
+      "model": "LNA-UHF-5G-8G",
+      "freq_min_mhz": 5000,
+      "freq_max_mhz": 8000,
+      "gain_db": 18,
+      "nf_db": 1.5,
+      "oip3_dbm": 20,
+      "p1db_dbm": 6,
+      "power_mw": 150,
+      "price_usd": 35
+    }
+  ],
+  "synthesizers": [
+    {
+      "model": "PLL-WB-35M-4.4G",
+      "freq_min_mhz": 35,
+      "freq_max_mhz": 4400,
+      "phase_noise_dbc_hz_1mhz": -130,
+      "lock_time_us": 100,
+      "ref_freq_mhz": 10,
+      "power_mw": 300,
+      "price_usd": 40
+    },
+    {
+      "model": "PLL-HF-4G-8G",
+      "freq_min_mhz": 4000,
+      "freq_max_mhz": 8000,
+      "phase_noise_dbc_hz_1mhz": -125,
+      "lock_time_us": 50,
+      "ref_freq_mhz": 100,
+      "power_mw": 450,
+      "price_usd": 65
+    }
+  ],
+  "mixers": [
+    {
+      "model": "MIX-WB-100M-6G",
+      "rf_min_mhz": 100,
+      "rf_max_mhz": 6000,
+      "if_max_mhz": 500,
+      "conversion_gain_db": -7,
+      "iip3_dbm": 15,
+      "nf_db": 8,
+      "lo_power_dbm": 10,
+      "price_usd": 20
+    },
+    {
+      "model": "MIX-IQ-1G-6G",
+      "rf_min_mhz": 1000,
+      "rf_max_mhz": 6000,
+      "if_max_mhz": 2000,
+      "conversion_gain_db": 0,
+      "iip3_dbm": 10,
+      "nf_db": 10,
+      "lo_power_dbm": 5,
+      "image_rejection_db": 35,
+      "price_usd": 30
+    }
+  ],
+  "filters": [
+    {
+      "model": "SAW-88-108",
+      "type": "SAW",
+      "freq_center_mhz": 98,
+      "bandwidth_mhz": 20,
+      "insertion_loss_db": 2.5,
+      "rejection_db": 40,
+      "price_usd": 5
+    },
+    {
+      "model": "BAW-1575",
+      "type": "BAW",
+      "freq_center_mhz": 1575.42,
+      "bandwidth_mhz": 10,
+      "insertion_loss_db": 1.5,
+      "rejection_db": 50,
+      "price_usd": 8
+    },
+    {
+      "model": "LPF-DC-3G",
+      "type": "LC Lowpass",
+      "cutoff_mhz": 3000,
+      "insertion_loss_db": 1.0,
+      "rejection_30pct_db": 30,
+      "price_usd": 3
+    }
+  ]
+}

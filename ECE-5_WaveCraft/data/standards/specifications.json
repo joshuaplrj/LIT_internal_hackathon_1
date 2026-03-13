@@ -1,0 +1,278 @@
+{
+  "fm_radio": {
+    "name": "FM Broadcast Radio",
+    "standard": "ITU-R BS.450",
+    "frequency_range_mhz": [
+      88,
+      108
+    ],
+    "channel_bandwidth_khz": 200,
+    "modulation": "Wideband FM",
+    "max_deviation_khz": 75,
+    "pre_emphasis_us": 75,
+    "stereo_pilot_khz": 19,
+    "snr_threshold_db": 30,
+    "sensitivity_dbm": -90,
+    "audio_bandwidth_hz": [
+      30,
+      15000
+    ]
+  },
+  "dab_plus": {
+    "name": "Digital Audio Broadcasting (DAB+)",
+    "standard": "ETSI EN 300 401",
+    "frequency_range_mhz": [
+      174,
+      240
+    ],
+    "channel_bandwidth_mhz": 1.536,
+    "modulation": "OFDM with DQPSK",
+    "num_subcarriers": 1536,
+    "subcarrier_spacing_hz": 1000,
+    "guard_interval_us": 246,
+    "symbol_duration_us": 1246,
+    "fec": "Convolutional (rate 1/4 to 3/4)",
+    "sensitivity_dbm": -97
+  },
+  "lte": {
+    "name": "LTE (4G)",
+    "standard": "3GPP Release 15",
+    "frequency_bands": {
+      "band_3": {
+        "freq_dl_mhz": [
+          1805,
+          1880
+        ],
+        "freq_ul_mhz": [
+          1710,
+          1785
+        ]
+      },
+      "band_7": {
+        "freq_dl_mhz": [
+          2620,
+          2690
+        ],
+        "freq_ul_mhz": [
+          2500,
+          2570
+        ]
+      },
+      "band_20": {
+        "freq_dl_mhz": [
+          791,
+          821
+        ],
+        "freq_ul_mhz": [
+          832,
+          862
+        ]
+      }
+    },
+    "channel_bandwidths_mhz": [
+      1.4,
+      3,
+      5,
+      10,
+      15,
+      20
+    ],
+    "modulation": "OFDMA (DL), SC-FDMA (UL)",
+    "subcarrier_spacing_khz": 15,
+    "fft_sizes": [
+      128,
+      256,
+      512,
+      1024,
+      1536,
+      2048
+    ],
+    "cp_normal_us": 4.7,
+    "cp_extended_us": 16.67,
+    "modulation_schemes": [
+      "QPSK",
+      "16QAM",
+      "64QAM",
+      "256QAM"
+    ],
+    "sensitivity_dbm": -100
+  },
+  "wifi_6e": {
+    "name": "WiFi 6E (802.11ax)",
+    "standard": "IEEE 802.11ax",
+    "frequency_range_mhz": [
+      5925,
+      7125
+    ],
+    "channel_bandwidths_mhz": [
+      20,
+      40,
+      80,
+      160
+    ],
+    "modulation": "OFDMA",
+    "subcarrier_spacing_khz": 78.125,
+    "fft_sizes": {
+      "20mhz": 256,
+      "40mhz": 512,
+      "80mhz": 1024,
+      "160mhz": 2048
+    },
+    "guard_interval_us": [
+      0.8,
+      1.6,
+      3.2
+    ],
+    "modulation_schemes": [
+      "BPSK",
+      "QPSK",
+      "16QAM",
+      "64QAM",
+      "256QAM",
+      "1024QAM"
+    ],
+    "mcs_table": [
+      {
+        "mcs": 0,
+        "mod": "BPSK",
+        "rate": "1/2",
+        "data_rate_mbps_20mhz": 8.6
+      },
+      {
+        "mcs": 1,
+        "mod": "QPSK",
+        "rate": "1/2",
+        "data_rate_mbps_20mhz": 17.2
+      },
+      {
+        "mcs": 2,
+        "mod": "QPSK",
+        "rate": "3/4",
+        "data_rate_mbps_20mhz": 25.8
+      },
+      {
+        "mcs": 3,
+        "mod": "16QAM",
+        "rate": "1/2",
+        "data_rate_mbps_20mhz": 34.4
+      },
+      {
+        "mcs": 4,
+        "mod": "16QAM",
+        "rate": "3/4",
+        "data_rate_mbps_20mhz": 51.6
+      },
+      {
+        "mcs": 5,
+        "mod": "64QAM",
+        "rate": "2/3",
+        "data_rate_mbps_20mhz": 68.8
+      },
+      {
+        "mcs": 6,
+        "mod": "64QAM",
+        "rate": "3/4",
+        "data_rate_mbps_20mhz": 77.4
+      },
+      {
+        "mcs": 7,
+        "mod": "64QAM",
+        "rate": "5/6",
+        "data_rate_mbps_20mhz": 86.0
+      },
+      {
+        "mcs": 8,
+        "mod": "256QAM",
+        "rate": "3/4",
+        "data_rate_mbps_20mhz": 103.2
+      },
+      {
+        "mcs": 9,
+        "mod": "256QAM",
+        "rate": "5/6",
+        "data_rate_mbps_20mhz": 114.7
+      },
+      {
+        "mcs": 10,
+        "mod": "1024QAM",
+        "rate": "3/4",
+        "data_rate_mbps_20mhz": 129.0
+      },
+      {
+        "mcs": 11,
+        "mod": "1024QAM",
+        "rate": "5/6",
+        "data_rate_mbps_20mhz": 143.4
+      }
+    ],
+    "sensitivity_dbm": -82
+  },
+  "gps_l1": {
+    "name": "GPS L1 C/A",
+    "standard": "IS-GPS-200",
+    "center_frequency_mhz": 1575.42,
+    "bandwidth_mhz": 2.046,
+    "modulation": "BPSK(1) - DSSS with C/A code",
+    "code_rate_mchips_s": 1.023,
+    "code_length_chips": 1023,
+    "code_period_ms": 1,
+    "data_rate_bps": 50,
+    "received_power_dbm": -130,
+    "min_cn0_dbhz": 35,
+    "num_satellites": 32,
+    "doppler_range_hz": [
+      -5000,
+      5000
+    ],
+    "prn_codes_taps": {
+      "1": [
+        2,
+        6
+      ],
+      "2": [
+        3,
+        7
+      ],
+      "3": [
+        4,
+        8
+      ],
+      "4": [
+        5,
+        9
+      ],
+      "5": [
+        1,
+        9
+      ],
+      "6": [
+        2,
+        10
+      ],
+      "7": [
+        1,
+        8
+      ],
+      "8": [
+        2,
+        9
+      ],
+      "9": [
+        3,
+        10
+      ],
+      "10": [
+        2,
+        3
+      ],
+      "11": [
+        3,
+        4
+      ],
+      "12": [
+        5,
+        6
+      ]
+    }
+  }
+}
