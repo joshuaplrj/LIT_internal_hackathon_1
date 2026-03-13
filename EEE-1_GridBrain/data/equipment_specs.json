@@ -1,0 +1,44 @@
+{
+  "solar_pv": {
+    "peak_capacity_kw": 500,
+    "efficiency": 0.18,
+    "degradation_rate_yearly": 0.005,
+    "area_m2": 2778,
+    "tilt_angle": 20,
+    "azimuth": 180
+  },
+  "wind_turbines": {
+    "count": 2,
+    "rated_power_kw": 250,
+    "cut_in_speed_m_s": 3,
+    "rated_speed_m_s": 12,
+    "cut_out_speed_m_s": 25,
+    "hub_height_m": 40
+  },
+  "battery": {
+    "capacity_kwh": 2000,
+    "max_power_kw": 500,
+    "min_soc": 0.1,
+    "max_soc": 0.9,
+    "round_trip_efficiency": 0.92,
+    "degradation_per_cycle": 0.0001,
+    "calendar_degradation_yearly": 0.02,
+    "replacement_cost": 200000,
+    "lifetime_cycles": 5000
+  },
+  "diesel_generator": {
+    "rated_power_kw": 300,
+    "min_load_percent": 0.3,
+    "fuel_consumption_l_kwh": 0.25,
+    "fuel_cost_per_liter": 1.5,
+    "maintenance_cost_per_kwh": 0.05,
+    "startup_time_minutes": 5,
+    "startup_cost": 10
+  },
+  "load": {
+    "average_demand_kw": 400,
+    "peak_demand_kw": 800,
+    "max_shedding_hours_per_year": 10,
+    "shedding_penalty_per_kwh": 10.0
+  }
+}
