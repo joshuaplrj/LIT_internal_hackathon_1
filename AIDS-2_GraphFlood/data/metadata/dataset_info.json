@@ -1,0 +1,28 @@
+{
+  "generated_date": "2026-03-13T11:17:16.117576",
+  "num_users": 100000,
+  "num_edges": 669988,
+  "num_posts": 50000,
+  "num_fact_checks": 10000,
+  "num_cascades": 5000,
+  "misinformation_rate": 0.14948,
+  "topics": [
+    "politics",
+    "health",
+    "technology",
+    "sports",
+    "entertainment",
+    "science",
+    "business",
+    "world_news",
+    "environment",
+    "education"
+  ],
+  "user_types": [
+    "regular",
+    "influencer",
+    "news_org",
+    "bot",
+    "troll"
+  ]
+}
