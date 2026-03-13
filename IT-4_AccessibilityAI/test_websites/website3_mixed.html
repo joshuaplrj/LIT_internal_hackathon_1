@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal - Mixed Accessibility</title>
+    <style>
+        body { font-family: Georgia, serif; margin: 0; padding: 0; background: #f5f5f5; }
+        header { background: #1a1a2e; color: white; padding: 1rem; }
+        nav { background: #16213e; padding: 0.5rem; }
+        nav a { color: #e0e0e0; text-decoration: none; margin-right: 1rem; }
+        main { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        article { background: white; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 8px; }
+        .article-image { max-width: 100%; height: auto; }
+        .read-more { color: #0066cc; }
+        footer { background: #1a1a2e; color: white; padding: 1rem; text-align: center; }
+        .search-box { padding: 0.5rem; width: 200px; }
+        .subscribe-btn { background: #e63946; color: white; border: none; padding: 0.75rem 1.5rem; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>News Portal</h1>
+    </header>
+    
+    <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#politics">Politics</a>
+        <a href="#sports">Sports</a>
+        <a href="#tech">Technology</a>
+        <!-- Missing: search functionality not accessible -->
+        <input type="text" class="search-box" placeholder="Search...">
+    </nav>
+    
+    <main>
+        <h2>Latest News</h2>
+        
+        <article>
+            <h3>Breaking: Major Technology Breakthrough</h3>
+            <!-- Good: Image has alt text -->
+            <img src="tech-news.jpg" alt="Scientists working in a modern laboratory" class="article-image">
+            <p>Scientists have announced a major breakthrough in quantum computing that could revolutionize...</p>
+            <!-- Issue: Link text not descriptive -->
+            <a href="/article/1" class="read-more">Read more</a>
+        </article>
+        
+        <article>
+            <h3>Sports Championship Results</h3>
+            <!-- Issue: Complex image without detailed alt text -->
+            <img src="sports-chart.jpg" alt="chart" class="article-image">
+            <p>The championship finals concluded yesterday with an unexpected turn of events...</p>
+            <a href="/article/2" class="read-more">Continue reading about sports</a>
+        </article>
+        
+        <article>
+            <h3>Political Update</h3>
+            <!-- Good: Informative alt text -->
+            <img src="parliament.jpg" alt="Members of parliament debating in the chamber" class="article-image">
+            <p>New legislation was proposed today that would affect...</p>
+            <a href="/article/3" class="read-more">Full story</a>
+        </article>
+        
+        <!-- Issue: Form without proper labels -->
+        <section>
+            <h2>Subscribe to Updates</h2>
+            <form>
+                <input type="email" placeholder="Enter your email" class="search-box">
+                <button class="subscribe-btn">Subscribe</button>
+            </form>
+        </section>
+        
+        <!-- Issue: Data table without proper headers -->
+        <section>
+            <h2>Poll Results</h2>
+            <table>
+                <tr>
+                    <th>Option</th>
+                    <th>Votes</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>Option A</td>
+                    <td>1,234</td>
+                    <td>45%</td>
+                </tr>
+                <tr>
+                    <td>Option B</td>
+                    <td>987</td>
+                    <td>36%</td>
+                </tr>
+                <tr>
+                    <td>Option C</td>
+                    <td>512</td>
+                    <td>19%</td>
+                </tr>
+            </table>
+        </section>
+        
+        <!-- Issue: Video without captions -->
+        <section>
+            <h2>Video Report</h2>
+            <video controls width="600">
+                <source src="news-report.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 News Portal</p>
+        <!-- Good: Footer links -->
+        <nav aria-label="Footer navigation">
+            <a href="/privacy">Privacy</a>
+            <a href="/terms">Terms</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </footer>
+</body>
+</html>

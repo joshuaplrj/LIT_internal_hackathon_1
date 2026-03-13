@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React-Style SPA - Accessibility Issues</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fafafa; }
+        .app { min-height: 100vh; display: flex; flex-direction: column; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; }
+        .menu-icon { font-size: 1.5rem; cursor: pointer; }
+        .sidebar { position: fixed; left: -250px; width: 250px; height: 100%; background: #333; transition: 0.3s; padding-top: 60px; }
+        .sidebar.open { left: 0; }
+        .sidebar a { padding: 10px 15px; text-decoration: none; color: #818181; display: block; }
+        .main-content { flex: 1; padding: 2rem; margin-left: 0; transition: margin-left 0.3s; }
+        .card { background: white; border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
+        .modal-content { background: white; margin: 10% auto; padding: 2rem; width: 50%; border-radius: 8px; }
+        .close { float: right; cursor: pointer; font-size: 1.5rem; }
+        .toast { position: fixed; bottom: 20px; right: 20px; background: #333; color: white; padding: 1rem; border-radius: 4px; }
+        .dropdown { position: relative; display: inline-block; }
+        .dropdown-content { display: none; position: absolute; background: white; min-width: 160px; box-shadow: 0 8px 16px rgba(0,0,0,0.2); z-index: 1; }
+        .dropdown:hover .dropdown-content { display: block; }
+        .tab-container { margin-top: 1rem; }
+        .tab { display: inline-block; padding: 0.5rem 1rem; cursor: pointer; background: #eee; }
+        .tab.active { background: white; border-bottom: 2px solid #667eea; }
+        .tab-content { display: none; padding: 1rem; background: white; }
+        .tab-content.active { display: block; }
+        .accordion-item { border: 1px solid #ddd; margin-bottom: 0.5rem; }
+        .accordion-header { padding: 1rem; cursor: pointer; background: #f5f5f5; }
+        .accordion-body { padding: 1rem; display: none; }
+        .carousel { position: relative; overflow: hidden; }
+        .carousel-slide { display: none; }
+        .carousel-slide.active { display: block; }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <!-- Issue: Hamburger menu not keyboard accessible -->
+        <header class="header">
+            <span class="menu-icon" onclick="toggleSidebar()">☰</span>
+            <span class="logo">Dashboard App</span>
+            <!-- Issue: Dropdown not accessible -->
+            <div class="dropdown">
+                <span>User Menu ▼</span>
+                <div class="dropdown-content">
+                    <a href="#profile">Profile</a>
+                    <a href="#settings">Settings</a>
+                    <a href="#logout">Logout</a>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Issue: Sidebar navigation not properly announced -->
+        <nav class="sidebar" id="sidebar">
+            <a href="#dashboard">Dashboard</a>
+            <a href="#analytics">Analytics</a>
+            <a href="#reports">Reports</a>
+            <a href="#users">Users</a>
+        </nav>
+        
+        <main class="main-content">
+            <h1>Dashboard</h1>
+            
+            <div class="card">
+                <h2>Quick Stats</h2>
+                <!-- Issue: Dynamic content updates not announced -->
+                <p>Active Users: <span id="user-count">1,234</span></p>
+                <p>Revenue: <span id="revenue">$45,678</span></p>
+            </div>
+            
+            <!-- Issue: Tabs not accessible -->
+            <div class="tab-container">
+                <div class="tab active" onclick="showTab(0)">Overview</div>
+                <div class="tab" onclick="showTab(1)">Details</div>
+                <div class="tab" onclick="showTab(2)">Settings</div>
+                
+                <div class="tab-content active">
+                    <p>Overview content here...</p>
+                </div>
+                <div class="tab-content">
+                    <p>Details content here...</p>
+                </div>
+                <div class="tab-content">
+                    <p>Settings content here...</p>
+                </div>
+            </div>
+            
+            <!-- Issue: Accordion not accessible -->
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        What is this app?
+                    </div>
+                    <div class="accordion-body">
+                        This is a dashboard application.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        How do I use it?
+                    </div>
+                    <div class="accordion-body">
+                        Navigate using the sidebar menu.
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Issue: Carousel not accessible -->
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <img src="slide1.jpg" alt="Slide 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="slide2.jpg" alt="Slide 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="slide3.jpg" alt="Slide 3">
+                </div>
+            </div>
+            
+            <!-- Issue: Modal not accessible -->
+            <button onclick="openModal()">Open Modal</button>
+            
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">×</span>
+                    <h2>Modal Title</h2>
+                    <p>Modal content goes here.</p>
+                    <button onclick="closeModal()">Close</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Issue: Toast notifications not announced to screen readers -->
+    <div class="toast" id="toast" style="display: none;">
+        Notification message
+    </div>
+    
+    <script>
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('open');
+        }
+        
+        function showTab(index) {
+            const tabs = document.querySelectorAll('.tab');
+            const contents = document.querySelectorAll('.tab-content');
+            tabs.forEach((t, i) => {
+                t.classList.toggle('active', i === index);
+                contents[i].classList.toggle('active', i === index);
+            });
+        }
+        
+        function toggleAccordion(header) {
+            const body = header.nextElementSibling;
+            body.style.display = body.style.display === 'block' ? 'none' : 'block';
+        }
+        
+        function openModal() {
+            document.getElementById('modal').style.display = 'block';
+        }
+        
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+        
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.style.display = 'block';
+            setTimeout(() => toast.style.display = 'none', 3000);
+        }
+        
+        // Simulate live updates
+        setInterval(() => {
+            document.getElementById('user-count').textContent = 
+                Math.floor(1000 + Math.random() * 500);
+        }, 5000);
+    </script>
+</body>
+</html>

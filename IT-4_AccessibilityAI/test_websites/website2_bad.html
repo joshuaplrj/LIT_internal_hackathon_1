@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bad Accessibility Website</title>
+    <style>
+        body { font-family: Arial; margin: 0; }
+        .header { background: #333; color: #666; padding: 10px; } /* Low contrast */
+        .nav { background: #444; padding: 5px; }
+        .nav a { color: #777; text-decoration: none; padding: 5px; } /* Low contrast */
+        .content { padding: 20px; }
+        .btn { background: #ccc; border: none; padding: 10px; } /* No focus indicator */
+        .product { border: 1px solid #ddd; padding: 10px; margin: 10px; display: inline-block; }
+        .clickable { cursor: pointer; color: blue; } /* Not a real button */
+        .error { color: red; }
+        .form-input { padding: 5px; }
+    </style>
+</head>
+<body>
+    <!-- No skip link -->
+    
+    <div class="header"> <!-- Should be header element -->
+        <font size="5">My Store</font> <!-- Deprecated font tag -->
+    </div>
+    
+    <div class="nav"> <!-- Should be nav element, no aria-label -->
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <!-- No visible focus state -->
+    </div>
+    
+    <div class="content"> <!-- Should be main element -->
+        <font color="red">Welcome to our store!</font> <!-- Deprecated, inline styles bad -->
+        
+        <h3>Featured Products</h3> <!-- Skipped heading levels (h1, h2) -->
+        
+        <div class="product">
+            <!-- Image without alt text -->
+            <img src="product1.jpg">
+            <p>Wireless Headphones</p>
+            <p>$99.99</p>
+            <!-- Div acting as button - not keyboard accessible -->
+            <div class="clickable" onclick="addToCart()">Add to Cart</div>
+        </div>
+        
+        <div class="product">
+            <!-- Decorative image marked incorrectly -->
+            <img src="product2.jpg" alt="image.jpg">
+            <p>Laptop</p>
+            <p>$1299</p>
+            <div class="clickable" onclick="addToCart()">Add to Cart</div>
+        </div>
+        
+        <div class="product">
+            <img src="product3.jpg" alt="">
+            <p>Smart Watch</p>
+            <p>$249.99</p>
+            <!-- Button without accessible name -->
+            <button class="btn" onclick="addToCart()"></button>
+        </div>
+        
+        <h3>Contact Us</h3>
+        
+        <form>
+            <!-- Input without label -->
+            Name: <input type="text" class="form-input">
+            <br>
+            <!-- Label not associated with input -->
+            <label>Email:</label>
+            <input type="email" class="form-input">
+            <br>
+            <!-- Color-only error indication -->
+            <input type="text" class="form-input error">
+            <span class="error">Invalid input</span>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        
+        <!-- Table without headers -->
+        <h3>Price List</h3>
+        <table border="1">
+            <tr>
+                <td>Product</td>
+                <td>Price</td>
+            </tr>
+            <tr>
+                <td>Headphones</td>
+                <td>$99</td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>$1299</td>
+            </tr>
+        </table>
+        
+        <!-- Auto-playing video without controls -->
+        <video autoplay>
+            <source src="promo.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Link with non-descriptive text -->
+        <a href="/page1">Click here</a>
+        <a href="/page2">Read more</a>
+        
+        <!-- Flashing content -->
+        <marquee>SALE! SALE! SALE!</marquee>
+    </div>
+    
+    <script>
+        function addToCart() {
+            alert('Added to cart!');
+        }
+    </script>
+</body>
+</html>
